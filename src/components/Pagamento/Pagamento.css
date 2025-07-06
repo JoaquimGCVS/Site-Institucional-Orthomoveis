@@ -5,13 +5,8 @@
     text-align: center;
     align-items: center;
     background-color: var(--cor-secundaria);
-    padding: 2rem 0;
+    padding: 3rem 0;
     color: var(--cor-primaria);
-}
-
-h2 {
-    padding-bottom: 2rem;
-    font-size: var(--font-size-titulo);
 }
 
 .formas-pagamento {

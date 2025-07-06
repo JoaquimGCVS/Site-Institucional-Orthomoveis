@@ -1,0 +1,21 @@
+.secao-categorias {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 3rem 0;
+    color: var(--cor-primaria);
+}
+
+.categorias {
+    display: flex;
+    gap: 10rem;
+}
+
+.categoria {
+    border: 2px solid var(--cor-primaria);
+    width: 350px;
+    padding: 1rem;
+}
+

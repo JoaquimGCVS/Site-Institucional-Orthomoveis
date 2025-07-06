@@ -3,7 +3,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
-
 }
 
 :root {
@@ -15,4 +14,10 @@
   --font-size-titulo: 1.6rem;
   --font-size-desc: 0.8rem;
   --border-radius: 0.5rem;
+}
+
+h2 {
+    padding-bottom: 3rem;
+    font-size: var(--font-size-titulo);
+    color: var(--cor-primaria);
 }
