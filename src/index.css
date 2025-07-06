@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Nunito', sans-serif;
-  
+
 }
 
 :root {
@@ -11,7 +11,8 @@
   --cor-secundaria: #FFFFFF;
   --cor-terciaria: #000000;
   --font-size-nav: 1rem;
-  --font-size-paragrafo: 1rem;
+  --font-size-paragrafo: 1.2rem;
   --font-size-titulo: 1.6rem;
   --font-size-desc: 0.8rem;
+  --border-radius: 0.5rem;
 }
