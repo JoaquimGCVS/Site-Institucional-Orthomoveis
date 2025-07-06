@@ -8,8 +8,8 @@ const Home = () => {
         <div>
             <Header/>
             <Carousel/>
-            <Pagamento/>
             <Categorias/>
+            <Pagamento/>
         </div>
     );
 };

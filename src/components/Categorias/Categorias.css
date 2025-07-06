@@ -10,12 +10,24 @@
 
 .categorias {
     display: flex;
-    gap: 10rem;
+    gap: 8rem;
+    justify-content: center;
 }
 
 .categoria {
     border: 2px solid var(--cor-primaria);
-    width: 350px;
-    padding: 1rem;
+    width: 25%;
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-paragrafo);
+}
+
+.categoria img {
+    height: 8rem;
+    width: auto;
+}
+
+.secao-categorias h3 {
+    padding: 1.5rem 0;
 }
 
