@@ -22,3 +22,9 @@
     0%   { transform: translateX(0); }
     100% { transform: translateX(-100%); }
 }
+
+@media (max-width: 1000px) {
+    .marquee p {
+        font-size: var(--font-size-desc);
+    }
+}

@@ -98,71 +98,48 @@
     font-size: var(--font-size-desc);
 }
 
-/* Botão do menu mobile (hamburguer) */
-.menu-mobile-btn {
-    display: none;
-    background: none;
-    border: none;
-    color: var(--cor-primaria); /* cor primária */
-    cursor: pointer;
-    margin-left: 0; /* alinhado à esquerda */
-    margin-right: auto;
-    font-size: 2rem;
-}
 
-/* Dropdown do menu mobile */
-.menu-mobile-dropdown {
-    display: none;
-}
-
-.menu-mobile-dropdown.aberto {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 100%;
-    left: 0; /* alinhado à esquerda */
-    background: none; /* sem background */
-    box-shadow: none;
-    padding: 0.5rem 1rem;
-    z-index: 2000;
-    border-radius: 0;
-}
-
-.menu-mobile-dropdown a {
-    color: var(--cor-primaria); /* cor primária */
-    font-size: 1.2rem;
-    text-decoration: none;
-    margin: 0.5rem 0;
-    font-weight: bold;
-    background: none;
-    padding: 0.5rem 0;
-}
-
-/* Responsividade */
-@media (max-width: 500px) {
+@media (max-width: 1000px) {
     .lista-de-nav {
-        display: none;
+        gap: 3rem;
     }
-    .menu-mobile-btn {
-        display: inline-flex;
-        align-items: center;
-        position: fixed;
-        top: 1rem;
-        left: 1rem;
-        z-index: 3000;
-        padding: 0.5rem;
+
+    .lista-de-nav a, .faixa-1 .lista-de-links a, .lista-de-links li {
+        font-size: var(--font-size-desc);
     }
+}
+
+@media (max-width: 630px) {
+
+    .faixa-1 {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0;
+        padding-top: 1rem;
+    }
+
+    .lista-de-links {
+        width: 100%;
+        background-color: var(--cor-primaria);
+        justify-content: center;
+        padding: 1rem;
+    }
+
+    .lista-de-links li a, .lista-de-links li {
+        color: var(--cor-secundaria);
+    }
+
     .faixa-2 {
-        position: static;
-        background-color: var(--cor-secundaria);
-        justify-content: flex-start;
+        display: none !important;
     }
-    .menu-mobile-dropdown.aberto {
-        position: fixed;
-        top: 4rem;
-        left: 1rem;
-        background: var(--cor-secundaria);
-        border-radius: 8px;
-        padding: 1rem 2rem;
+
+    body {
+        padding-top: 7.6rem;
+    }
+}
+
+@media (max-width: 360px) {
+    .texto-maps {
+        display: none;
     }
 }
