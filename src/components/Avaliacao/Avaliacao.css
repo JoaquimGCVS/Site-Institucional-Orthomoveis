@@ -26,11 +26,12 @@
     justify-content: center;
     align-items: center;
     background-color: var(--cor-secundaria);
-    width: 27%;
+    width: 420px;
     padding: 1rem;
     row-gap: 1rem;
     border-radius: var(--border-radius);
     font-size: var(--font-size-paragrafo);
+    text-align: center;
 }
 
 .estrelas {

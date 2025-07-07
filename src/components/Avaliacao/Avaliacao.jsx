@@ -37,7 +37,7 @@ const Avaliacao = ()  => {
                         <FaStar size={30} color="#FFB823"/>  
                         <FaStar size={30} color="#FFB823"/>     
                     </div>
-                    <p>É uma loja muito boa,inclusive o preço é a qualidade é a melhor da região,incluindo o bom atendimento</p>
+                    <p>É uma loja muito boa, inclusive o preço e a qualidade é a melhor da região, incluindo o bom atendimento.</p>
                 </div> 
             </div>
         </div>
