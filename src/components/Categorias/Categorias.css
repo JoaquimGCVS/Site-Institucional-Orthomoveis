@@ -15,11 +15,11 @@
 }
 
 .categoria {
-    border: 2px solid var(--cor-primaria);
     width: 25%;
     padding: 1.5rem;
     border-radius: var(--border-radius);
     font-size: var(--font-size-paragrafo);
+    background-color: var(--cor-quaternaria);
 }
 
 .categoria img {

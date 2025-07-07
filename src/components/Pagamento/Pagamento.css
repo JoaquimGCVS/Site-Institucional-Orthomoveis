@@ -20,10 +20,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid var(--cor-primaria);
     padding: 1rem;
     width: 300px; 
     border-radius: var(--border-radius);
     font-size: var(--font-size-paragrafo);
     gap: 0.5rem;
+    background-color: var(--cor-quaternaria);
 }

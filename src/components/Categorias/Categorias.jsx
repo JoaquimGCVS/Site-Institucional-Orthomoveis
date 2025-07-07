@@ -1,7 +1,7 @@
 import "./Categorias.css";
-import ortopedico from "../../assets/categorias/ortopedico.webp";
-import mola from "../../assets/categorias/mola.webp";
-import espuma from "../../assets/categorias/espuma.webp";
+import ortopedico from "../../assets/categorias/ortopedico1.webp";
+import mola from "../../assets/categorias/mola1.webp";
+import espuma from "../../assets/categorias/espuma1.webp";
 
 const Categorias = () => {
     return (
