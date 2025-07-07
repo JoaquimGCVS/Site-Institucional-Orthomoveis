@@ -1,10 +1,13 @@
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
+import { FaBars } from "react-icons/fa";
 import "./Header.css";
 import logo from "../../assets/LogoSemFundo.png";
 import { Link } from "react-router-dom";
+import React, { useState } from "react";
 
 const Header = () => {
+    const [menuOpen, setMenuOpen] = useState(false);
     return (
         <div className="header">
             <div className="faixa-1">
@@ -36,6 +39,22 @@ const Header = () => {
                         <li><Link to="/infantil">Infantil</Link></li>
                         <li><Link to="/pets">Pets</Link></li>
                     </ul>
+                    <button
+                        className="menu-mobile-btn"
+                        onClick={() => setMenuOpen((open) => !open)}
+                        aria-label="Abrir menu"
+                    >
+                        <FaBars size={28} />
+                    </button>
+                    <div className={`menu-mobile-dropdown${menuOpen ? " aberto" : ""}`}>
+                        <Link to="/" onClick={() => { setMenuOpen(false); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Home</Link>
+                        <Link to="/colchoes" onClick={() => setMenuOpen(false)}>Colchões</Link>
+                        <Link to="/travesseiros" onClick={() => setMenuOpen(false)}>Travesseiros</Link>
+                        <Link to="/acessorios" onClick={() => setMenuOpen(false)}>Acessórios</Link>
+                        <Link to="/box" onClick={() => setMenuOpen(false)}>Box</Link>
+                        <Link to="/infantil" onClick={() => setMenuOpen(false)}>Infantil</Link>
+                        <Link to="/pets" onClick={() => setMenuOpen(false)}>Pets</Link>
+                    </div>
                 </nav>
             </div>
             
