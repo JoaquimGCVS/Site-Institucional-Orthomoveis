@@ -5,7 +5,7 @@
     text-align: center;
     align-items: center;
     background-color: var(--cor-secundaria);
-    padding: 3rem 0;
+    padding: 3rem 2rem;
     margin: 3rem 0;
     color: var(--cor-primaria);
 }
@@ -21,10 +21,54 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    width: 300px; 
+    padding: 1rem; 
+    width: 300px;
     border-radius: var(--border-radius);
     font-size: var(--font-size-paragrafo);
     gap: 0.5rem;
     background-color: var(--cor-quaternaria);
+}
+
+@media (max-width:1280px) {
+    .formas-pagamento {
+        gap: 5rem;
+    }
+
+    .forma {
+        width: 250px;
+    }
+}
+
+@media (max-width:1000px) {
+    .formas-pagamento {
+        gap: 2rem;
+    }
+
+    .forma {
+        width: 170px;
+        font-size: var(--font-size-desc);
+    }
+}
+
+@media (max-width:1000px) {
+    .formas-pagamento {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:630px) {
+    .formas-pagamento {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .formas-pagamento h2 {
+        width: 80%;
+    }
+
+    .forma {
+        width: 270px;
+        font-size: var(--font-size-nav);
+    }
 }
