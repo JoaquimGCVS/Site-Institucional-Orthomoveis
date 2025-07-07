@@ -31,3 +31,41 @@
     padding: 1.5rem 0;
 }
 
+@media (max-width: 1245px) {
+    .categorias {
+        gap: 4rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .categoria {
+        font-size: var(--font-size-desc);
+        padding: 1rem;
+    }
+
+    .categorias {
+        gap: 2rem;
+    }
+
+    .categoria img {
+        height: 6rem;
+        width: auto;
+    }
+
+    .categoria h3 {
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width: 630px) {
+    .categorias {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .categoria {
+        width: 70%;
+    }
+}
+
