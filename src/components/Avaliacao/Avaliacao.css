@@ -1,0 +1,41 @@
+.secao-avaliacao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 0;
+    margin: 3rem 0;
+    background-color: var(--cor-primaria);
+    color: var(--cor-primaria);
+}
+
+.secao-avaliacao h2 {
+    color: var(--cor-secundaria);
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+    width: 27%;
+    padding: 1rem;
+    row-gap: 1rem;
+    border-radius: var(--border-radius);
+    font-size: var(--font-size-paragrafo);
+}
+
+.estrelas {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+

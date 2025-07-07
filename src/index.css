@@ -22,3 +22,7 @@ h2 {
     font-size: var(--font-size-titulo);
     color: var(--cor-primaria);
 }
+
+body {
+  padding-top: 5.7rem;
+}
