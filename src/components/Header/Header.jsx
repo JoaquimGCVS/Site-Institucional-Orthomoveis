@@ -28,7 +28,7 @@ const Header = () => {
             <div className="faixa-2">
                 <nav>
                     <ul className="lista-de-nav">
-                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>Home</Link></li>
                         <li><Link to="/colchoes">Colchões</Link></li>
                         <li><Link to="/travesseiros">Travesseiros</Link></li>
                         <li><Link to="/acessorios">Acessórios</Link></li>

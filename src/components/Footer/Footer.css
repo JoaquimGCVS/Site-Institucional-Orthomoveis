@@ -1,0 +1,44 @@
+.secao-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.5)), url("../../assets/footer.webp");
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+}
+
+.secao-footer h2 {
+    font-size: var(--font-size-nav);
+}
+
+.conteudo-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    color: var(--cor-primaria);
+    font-size: var(--font-size-paragrafo);
+}
+
+.conteudo-footer img {
+    height: 4rem;
+    width: auto;
+}
+
+.endereco {
+    font-weight: bold;
+}
+
+.instagram {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+}
+
+.instagram a {
+    color: var(--cor-primaria);
+}

@@ -32,6 +32,7 @@ import DD5 from "../assets/carousel2/DD5.webp";
 import DD61 from "../assets/carousel2/DD6.1.webp";
 import DD6 from "../assets/carousel2/DD6.webp";
 import Titulo from "../components/Titulo/Titulo";
+import Footer from "../components/Footer/Footer";
 
 const slides1 = [
   [CC11, CC1],
@@ -63,6 +64,7 @@ const Home = () => {
             <Pagamento/>
             <Titulo titulo="Descubra o Orthocrin perfeito para você."/>
             <Carousel slides={slides2}/>
+            <Footer/>
         </div>
     );
 };
