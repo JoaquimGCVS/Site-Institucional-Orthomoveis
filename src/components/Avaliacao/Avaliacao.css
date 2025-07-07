@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0;
+    padding: 3rem 1.5rem;
     margin: 3rem 0;
     background-color: var(--cor-primaria);
     color: var(--cor-primaria);
@@ -11,6 +11,7 @@
 
 .secao-avaliacao h2 {
     color: var(--cor-secundaria);
+    text-align: center;
 }
 
 .cards {
@@ -26,7 +27,8 @@
     justify-content: center;
     align-items: center;
     background-color: var(--cor-secundaria);
-    width: 420px;
+    width: 28%;
+    height: 240px;
     padding: 1rem;
     row-gap: 1rem;
     border-radius: var(--border-radius);
@@ -38,5 +40,49 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
+}
+
+@media (max-width: 1000px) {
+
+    .cards {
+        gap: 2rem;
+    }
+
+    .card {
+        font-size: var(--font-size-desc);
+        padding: 0.5rem;
+        row-gap: 0.5rem;
+        width: 33%;
+        height: 180px;
+    }   
+
+    .estrelas {
+        gap: 0.5rem;
+    }
+
+    .estrelas svg {
+        width: 1.2rem;   /* ou o tamanho desejado */
+        height: 1.2rem;
+    }
+
+    @media (max-width: 630px) {
+        .cards {
+            flex-direction: column;
+        }
+
+        .card {
+            width: 80%;
+            font-size: var(--font-size-nav);
+        }
+
+        .estrelas {
+            gap: 1rem;
+        }
+
+        .estrelas svg {
+            width: 1.5rem;   /* ou o tamanho desejado */
+            height: 1.5rem;
+        }
+    }
 }
 

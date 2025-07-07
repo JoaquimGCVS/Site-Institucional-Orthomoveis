@@ -61,12 +61,7 @@ const Home = () => {
             <Marquee/>
             <Categorias/>
             <Avaliacao/>
-            <Sobre/>
-            <Pagamento/>
-            <Titulo titulo="Descubra o Orthocrin perfeito para você."/>
-            <Carousel slides={slides2}/>
-            <Footer/>
-            <WhatsappButton/>
+            
         </div>
     );
 };

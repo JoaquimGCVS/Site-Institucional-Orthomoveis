@@ -15,7 +15,7 @@ const Avaliacao = ()  => {
                         <FaStar size={30} color="#FFB823"/>  
                         <FaStar size={30} color="#FFB823"/>     
                     </div>
-                    <p>Há 13 anos só compro meus colchões com ele. É sempre o melhor preço que encontro, com um atendimento de excelência!</p>
+                    <p>Há 13 anos só compro meus colchões com ele. Sempre encontro o melhor preço, com um atendimento de excelência!</p>
                 </div>
                 <div className="card">
                     <h3>Roselita Miranda</h3>
@@ -26,7 +26,7 @@ const Avaliacao = ()  => {
                         <FaStar size={30} color="#FFB823"/>  
                         <FaStar size={30} color="#FFB823"/>     
                     </div>
-                    <p>A melhor possível, preço excelente, atendimento! É nossa 3 compra. Indicamos sempre!</p>
+                    <p>A melhor possível! Preço excelente, atendimento incrível. Esta já é nossa 3ª compra e indicamos sempre a todos!</p>
                 </div>
                 <div className="card">
                     <h3>Fernando Fernandes</h3>
@@ -37,7 +37,7 @@ const Avaliacao = ()  => {
                         <FaStar size={30} color="#FFB823"/>  
                         <FaStar size={30} color="#FFB823"/>     
                     </div>
-                    <p>É uma loja muito boa, inclusive o preço e a qualidade é a melhor da região, incluindo o bom atendimento.</p>
+                    <p>É uma loja muito boa. O preço e a qualidade são os melhores da região, com atendimento que faz a diferença.</p>
                 </div> 
             </div>
         </div>
