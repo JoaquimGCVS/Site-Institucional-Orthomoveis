@@ -21,6 +21,7 @@ h2 {
     padding-bottom: 3rem;
     font-size: var(--font-size-titulo);
     color: var(--cor-primaria);
+    text-align: center;
 }
 
 body {

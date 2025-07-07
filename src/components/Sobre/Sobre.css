@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 3rem 0;
+    padding: 3rem 2rem;
 }
 
 .conteudo {
@@ -26,7 +26,7 @@
 .foto-desc {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 25%;
     gap: 1rem;
 }
 
@@ -36,4 +36,41 @@
 
 .foto-desc p {
     font-size: var(--font-size-desc);
+}
+
+@media (max-width: 1000px) {
+
+    .conteudo {
+        gap: 4rem;
+    }
+
+    .sobre-texto {
+        font-size: var(--font-size-desc);
+    }
+
+    .foto-desc {
+        width: 30%;
+    }
+
+    .foto-desc p{
+        font-size: 0.6rem;
+    }
+} 
+
+@media (max-width: 630px) {
+    .conteudo {
+        flex-direction: column;
+    }
+
+    .sobre-texto , .foto-desc {
+        width: 100%;
+    }
+
+    .sobre-texto {
+        font-size: var(--font-size-nav);
+    }
+
+    .foto-desc p {
+        font-size: var(--font-size-desc);
+    }
 }
