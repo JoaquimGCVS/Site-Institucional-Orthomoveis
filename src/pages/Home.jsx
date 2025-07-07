@@ -59,14 +59,7 @@ const Home = () => {
             <Header/>
             <Carousel slides={slides1}/>
             <Marquee/>
-            <Categorias/>
-            <Avaliacao/>
-            <Sobre/>
-            <Pagamento/>
-            <Titulo titulo="Descubra o Orthocrin perfeito para você."/>
-            <Carousel slides={slides2}/>
-            <Footer/>
-            <WhatsappButton/>
+            
         </div>
     );
 };

@@ -3,8 +3,12 @@ import { MdOutlinePhoneAndroid } from "react-icons/md";
 import "./Header.css";
 import logo from "../../assets/LogoSemFundo.png";
 import { Link } from "react-router-dom";
+import { IoMdClose } from "react-icons/io";
+import { IoMenu } from "react-icons/io5";
+import { useState } from "react";
 
 const Header = () => {
+    const [sidebarOpen, setSidebarOpen] = useState(false);
     return (
         <div className="header">
             <div className="faixa-1">
@@ -38,7 +42,35 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
-            
+            {/* Botão de menu hamburguer */}
+            <button
+                className="menu-btn"
+                onClick={() => setSidebarOpen(true)}
+                aria-label="Abrir menu"
+            >
+                <IoMenu size={24} />
+            </button>
+            {/* Sidebar */}
+            <div className={`sidebar ${sidebarOpen ? "open" : ""}`}>
+                <button
+                    className="close-btn"
+                    onClick={() => setSidebarOpen(false)}
+                    aria-label="Fechar menu"
+                >
+                    <IoMdClose size={18} />
+                </button>
+                <nav>
+                    <ul className="lista-de-nav">
+                        <li><Link to="/" onClick={() => { setSidebarOpen(false); window.scrollTo({ top: 0, behavior: "smooth" }); }}>Home</Link></li>
+                        <li><Link to="/colchoes" onClick={() => setSidebarOpen(false)}>Colchões</Link></li>
+                        <li><Link to="/travesseiros" onClick={() => setSidebarOpen(false)}>Travesseiros</Link></li>
+                        <li><Link to="/acessorios" onClick={() => setSidebarOpen(false)}>Acessórios</Link></li>
+                        <li><Link to="/box" onClick={() => setSidebarOpen(false)}>Box</Link></li>
+                        <li><Link to="/infantil" onClick={() => setSidebarOpen(false)}>Infantil</Link></li>
+                        <li><Link to="/pets" onClick={() => setSidebarOpen(false)}>Pets</Link></li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     );
 };
