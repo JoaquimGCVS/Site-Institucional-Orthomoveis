@@ -33,6 +33,7 @@ import DD61 from "../assets/carousel2/DD6.1.webp";
 import DD6 from "../assets/carousel2/DD6.webp";
 import Titulo from "../components/Titulo/Titulo";
 import Footer from "../components/Footer/Footer";
+import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 
 const slides1 = [
   [CC11, CC1],
@@ -65,6 +66,7 @@ const Home = () => {
             <Titulo titulo="Descubra o Orthocrin perfeito para você."/>
             <Carousel slides={slides2}/>
             <Footer/>
+            <WhatsappButton/>
         </div>
     );
 };

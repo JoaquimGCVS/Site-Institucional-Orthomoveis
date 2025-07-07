@@ -6,7 +6,7 @@ import { IoIosCard } from "react-icons/io";
 const Pagamento = () => {
     return (
         <div className="secao-pagamento">
-            <h2>Formas de Pagamento</h2>
+            <h2>Compre com desconto à vista ou parcele em até 10x!</h2>
             <div className="formas-pagamento">
                 <div className="forma">
                     <MdOutlinePix size={28}/>
