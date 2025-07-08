@@ -63,7 +63,7 @@ const Home = () => {
             <Avaliacao/>
             <Sobre/>
             <Pagamento/>
-            <Titulo titulo="Descubra o Orthocrin perfeito para você."/>
+            <Titulo titulo="Descubra o Orthocrin perfeito para você." backgroundColor={"#80002D"} color={"#FFFFFF"}/>
             <Carousel slides={slides2}/>
             <Footer/>
             <WhatsappButton/>

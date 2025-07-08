@@ -1,12 +1,12 @@
 .marquee {
-    background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    background-color: var(--cor-quaternaria);
+    color: var(--cor-primaria);
     font-size: var(--font-size-nav);
     padding: 0.5rem;
     overflow: hidden;
     white-space: nowrap;
     position: relative;
-    text-align: left; /* necessário para o efeito marquee */
+    text-align: left; 
     display: flex;
     align-items: center;
 }
@@ -16,6 +16,7 @@
     margin: 0;
     padding-left: 100%;
     animation: marquee 25s linear infinite;
+    
 }
 
 @keyframes marquee {

@@ -3,17 +3,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 3rem;
-    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.8)), url("../../assets/footer.webp");
-    background-size: cover;
-    background-position: center;
-    padding: 2rem;
+    background-color: var(--cor-quaternaria);
+    padding: 1rem;
     text-align: center;
 }
 
 .secao-footer h2 {
     font-size: var(--font-size-nav);
-    padding-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .conteudo-footer {
@@ -28,10 +25,6 @@
 .conteudo-footer img {
     height: 3rem;
     width: auto;
-}
-
-.endereco {
-    font-weight: bold;
 }
 
 .instagram {

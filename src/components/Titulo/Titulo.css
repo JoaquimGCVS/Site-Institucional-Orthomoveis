@@ -1,9 +1,8 @@
 .secao-titulo {
     display: flex;
     font-size: var(--font-size-titulo);
-    margin-top: 6rem;
     padding: 0.5rem;
     justify-content: center;
+    text-align: center;
     color: var(--cor-secundaria);
-    background-color: var(--cor-primaria);
 }

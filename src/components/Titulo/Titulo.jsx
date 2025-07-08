@@ -1,9 +1,9 @@
 import "./Titulo.css";
 
-const Titulo = ({titulo}) => {
+const Titulo = ({titulo, backgroundColor, color}) => {
     return (
-        <div className="secao-titulo">
-            <p>{titulo}</p>
+        <div className="secao-titulo" style={{ backgroundColor }}>
+            <p style={{ color }}>{titulo}</p>
         </div>
     );
 };

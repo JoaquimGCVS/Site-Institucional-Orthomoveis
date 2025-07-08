@@ -4,9 +4,7 @@
     justify-content: center;
     text-align: center;
     align-items: center;
-    background-color: var(--cor-secundaria);
-    padding: 3rem 2rem;
-    margin: 3rem 0;
+    padding: 6rem 2rem;
     color: var(--cor-primaria);
 }
 
