@@ -1,9 +1,11 @@
 import "./Produtos.css";
 
-const Produtos = ({ backgroundColor, color, images }) => {
+const Produtos = ({ titulo, descCategoria, backgroundColor, color, images }) => {
     return (
         <div className="secao-produtos" style={{ backgroundColor }}>
-            <div className="Produtos">
+            <h2 style={{ color }}>{titulo}</h2>
+            <p style={{ color }} className="desc-categoria">{descCategoria}</p>
+            <div className="produtos">
                 {images.map((img, idx) => (
                     <div className="produto" key={idx}>
                         <img src={img.src} alt={img.alt || `produto${idx + 1}`} />

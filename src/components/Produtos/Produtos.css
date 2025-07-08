@@ -1,0 +1,45 @@
+.secao-produtos {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem;
+    gap: 2rem;
+}
+
+.secao-produtos h2 {
+    padding: 0;
+}
+
+.secao-produtos .desc-categoria {
+    text-align: center;
+    font-size: var(--font-size-paragrafo);
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    width: 20rem;
+}
+
+.produto img {
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
+.produto p {
+    font-size: var(--font-size-desc);
+}
+
+@media (max-width:630px) {
+    .produto {
+        width: 14.5rem;
+    }
+}

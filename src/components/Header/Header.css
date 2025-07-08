@@ -101,8 +101,8 @@
 .menu-btn {
     display: none;
     position: fixed;
-    top: 0.5rem;
-    left: 0.5rem;
+    top: 0.7rem;
+    left: 0.1rem;
     color: var(--cor-primaria);
     background-color: var(--cor-secundaria);
     border: none;

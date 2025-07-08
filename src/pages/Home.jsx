@@ -34,6 +34,7 @@ import DD6 from "../assets/carousel2/DD6.webp";
 import Titulo from "../components/Titulo/Titulo";
 import Footer from "../components/Footer/Footer";
 import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
 const slides1 = [
   [CC11, CC1],
@@ -56,6 +57,7 @@ const slides2 = [
 const Home = () => {
     return (
         <div>
+            <ScrollToTop/>
             <Header/>
             <Carousel slides={slides1}/>
             <Marquee/>
