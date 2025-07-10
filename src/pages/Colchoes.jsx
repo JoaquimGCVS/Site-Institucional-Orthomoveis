@@ -188,7 +188,6 @@ const Colchoes = () => {
             <Produtos titulo={"Categoria Kids"} descCategoria={"Espumas seguras e certificadas para proporcionar conforto ideal ao bebê. Modelos com dupla face e tecidos delicados."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensKids}/>
             <Produtos titulo={"Categoria Pets"} descCategoria={"Conforto e praticidade para os pets. Estrutura em madeira, espumas firmes e capa higiênica garantem descanso seguro e resistente."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensPets}/>
             <WhatsappButton/>
-
             <Footer/>
         </div>
     );
