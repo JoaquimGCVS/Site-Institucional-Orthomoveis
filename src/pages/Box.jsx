@@ -1,6 +1,7 @@
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import Marquee from "../components/Marquee/Marquee";
+import Produtos from "../components/Produtos/Produtos";
 import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 
 import box1 from "../assets/box/1.webp";
@@ -9,7 +10,6 @@ import box3 from "../assets/box/3.webp";
 import box4 from "../assets/box/4.webp";
 import box5 from "../assets/box/5.webp";
 import box6 from "../assets/box/6.webp";
-import Produtos from "../components/Produtos/Produtos";
 
 const imagensBox = [
     {

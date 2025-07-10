@@ -36,6 +36,7 @@ import s2 from "../assets/colchoes/sllip/2.webp";
 
 import pets3 from "../assets/colchoes/pets/3.webp";
 import pets1 from "../assets/colchoes/pets/1.webp";
+
 import kids1 from "../assets/colchoes/kids/1.webp";
 import kids2 from "../assets/colchoes/kids/2.webp";
 
