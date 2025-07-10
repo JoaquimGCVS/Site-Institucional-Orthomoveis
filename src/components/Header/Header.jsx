@@ -13,7 +13,7 @@ const Header = () => {
         <div className="header">
             <div className="faixa-1">
                 <div className="secao-logo">
-                    <img src={logo} alt="logo"></img>
+                    <Link to="/" ><img src={logo} alt="logo"></img></Link>
                     <p className="logo-desc">desde 1972</p>
                 </div>
                 <ul className="lista-de-links">
@@ -42,7 +42,7 @@ const Header = () => {
                     </ul>
                 </nav>
             </div>
-            {/* Botão de menu hamburguer */}
+            {/* Botão de menu */}
             <button
                 className="menu-btn"
                 onClick={() => setSidebarOpen(true)}
