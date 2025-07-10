@@ -39,10 +39,10 @@ import DD6 from "../assets/carousel2/DD6.webp";
 
 
 
-import p1 from "../assets/colchoes/plus/p1.webp";
+import box1 from "../assets/box/1.webp";
 import p2 from "../assets/colchoes/plus/p2.webp";
-import p3 from "../assets/colchoes/plus/p3.webp";
-import p4 from "../assets/colchoes/plus/p4.webp";
+import ce3 from "../assets/colchoes/cespuma/3.webp";
+import visco2 from "../assets/travesseiros/viscopillow/1.webp";
 
 const slides1 = [
   [CC11, CC1],
@@ -62,11 +62,30 @@ const slides2 = [
   [DD6, DD61],
 ];
 
-const imagensPlus = [
-    { src: p1, alt: "Premium Visco", title: "Premium Visco", desc: "Fios de seda e espuma viscoelástica garantem noites de descanso profundo e de relaxamento absoluto." },
-    { src: p2, alt: "Privilége Gel", title: "Privilége Gel", desc: "Dupla camada de conforto com espuma hipersoft e toque macio, perfeita para noites de sono renovador." },
-    { src: p3, alt: "Eternitá Gel", title: "Eternitá Gel", desc: "Adapta-se ao corpo com frescor e elasticidade, oferecendo suporte ideal e conforto térmico constante." },
-    { src: p4, alt: "Serenity Visco", title: "Serenity Visco", desc: "Viscose de bambu e espuma NASA abraçam o corpo, aliviando as pressões e melhorando a circulação." },
+const imagensMaisVendidos = [
+    {       src: p2, 
+            alt: "Privilége Gel", 
+            title: "Privilége Gel", 
+            desc: "Dupla camada de conforto com espuma hipersoft e toque macio, perfeita para noites de sono renovador e descanso profundo com frescor ideal." 
+    },
+    {
+            src: box1,
+            alt: "Box Baú",
+            title: "Box Baú",
+            desc: "Base com acabamento em couro ecológico e mecanismo a gás. Ideal para armazenar e suportar grande peso com segurança."
+    },
+    {
+            src: ce3,
+            alt: "Royal Saúde Plus Pillow Top",
+            title: "Royal Saúde Plus Pillow Top",
+            desc: "Modelo com Pillow Top, espumas certificadas e tecido Jacquard bamboo. Proporciona firmeza com altura de até 28 cm e dupla face."
+    },
+    {
+            src: visco2,
+            alt: "Viscopillow Alto",
+            title: "Viscopillow Alto",
+            desc: "Travesseiro de 15 cm de altura, com toque macio e suporte elevado, ideal para alinhamento postural e conforto contínuo. Para fronha 50x70."
+    }
 ];
 
 const Home = () => {
@@ -77,7 +96,7 @@ const Home = () => {
             <Carousel slides={slides1}/>
             <Marquee/>
             <Categorias/>
-            <Produtos titulo={"O Que Todo Mundo Está Comprando!"} descCategoria={""} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensPlus}/>
+            <Produtos titulo={"O Que Todo Mundo Está Comprando!"} descCategoria={""} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensMaisVendidos}/>
             <Avaliacao/>
             <Pagamento/>
             <Sobre/>
