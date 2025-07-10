@@ -12,6 +12,7 @@
 .secao-produtos .desc-categoria {
     text-align: center;
     font-size: var(--font-size-paragrafo);
+    padding: 0 2rem;
 }
 
 .produtos {
@@ -47,5 +48,9 @@
 
     .produto img {
         height: 200.51px;
+    }
+
+    .secao-produtos .desc-categoria {
+        padding: 0;
     }
 }
