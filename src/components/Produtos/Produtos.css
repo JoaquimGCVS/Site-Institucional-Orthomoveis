@@ -16,7 +16,7 @@
 
 .produtos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
 }
@@ -32,6 +32,7 @@
 .produto img {
     border-radius: var(--border-radius);
     box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    height: 275.23px;
 }
 
 .produto p {
@@ -41,5 +42,10 @@
 @media (max-width:630px) {
     .produto {
         width: 14.5rem;
+
+    }
+
+    .produto img {
+        height: 200.51px;
     }
 }

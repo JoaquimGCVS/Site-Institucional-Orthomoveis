@@ -35,6 +35,7 @@ import s1 from "../assets/colchoes/sllip/1.webp";
 import s2 from "../assets/colchoes/sllip/2.webp";
 
 import pets3 from "../assets/colchoes/pets/3.webp";
+import pets1 from "../assets/colchoes/pets/1.webp";
 import kids1 from "../assets/colchoes/kids/1.webp";
 import kids2 from "../assets/colchoes/kids/2.webp";
 
@@ -60,7 +61,7 @@ const imagensClassica = [
 ];
 
 const imagensBasic = [
-    {src: b1, alt: "Basic Pillow Top", title: "Pillow Top", desc: "Pillow top com conforto extra e molas ensacadas, garantindo suporte e maciez no descanso diário."
+    {src: b1, alt: "Basic Pillow Top", title: "Real", desc: "Pillow top com conforto extra e molas ensacadas, garantindo suporte e maciez no descanso diário."
     },
     {src: b2, alt: "Basic Real Black", title: "Real Black", desc: "Versão elegante com pillow top e molas ensacadas, oferecendo maciez e sustentação."
     },
@@ -147,6 +148,12 @@ const imagensPets = [
         alt: "Orthocrin Pet",
         title: "Orthocrin Pet",
         desc: "Espuma firme com capa impermeável e estrutura em madeira de reflorestamento. Ideal para conforto e higiene dos pets."
+    },
+    {
+        src: pets1,
+        alt: "Colchão Cama Pet Comfort",
+        title: "Colchão Cama Pet Comfort",
+        desc: "Espuma macia com capa lavável e tecido resistente. Conforto, praticidade e durabilidade para o descanso de cães e gatos em qualquer ambiente."
     }
 ];
 
@@ -179,7 +186,7 @@ const Colchoes = () => {
             <Produtos titulo={"Categoria Ortopédica"} descCategoria={"Modelos com suporte firme, ideal para alinhamento da coluna, estrutura resistente e tecido de alta qualidade."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensOrtopedica}/>
             <Produtos titulo={"Categoria Sllip"} descCategoria={"Colchões com conforto equilibrado, molas especiais e espumas selecionadas para noites mais leves e relaxantes."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensSllip}/>
             <Produtos titulo={"Categoria Kids"} descCategoria={"Espumas seguras e certificadas para proporcionar conforto ideal ao bebê. Modelos com dupla face e tecidos delicados."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensKids}/>
-            <Produtos titulo={"Categoria Kids"} descCategoria={"Conforto e praticidade para os pets. Estrutura em madeira, espumas firmes e capa higiênica garantem descanso seguro e resistente."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensPets}/>
+            <Produtos titulo={"Categoria Pets"} descCategoria={"Conforto e praticidade para os pets. Estrutura em madeira, espumas firmes e capa higiênica garantem descanso seguro e resistente."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensPets}/>
             <WhatsappButton/>
 
             <Footer/>
