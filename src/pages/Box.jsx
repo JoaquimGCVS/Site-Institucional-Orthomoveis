@@ -10,6 +10,7 @@ import box3 from "../assets/box/3.webp";
 import box4 from "../assets/box/4.webp";
 import box5 from "../assets/box/5.webp";
 import box6 from "../assets/box/6.webp";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
 const imagensBox = [
     {
@@ -53,6 +54,7 @@ const imagensBox = [
 const Box = () => {
     return (
         <div>
+            <ScrollToTop/>
             <Header/>
             <Marquee/>
             <Produtos

@@ -15,6 +15,7 @@ import ortotrip from "../assets/acessorios/ortotrip/6.webp";
 
 import multirelaxBasic from "../assets/acessorios/multirelax/7.webp";
 import multirelaxVisco from "../assets/acessorios/multirelax/8.webp";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
 const imagensMultirelax = [
     {
@@ -79,6 +80,7 @@ const imagensAntirrefluxo = [
 const Acessorios = () => {
     return (
         <div>
+            <ScrollToTop/>
             <Header/>
             <Marquee/>
             <Produtos

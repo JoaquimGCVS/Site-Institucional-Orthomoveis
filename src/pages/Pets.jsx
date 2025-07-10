@@ -6,6 +6,7 @@ import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 
 import pets3 from "../assets/colchoes/pets/3.webp";
 import pets1 from "../assets/colchoes/pets/1.webp";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
 const imagensPets = [
     {
@@ -25,6 +26,7 @@ const imagensPets = [
 const Pets = () => {
     return (
         <div>
+            <ScrollToTop/>
             <Header/>
             <Marquee/>
             <Produtos titulo={"Categoria Pets"} descCategoria={"Conforto e praticidade para os pets. Estrutura em madeira, espumas firmes e capa higiênica garantem descanso seguro e resistente."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensPets}/>
