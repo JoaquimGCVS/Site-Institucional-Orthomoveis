@@ -178,6 +178,17 @@
     font-size: var(--font-size-nav);
 }
 
+.sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.3);
+    z-index: 1999;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
 
 @media (max-width: 1000px) {
     .lista-de-nav {

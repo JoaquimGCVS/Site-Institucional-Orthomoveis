@@ -94,6 +94,13 @@ const Header = () => {
                 <MdOutlineMenu size={24} />
             </button>
             {/* Sidebar */}
+            {sidebarOpen && (
+                <div
+                    className="sidebar-overlay"
+                    onClick={() => setSidebarOpen(false)}
+                    aria-label="Fechar menu"
+                />
+            )}
             <div className={`sidebar ${sidebarOpen ? "open" : ""}`}>
                 <button
                     className="close-btn"
