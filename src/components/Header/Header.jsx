@@ -5,12 +5,48 @@ import logo from "../../assets/LogoSemFundo.png";
 import { Link } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
 import { IoMenu } from "react-icons/io5";
-import { useState } from "react";
+import { MdOutlineMenu } from "react-icons/md";
+import { useState, useEffect } from "react";
 
 const Header = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
+    const [showHeader, setShowHeader] = useState(true);
+    const [lastScrollY, setLastScrollY] = useState(window.scrollY);
+    const [headerHeight, setHeaderHeight] = useState(6.2 * 16); 
+
+    useEffect(() => {
+        const updateHeaderHeight = () => {
+            if (window.innerWidth <= 360) {
+                setHeaderHeight(7.5 * 16); 
+            } else if (window.innerWidth <= 630) {
+                setHeaderHeight(7.9 * 16); 
+            } else {
+                setHeaderHeight(6.2 * 16); 
+            }
+        };
+        updateHeaderHeight();
+        window.addEventListener("resize", updateHeaderHeight);
+        return () => window.removeEventListener("resize", updateHeaderHeight);
+    }, []);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            if (window.scrollY < headerHeight) {
+                setShowHeader(true);
+            } else if (window.scrollY < lastScrollY) {
+                setShowHeader(true);
+            } else if (window.scrollY > lastScrollY) {
+                setShowHeader(false);
+            }
+            setLastScrollY(window.scrollY);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, [lastScrollY, headerHeight]);
+
     return (
-        <div className="header">
+        <div className={`header ${showHeader ? "show" : "hide"}`}>
             <div className="faixa-1">
                 <div className="secao-logo">
                     <Link to="/" ><img src={logo} alt="logo"></img></Link>
@@ -44,11 +80,11 @@ const Header = () => {
             </div>
             {/* Botão de menu */}
             <button
-                className="menu-btn"
+                className={`menu-btn ${showHeader ? "show" : "hide"}`}
                 onClick={() => setSidebarOpen(true)}
                 aria-label="Abrir menu"
             >
-                <IoMenu size={24} />
+                <MdOutlineMenu size={24} />
             </button>
             {/* Sidebar */}
             <div className={`sidebar ${sidebarOpen ? "open" : ""}`}>

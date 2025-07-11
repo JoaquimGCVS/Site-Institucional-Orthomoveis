@@ -3,7 +3,14 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 1000; 
+    z-index: 1000;
+    transition: top 0.3s;
+}
+.header.hide {
+    top: -6.2rem; 
+}
+.header.show {
+    top: 0;
 }
 
 .faixa-1 {
@@ -104,12 +111,21 @@
     top: 0.7rem;
     left: 0.1rem;
     color: var(--cor-primaria);
-    background-color: var(--cor-secundaria);
+    background: none;
+    background-color: transparent;
     border: none;
     z-index: 2000;
     padding: 0.5rem;
     border-radius: 4px;
     cursor: pointer;
+}
+
+.menu-btn.show {
+    top: 0.7rem;
+}
+.menu-btn.hide {
+    top: -6.2rem; /* igual ao header.hide */
+    transition: top 0.3s;
 }
 
 .sidebar {
@@ -169,6 +185,10 @@
 }
 
 @media (max-width: 630px) {
+
+    .header.hide {
+        top: -8rem; 
+    }
 
     .faixa-2 {
         display: none !important;
