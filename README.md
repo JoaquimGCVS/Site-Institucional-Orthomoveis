@@ -8,6 +8,9 @@ Toda a estrutura do site foi pensada para manter a **harmonia visual**, **evitar
 O site está publicado e disponível no domínio:
 🔗 [https://orthomoveiscolchoes.com.br/](https://orthomoveiscolchoes.com.br/)
 
+> ⚠️ Este projeto foi desenvolvido sob encomenda para uso exclusivo da Orthomóveis Colchões Orthocrin.  
+> O código está disponível para fins de portfólio e demonstração, mas não deve ser reutilizado comercialmente.
+
 ---
 
 ## 📁 Estrutura do Repositório
