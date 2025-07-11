@@ -43,6 +43,7 @@ import box1 from "../assets/box/1.webp";
 import p2 from "../assets/colchoes/plus/p2.webp";
 import ce3 from "../assets/colchoes/cespuma/3.webp";
 import visco2 from "../assets/travesseiros/viscopillow/1.webp";
+import Faixa from "../components/Faixa/Faixa";
 
 const slides1 = [
   [CC11, CC1],
@@ -95,6 +96,7 @@ const Home = () => {
             <Header/>
             <Carousel slides={slides1}/>
             <Marquee/>
+            <Faixa/>
             <Categorias/>
             <Produtos titulo={"O Que Todo Mundo Está Comprando!"} descCategoria={""} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensMaisVendidos}/>
             <Avaliacao/>

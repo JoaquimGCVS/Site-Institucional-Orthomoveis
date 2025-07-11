@@ -1,0 +1,26 @@
+.secao-faixa {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--cor-primaria);
+    padding: 1rem;
+}
+
+.secao-faixa h2 {
+    color: var(--cor-secundaria);
+    font-size: var(--font-size-titulo);
+    padding: 0;
+}
+
+
+@media (max-width: 1000px) {
+    .secao-faixa h2 {
+        font-size: var(--font-size-paragrafo);
+    }
+}
+
+@media (max-width: 630px) {
+    .secao-faixa h2 {
+        font-size: var(--font-size-paragrafo);
+    }
+}
