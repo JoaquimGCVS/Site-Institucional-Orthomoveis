@@ -1,6 +1,6 @@
 # 🛏️ Site Institucional – Orthomóveis Colchões Orthocrin
 
-Este repositório contém o **site institucional oficial** da loja **Orthomóveis Colchões Orthocrin**, desenvolvido inteiramente por **Joaquim Vilela** utilizando **React com Vite**.
+Este repositório contém o **site institucional oficial** da loja **Orthomóveis Colchões Orthocrin**, desenvolvido inteiramente por **Joaquim Vilela** utilizando **React + Vite**.
 O projeto tem como objetivo destacar os **produtos da loja**, sua **história**, **tradição desde 1972** e seus **principais diferenciais competitivos**.
 
 Toda a estrutura do site foi pensada para manter a **harmonia visual**, **evitar poluição visual** e ao mesmo tempo **destacar com elegância as informações mais importantes**, sempre seguindo as demandas do cliente.
