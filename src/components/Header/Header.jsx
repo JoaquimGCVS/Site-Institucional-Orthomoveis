@@ -4,7 +4,8 @@ import "./Header.css";
 import logo from "../../assets/LogoSemFundo.png";
 import { Link } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
-import { IoMenu } from "react-icons/io5";
+import { SiVerizon } from "react-icons/si";
+import { MdVerified } from "react-icons/md";
 import { MdOutlineMenu } from "react-icons/md";
 import { useState, useEffect } from "react";
 
@@ -53,6 +54,7 @@ const Header = () => {
                     <p className="logo-desc">desde 1972</p>
                 </div>
                 <ul className="lista-de-links">
+                    <div className="nav-1">
                     <li>
                     <a href="https://www.google.com.br/maps/place/Orthom%C3%B3veis+Colch%C3%B5es+Orthocrin/@-19.9312632,-43.9674782,17z/data=!3m1!4b1!4m6!3m5!1s0xa6970d79d84f7b:0x919a9536db3869cb!8m2!3d-19.9312632!4d-43.9649033!16s%2Fg%2F1wd3x8m0?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDYzMC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
                         <FaMapMarkerAlt size={17}/>
@@ -62,6 +64,11 @@ const Header = () => {
                     <li>
                         <MdOutlinePhoneAndroid size={17}/>
                         (31) 3332-7066 / (31) 3334-2021
+                    </li>
+                    </div>
+                    <li>
+                        <MdVerified size={17} />
+                        Distribuidor Autorizado
                     </li>
                 </ul>
             </div>

@@ -3,7 +3,7 @@ import "./Faixa.css";
 const Faixa = () => {
     return (
         <div className="secao-faixa">
-            <h2>DISTRIBUIDOR ORTHOCRIN AUTORIZADO - DESDE 1972</h2>
+            <h2>DISTRIBUIDOR AUTORIZADO - DESDE 1972</h2>
         </div>
     );
 };

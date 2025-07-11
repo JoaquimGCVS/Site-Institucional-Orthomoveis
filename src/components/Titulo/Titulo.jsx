@@ -3,7 +3,7 @@ import "./Titulo.css";
 const Titulo = ({titulo, backgroundColor, color}) => {
     return (
         <div className="secao-titulo" style={{ backgroundColor }}>
-            <p style={{ color }}>{titulo}</p>
+            <h2 style={{ color }}>{titulo}</h2>
         </div>
     );
 };

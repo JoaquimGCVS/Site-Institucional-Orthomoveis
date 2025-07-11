@@ -96,7 +96,6 @@ const Home = () => {
             <Header/>
             <Carousel slides={slides1}/>
             <Marquee/>
-            <Faixa/>
             <Categorias/>
             <Produtos titulo={"O Que Todo Mundo Está Comprando!"} descCategoria={""} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensMaisVendidos}/>
             <Avaliacao/>

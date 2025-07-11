@@ -6,3 +6,7 @@
     text-align: center;
     color: var(--cor-secundaria);
 }
+
+.secao-titulo h2{
+    padding: 0;
+}

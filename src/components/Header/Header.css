@@ -55,6 +55,11 @@
     font-size: var(--font-size-nav);
 }
 
+.nav-1 {
+    display: flex;
+    gap: 1rem;
+}
+
 .faixa-2 {
     display: flex;
     align-items: center;
@@ -184,7 +189,7 @@
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 800px) {
 
     .header.hide {
         top: -8rem; 
@@ -227,10 +232,28 @@
     }
 }
 
+@media (max-width: 530px) {
+    .faixa-1 ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0.5rem 0;
+        gap: 0.5rem;
+    }
+    body {
+        padding-top: 8.6rem;
+    }
+
+    .header.hide {
+        top: -8.6rem; 
+    }
+}
+
 @media (max-width: 360px) {
 
     body {
-        padding-top: 7.5rem;
+        padding-top: 8rem;
     }
 
     .texto-maps {
