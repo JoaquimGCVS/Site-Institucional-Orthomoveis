@@ -44,6 +44,7 @@ import p2 from "../assets/colchoes/plus/p2.webp";
 import ce3 from "../assets/colchoes/cespuma/3.webp";
 import visco2 from "../assets/travesseiros/viscopillow/1.webp";
 import Faixa from "../components/Faixa/Faixa";
+import Seo from "../components/Seo/Seo";
 
 const slides1 = [
   [CC11, CC1],
@@ -92,6 +93,7 @@ const imagensMaisVendidos = [
 const Home = () => {
     return (
         <div>
+            <Seo title="Home | Orthomóveis Colchões Orthocrin" />
             <ScrollToTop/>
             <Header/>
             <Carousel slides={slides1}/>

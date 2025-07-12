@@ -43,6 +43,7 @@ import kids2 from "../assets/colchoes/kids/2.webp";
 import Footer from "../components/Footer/Footer";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
+import Seo from "../components/Seo/Seo";
 
 const imagensPlus = [
     { src: p1, alt: "Premium Visco", title: "Premium Visco", desc: "Fios de seda e espuma viscoelástica garantem noites de descanso profundo e de relaxamento absoluto." },
@@ -177,6 +178,7 @@ const imagensKids = [
 const Colchoes = () => {
     return (
         <div>
+            <Seo title="Colchões | Orthomóveis Colchões Orthocrin" />
             <ScrollToTop/>
             <Header/>
             <Marquee/>

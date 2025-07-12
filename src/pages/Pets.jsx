@@ -7,6 +7,7 @@ import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 import pets3 from "../assets/colchoes/pets/3.webp";
 import pets1 from "../assets/colchoes/pets/1.webp";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+import Seo from "../components/Seo/Seo";
 
 const imagensPets = [
     {
@@ -26,6 +27,7 @@ const imagensPets = [
 const Pets = () => {
     return (
         <div>
+            <Seo title="Pets | Orthomóveis Colchões Orthocrin" />
             <ScrollToTop/>
             <Header/>
             <Marquee/>

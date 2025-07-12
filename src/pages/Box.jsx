@@ -11,6 +11,7 @@ import box4 from "../assets/box/4.webp";
 import box5 from "../assets/box/5.webp";
 import box6 from "../assets/box/6.webp";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+import Seo from "../components/Seo/Seo";
 
 const imagensBox = [
     {
@@ -54,6 +55,7 @@ const imagensBox = [
 const Box = () => {
     return (
         <div>
+            <Seo title="Box | Orthomóveis Colchões Orthocrin" />
             <ScrollToTop/>
             <Header/>
             <Marquee/>

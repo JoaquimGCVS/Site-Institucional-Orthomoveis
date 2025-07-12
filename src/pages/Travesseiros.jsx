@@ -32,6 +32,7 @@ import meu2 from "../assets/travesseiros/meu/2.webp";
 import meu3 from "../assets/travesseiros/meu/3.webp";
 import meu4 from "../assets/travesseiros/meu/4.webp";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+import Seo from "../components/Seo/Seo";
 
 const imagensStillo = [
     {
@@ -186,6 +187,7 @@ const imagensMeuPrimeiroOrthocrin = [
 const Travesseiros = () => {
     return (
         <div>
+            <Seo title="Travesseiros | Orthomóveis Colchões Orthocrin" />
             <ScrollToTop/>
             <Header/>
             <Marquee/>

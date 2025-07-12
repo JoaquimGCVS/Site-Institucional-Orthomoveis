@@ -14,6 +14,7 @@ import meu3 from "../assets/travesseiros/meu/3.webp";
 import meu4 from "../assets/travesseiros/meu/4.webp";
 import Produtos from "../components/Produtos/Produtos";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+import Seo from "../components/Seo/Seo";
 
 const imagensColchoesKids = [
     {
@@ -66,6 +67,7 @@ const imagensTravesseirosKids = [
 const Infantil = () => {
     return (
         <div>
+            <Seo title="Infantil | Orthomóveis Colchões Orthocrin" />
             <ScrollToTop/>
             <Header/>
             <Marquee/>

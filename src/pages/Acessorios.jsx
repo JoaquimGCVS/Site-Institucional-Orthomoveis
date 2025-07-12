@@ -16,6 +16,7 @@ import ortotrip from "../assets/acessorios/ortotrip/6.webp";
 import multirelaxBasic from "../assets/acessorios/multirelax/7.webp";
 import multirelaxVisco from "../assets/acessorios/multirelax/8.webp";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+import Seo from "../components/Seo/Seo";
 
 const imagensMultirelax = [
     {
@@ -80,6 +81,7 @@ const imagensAntirrefluxo = [
 const Acessorios = () => {
     return (
         <div>
+            <Seo title="Acessórios | Orthomóveis Colchões Orthocrin" />
             <ScrollToTop/>
             <Header/>
             <Marquee/>

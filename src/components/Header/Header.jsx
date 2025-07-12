@@ -1,10 +1,9 @@
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { MdOutlinePhoneAndroid } from "react-icons/md";
 import "./Header.css";
-import logo from "../../assets/LogoSemFundo.png";
+import logo from "../../assets/LogoSemFundo.webp";
 import { Link } from "react-router-dom";
 import { IoMdClose } from "react-icons/io";
-import { SiVerizon } from "react-icons/si";
 import { MdVerified } from "react-icons/md";
 import { MdOutlineMenu } from "react-icons/md";
 import { useState, useEffect } from "react";

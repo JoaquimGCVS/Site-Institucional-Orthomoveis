@@ -1,5 +1,5 @@
 import { FaSquareInstagram } from "react-icons/fa6";
-import logo from "../../assets/LogoSemFundo.png";
+import logo from "../../assets/LogoSemFundo.webp";
 import "./Footer.css";
 
 const Footer = () => {
