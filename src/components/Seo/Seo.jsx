@@ -3,7 +3,7 @@ import { useEffect } from "react";
 const Seo = ({
   title = "Orthomóveis Colchões Orthocrin",
   description = "Distribuidor autorizado Orthocrin desde 1972! Encontre os melhores preços em colchões de Belo Horizonte. Conforto e qualidade para noites de sono perfeitas. Compre já o seu!",
-  image = "/LogoLoja.webp",
+  image = "https://orthomoveiscolchoes.com.br/LogoLoja.webp",
   url = "https://www.orthomoveiscolchoes.com.br"
 }) => {
   useEffect(() => {
