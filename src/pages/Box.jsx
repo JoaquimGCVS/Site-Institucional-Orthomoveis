@@ -55,7 +55,9 @@ const imagensBox = [
 const Box = () => {
     return (
         <div>
-            <Seo title="Box | Orthomóveis Colchões Orthocrin" />
+            <Seo title="Box | Orthomóveis Colchões Orthocrin" 
+                seoImage="/LogoLoja.webp"
+                socialImage="/logocomfundo2.webp"/>
             <ScrollToTop/>
             <Header/>
             <Marquee/>

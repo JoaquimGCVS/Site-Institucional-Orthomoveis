@@ -81,7 +81,9 @@ const imagensAntirrefluxo = [
 const Acessorios = () => {
     return (
         <div>
-            <Seo title="Acessórios | Orthomóveis Colchões Orthocrin" />
+            <Seo title="Acessórios | Orthomóveis Colchões Orthocrin" 
+                seoImage="/LogoLoja.webp"
+                socialImage="/logocomfundo2.webp"/>
             <ScrollToTop/>
             <Header/>
             <Marquee/>

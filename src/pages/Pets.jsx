@@ -27,7 +27,9 @@ const imagensPets = [
 const Pets = () => {
     return (
         <div>
-            <Seo title="Pets | Orthomóveis Colchões Orthocrin" />
+            <Seo title="Pets | Orthomóveis Colchões Orthocrin" 
+                seoImage="/LogoLoja.webp"
+                socialImage="/logocomfundo2.webp"/>
             <ScrollToTop/>
             <Header/>
             <Marquee/>

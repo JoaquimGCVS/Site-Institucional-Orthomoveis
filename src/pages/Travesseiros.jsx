@@ -187,7 +187,9 @@ const imagensMeuPrimeiroOrthocrin = [
 const Travesseiros = () => {
     return (
         <div>
-            <Seo title="Travesseiros | Orthomóveis Colchões Orthocrin" />
+            <Seo title="Travesseiros | Orthomóveis Colchões Orthocrin" 
+                seoImage="/LogoLoja.webp"
+                socialImage="/logocomfundo2.webp"/>
             <ScrollToTop/>
             <Header/>
             <Marquee/>

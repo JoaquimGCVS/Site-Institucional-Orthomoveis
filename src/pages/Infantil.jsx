@@ -67,7 +67,9 @@ const imagensTravesseirosKids = [
 const Infantil = () => {
     return (
         <div>
-            <Seo title="Infantil | Orthomóveis Colchões Orthocrin" />
+            <Seo title="Infantil | Orthomóveis Colchões Orthocrin" 
+                seoImage="/LogoLoja.webp"
+                socialImage="/logocomfundo2.webp"/>
             <ScrollToTop/>
             <Header/>
             <Marquee/>

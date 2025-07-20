@@ -93,7 +93,9 @@ const imagensMaisVendidos = [
 const Home = () => {
     return (
         <div>
-            <Seo title="Home | Orthomóveis Colchões Orthocrin" />
+            <Seo title="Home | Orthomóveis Colchões Orthocrin" 
+              seoImage="/LogoLoja.webp"
+              socialImage="/logocomfundo2.webp"/>
             <ScrollToTop/>
             <Header/>
             <Carousel slides={slides1}/>

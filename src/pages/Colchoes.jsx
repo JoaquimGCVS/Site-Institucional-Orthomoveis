@@ -178,7 +178,9 @@ const imagensKids = [
 const Colchoes = () => {
     return (
         <div>
-            <Seo title="Colchões | Orthomóveis Colchões Orthocrin" />
+            <Seo title="Colchões | Orthomóveis Colchões Orthocrin" 
+                seoImage="/LogoLoja.webp"
+                socialImage="/logocomfundo2.webp"/>
             <ScrollToTop/>
             <Header/>
             <Marquee/>
