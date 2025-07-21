@@ -7,6 +7,7 @@ import Produtos from "../components/Produtos/Produtos";
 import colchonete1 from "../assets/acessorios/colchonetes/1.webp";
 import colchonete2 from "../assets/acessorios/colchonetes/2.webp";
 import colchonete3 from "../assets/acessorios/colchonetes/3.webp";
+import colchonete11 from "../assets/acessorios/colchonetes/1.1.webp";
 
 import antirrefluxoAdulto from "../assets/acessorios/antirrefluxo/4.webp";
 import antirrefluxoBaby from "../assets/acessorios/antirrefluxo/5.webp";
@@ -15,6 +16,7 @@ import ortotrip from "../assets/acessorios/ortotrip/6.webp";
 
 import multirelaxBasic from "../assets/acessorios/multirelax/7.webp";
 import multirelaxVisco from "../assets/acessorios/multirelax/8.webp";
+import protetor from "../assets/acessorios/protetores/acessorio.webp";
 import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import Seo from "../components/Seo/Seo";
 
@@ -44,7 +46,7 @@ const imagensOrthotrip = [
 
 const imagensColchonetes = [
     {
-        src: colchonete1,
+        src: colchonete11,
         alt: "Colchonete Fitness",
         title: "Colchonete Fitness",
         desc: "Colchonete de 4 cm de altura. Revestido em napa, ideal para academias, ginástica e alongamento. Medida: 50x100 cm."
@@ -76,6 +78,15 @@ const imagensAntirrefluxo = [
         title: "Antirrefluxo Comfort Baby",
         desc: "Indicado para os primeiros meses de vida. Garante sono tranquilo para bebês e mamães."
     }
+];
+
+const imagensProtetores = [
+    {
+        src: protetor,
+        alt: "Protetor Flor de Algodão Impermeável",
+        title: "Protetor Flor de Algodão Impermeável",
+        desc: "Protetor de colchão impermeável com tecido em flor de algodão. Proteção contra líquidos, ácaros e alérgenos, mantendo a higiene e vida útil do seu colchão. "
+    },
 ];
 
 const Acessorios = () => {
@@ -114,6 +125,13 @@ const Acessorios = () => {
                 backgroundColor="#FFFFFF"
                 color="#80002D"
                 images={imagensOrthotrip}
+            />
+            <Produtos
+                titulo="Protetores"
+                descCategoria="Proteção essencial para seu colchão. Nossos protetores impermeáveis em flor de algodão oferecem barreira contra líquidos, ácaros e alérgenos, garantindo higiene, conforto e durabilidade para seu investimento em sono de qualidade."
+                backgroundColor="#FFFFFF"
+                color="#80002D"
+                images={imagensProtetores}
             />
 
             <WhatsappButton/>

@@ -56,9 +56,15 @@
 }
 
 @media (max-width:630px) {
+    .secao-pagamento {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
     .formas-pagamento {
         flex-direction: column;
         gap: 3rem;
+        width: 100%;
     }
 
     .formas-pagamento h2 {
@@ -66,7 +72,7 @@
     }
 
     .forma {
-        width: 270px;
+        width: 100%;
         font-size: var(--font-size-nav);
     }
 }
