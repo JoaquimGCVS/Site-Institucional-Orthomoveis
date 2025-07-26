@@ -4,7 +4,7 @@ import "./Avaliacao.css";
 const Avaliacao = ()  => {
     return (
         <div className="secao-avaliacao">
-            <h2>O que dizem sobre a Orthomóveis Colchoes Orthocrin?</h2>
+            <h2>O que dizem sobre a Orthomóveis Colchões Orthocrin?</h2>
             <div className="cards">
                 <div className="card">
                     <h3>Polyana Jeha</h3>

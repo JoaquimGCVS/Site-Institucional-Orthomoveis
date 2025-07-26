@@ -8,7 +8,7 @@ const Sobre = () => {
             <div className="conteudo">
                 <div className="sobre-texto">
                     <h3>Tradição</h3>
-                    <p>Há mais de cinco décadas, a Orthomoveis Colchões Orthocrin é sinônimo de tradição, qualidade e conforto em Belo Horizonte. Referência no mercado de colchões, oferecemos produtos que unem tecnologia, design e preços imbatíveis para proporcionar noites de sono verdadeiramente restauradoras.</p>
+                    <p>Há mais de cinco décadas, a Orthomóveis Colchões Orthocrin é sinônimo de tradição, qualidade e conforto em Belo Horizonte. Referência no mercado de colchões, oferecemos produtos que unem tecnologia, design e preços imbatíveis para proporcionar noites de sono verdadeiramente restauradoras.</p>
                     <h3>Confiança</h3>
                     <p>Nossa trajetória é marcada pela confiança e pelo compromisso com cada cliente. Com atendimento humanizado e soluções sob medida, buscamos superar expectativas e transformar o descanso em uma experiência única.</p>
                     <h3>Bem-estar</h3>
