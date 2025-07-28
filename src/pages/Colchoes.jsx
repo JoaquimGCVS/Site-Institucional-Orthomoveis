@@ -1,4 +1,3 @@
-import Header from "../components/Header/Header";
 import Marquee from "../components/Marquee/Marquee";
 import Produtos from "../components/Produtos/Produtos";
 
@@ -40,9 +39,6 @@ import pets1 from "../assets/colchoes/pets/1.webp";
 import kids1 from "../assets/colchoes/kids/1.webp";
 import kids2 from "../assets/colchoes/kids/2.webp";
 
-import Footer from "../components/Footer/Footer";
-import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
-import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 import Seo from "../components/Seo/Seo";
 
 const imagensPlus = [
@@ -181,8 +177,6 @@ const Colchoes = () => {
             <Seo title="Colchões | Orthomóveis Colchões Orthocrin" 
                 seoImage="/LogoLoja.webp"
                 socialImage="/logocomfundo2.webp"/>
-            <ScrollToTop/>
-            <Header/>
             <Marquee/>
             <Produtos titulo={"Categoria Clássica Plus"} descCategoria={"Conforto premium com tecnologia belga, espuma hipersoft e toque macio para um sono profundo e renovador."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensPlus}/>
             <Produtos titulo={"Categoria Clássica"} descCategoria={"Conforto, tecnologia e design para noites tranquilas, com modelos que se adaptam ao corpo e garantem suporte ideal."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensClassica}/>
@@ -192,8 +186,6 @@ const Colchoes = () => {
             <Produtos titulo={"Categoria Sllip"} descCategoria={"Colchões com conforto equilibrado, molas especiais e espumas selecionadas para noites mais leves e relaxantes."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensSllip}/>
             <Produtos titulo={"Categoria Kids"} descCategoria={"Espumas seguras e certificadas para proporcionar conforto ideal ao bebê. Modelos com dupla face e tecidos delicados."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensKids}/>
             <Produtos titulo={"Categoria Pets"} descCategoria={"Conforto e praticidade para os pets. Estrutura em madeira, espumas firmes e capa higiênica garantem descanso seguro e resistente."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensPets}/>
-            <WhatsappButton/>
-            <Footer/>
         </div>
     );
 };

@@ -238,6 +238,15 @@
         display: none !important;
     }
 
+    .sidebar .lista-de-nav li{
+        width:100%;
+
+    }
+    .sidebar .lista-de-nav a{
+        display: block;
+        width: 100%;
+    }
+
     body {
         padding-top: 7.9rem;
     }

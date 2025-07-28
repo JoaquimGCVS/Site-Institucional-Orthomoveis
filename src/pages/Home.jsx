@@ -2,14 +2,10 @@ import Avaliacao from "../components/Avaliacao/Avaliacao";
 import Carousel from "../components/Carousel/Carousel";
 import Produtos from "../components/Produtos/Produtos";
 import Categorias from "../components/Categorias/Categorias";
-import Header from "../components/Header/Header";
 import Marquee from "../components/Marquee/Marquee";
 import Pagamento from "../components/Pagamento/Pagamento";
 import Sobre from "../components/Sobre/Sobre";
 import Titulo from "../components/Titulo/Titulo";
-import Footer from "../components/Footer/Footer";
-import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
-import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
 import CC11 from "../assets/carousel1/CC1.1.webp";
 import CC1 from "../assets/carousel1/CC1.webp";
@@ -96,8 +92,6 @@ const Home = () => {
             <Seo title="Home | Orthomóveis Colchões Orthocrin" 
               seoImage="/LogoLoja.webp"
               socialImage="/logocomfundo2.webp"/>
-            <ScrollToTop/>
-            <Header/>
             <Carousel slides={slides1}/>
             <Marquee/>
             <Categorias/>
@@ -107,8 +101,6 @@ const Home = () => {
             <Sobre/>
             <Titulo titulo="Descubra o Orthocrin perfeito para você." backgroundColor={"#80002D"} color={"#FFFFFF"}/>
             <Carousel slides={slides2}/>
-            <Footer/>
-            <WhatsappButton/>
         </div>
     );
 };

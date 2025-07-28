@@ -1,8 +1,5 @@
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
 import Marquee from "../components/Marquee/Marquee";
 import Produtos from "../components/Produtos/Produtos";
-import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 
 import stillo1 from "../assets/travesseiros/stillo/1.webp";
 import stillo2 from "../assets/travesseiros/stillo/2.webp";
@@ -31,7 +28,6 @@ import meu1 from "../assets/travesseiros/meu/1.webp";
 import meu2 from "../assets/travesseiros/meu/2.webp";
 import meu3 from "../assets/travesseiros/meu/3.webp";
 import meu4 from "../assets/travesseiros/meu/4.webp";
-import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import Seo from "../components/Seo/Seo";
 
 const imagensStillo = [
@@ -190,8 +186,6 @@ const Travesseiros = () => {
             <Seo title="Travesseiros | Orthomóveis Colchões Orthocrin" 
                 seoImage="/LogoLoja.webp"
                 socialImage="/logocomfundo2.webp"/>
-            <ScrollToTop/>
-            <Header/>
             <Marquee/>
             <Produtos
                 titulo="Linha Stillo"
@@ -235,8 +229,6 @@ const Travesseiros = () => {
                 color="#80002D"
                 images={imagensMeuPrimeiroOrthocrin}
             />
-            <WhatsappButton/>
-            <Footer/>
         </div>
     );
 };

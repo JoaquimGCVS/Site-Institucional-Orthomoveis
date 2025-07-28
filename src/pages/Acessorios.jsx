@@ -1,10 +1,6 @@
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
 import Marquee from "../components/Marquee/Marquee";
-import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 import Produtos from "../components/Produtos/Produtos";
 
-import colchonete1 from "../assets/acessorios/colchonetes/1.webp";
 import colchonete2 from "../assets/acessorios/colchonetes/2.webp";
 import colchonete3 from "../assets/acessorios/colchonetes/3.webp";
 import colchonete11 from "../assets/acessorios/colchonetes/1.1.webp";
@@ -17,7 +13,7 @@ import ortotrip from "../assets/acessorios/ortotrip/6.webp";
 import multirelaxBasic from "../assets/acessorios/multirelax/7.webp";
 import multirelaxVisco from "../assets/acessorios/multirelax/8.webp";
 import protetor from "../assets/acessorios/protetores/acessorio.webp";
-import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
+
 import Seo from "../components/Seo/Seo";
 
 const imagensMultirelax = [
@@ -95,8 +91,6 @@ const Acessorios = () => {
             <Seo title="Acessórios | Orthomóveis Colchões Orthocrin" 
                 seoImage="/LogoLoja.webp"
                 socialImage="/logocomfundo2.webp"/>
-            <ScrollToTop/>
-            <Header/>
             <Marquee/>
             <Produtos
                 titulo="Colchonetes"
@@ -133,9 +127,6 @@ const Acessorios = () => {
                 color="#80002D"
                 images={imagensProtetores}
             />
-
-            <WhatsappButton/>
-            <Footer/>
         </div>
     );
 };

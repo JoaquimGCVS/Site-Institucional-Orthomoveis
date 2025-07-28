@@ -6,10 +6,16 @@ import Acessorios from '../pages/Acessorios';
 import Box from '../pages/Box';
 import Infantil from '../pages/Infantil';
 import Pets from '../pages/Pets';
+import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
+import WhatsappButton from '../components/WhatsappButton/WhatsappButton';
+import ScrollToTop from '../components/ScrollToTop/ScrollToTop';
 
 const AppRoutes = () => {
   return (
     <BrowserRouter>
+      <Header/>
+      <ScrollToTop/>
       <Routes>
         {/* Rota principal */}
         <Route path="/" element={<Home />} />
@@ -25,6 +31,9 @@ const AppRoutes = () => {
         {/* Rota 404 */}
         <Route path="*" element={<div>Página não encontrada</div>} />
       </Routes>
+
+      <Footer/>
+      <WhatsappButton/>
     </BrowserRouter>
   );
 };

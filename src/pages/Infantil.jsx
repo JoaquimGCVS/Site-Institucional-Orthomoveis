@@ -1,7 +1,4 @@
-import Footer from "../components/Footer/Footer";
-import Header from "../components/Header/Header";
 import Marquee from "../components/Marquee/Marquee";
-import WhatsappButton from "../components/WhatsappButton/WhatsappButton";
 
 import kids1 from "../assets/colchoes/kids/1.webp";
 import kids2 from "../assets/colchoes/kids/2.webp";
@@ -13,7 +10,6 @@ import meu2 from "../assets/travesseiros/meu/2.webp";
 import meu3 from "../assets/travesseiros/meu/3.webp";
 import meu4 from "../assets/travesseiros/meu/4.webp";
 import Produtos from "../components/Produtos/Produtos";
-import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 import Seo from "../components/Seo/Seo";
 
 const imagensColchoesKids = [
@@ -70,10 +66,7 @@ const Infantil = () => {
             <Seo title="Infantil | Orthomóveis Colchões Orthocrin" 
                 seoImage="/LogoLoja.webp"
                 socialImage="/logocomfundo2.webp"/>
-            <ScrollToTop/>
-            <Header/>
             <Marquee/>
-            <WhatsappButton/>
             <Produtos titulo={"Colchões Kids"} descCategoria={"Espumas seguras e certificadas para proporcionar conforto ideal ao bebê. Modelos com dupla face e tecidos delicados."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensColchoesKids}/>
             <Produtos
                 titulo="Travesseiros Kids"
@@ -82,7 +75,6 @@ const Infantil = () => {
                 color="#80002D"
                 images={imagensTravesseirosKids}
             />
-            <Footer/>
         </div>
     );
 };
