@@ -1,6 +1,8 @@
-const ModalProduto = () => {
+const ModalProduto = ({titulo}) => {
     return (
-        <div></div>
+        <div className="modal">
+
+        </div>
     );
 };
 
