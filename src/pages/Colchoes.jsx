@@ -41,6 +41,29 @@ import CC7 from "../assets/modais/colchoes/classica/CC5.webp";
 import CC6 from "../assets/modais/colchoes/classica/CC6.webp";
 import CC5 from "../assets/modais/colchoes/classica/CC7.webp";
 
+import RE1 from "../assets/modais/colchoes/cespuma/RE1.webp";
+import RE2 from "../assets/modais/colchoes/cespuma/RE2.webp";
+import RE3 from "../assets/modais/colchoes/cespuma/RE3.webp";
+import RE4 from "../assets/modais/colchoes/cespuma/RE4.webp";
+
+import B1 from "../assets/modais/colchoes/basic/B1.webp";
+import B2 from "../assets/modais/colchoes/basic/B2.webp";
+import B3 from "../assets/modais/colchoes/basic/B3.webp";
+import B4 from "../assets/modais/colchoes/basic/B4.webp";
+import B5 from "../assets/modais/colchoes/basic/B5.webp";
+
+import K1 from "../assets/modais/colchoes/kids/K1.webp";
+import K2 from "../assets/modais/colchoes/kids/K2.webp";
+
+import O1 from "../assets/modais/colchoes/ortopedica/O1.webp";
+import O2 from "../assets/modais/colchoes/ortopedica/O2.webp";
+import O3 from "../assets/modais/colchoes/ortopedica/O3.webp";
+import O4 from "../assets/modais/colchoes/ortopedica/O4.webp";
+
+import P1 from "../assets/modais/colchoes/pets/P1.webp";
+
+import S1 from "../assets/modais/colchoes/sllip/S1.webp";
+import S2 from "../assets/modais/colchoes/sllip/S2.webp";
 
 
 const categorias = [
@@ -62,13 +85,13 @@ const categorias = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: c1, alt: "Exception Plus", title: "Exception Plus", desc: "Molas ergonômicas e espumas confortáveis que garantem elasticidade, suporte ideal e noites revigorantes e tranquilas.", srcModal:CC1, descModal: "" },
+      { src: c1, alt: "Exception Plus", title: "Exception Plus", desc: "Molas ergonômicas e espumas confortáveis que garantem elasticidade, suporte ideal e noites revigorantes e tranquilas.", srcModal: CC1, descModal: "" },
       { src: c2, alt: "Supreme Visco", title: "Supreme Visco", desc: "Pillow Top com espuma viscoelástica que alivia pressões e oferece suporte ideal para um sono profundo e revigorante.", srcModal: CC2, descModal: "" },
       { src: c3, alt: "Bellagio Gel", title: "Bellagio Gel", desc: "Espuma HR Gel que proporciona frescor e conforto para a coluna, com leveza e noites agradáveis para todos os dias.", srcModal: CC3, descModal: "" },
       { src: c4, alt: "Sense", title: "Sense", desc: "Espuma hipermacia e tecido sustentável 2nd Life que alinham a coluna e garantem conforto suave e prolongado.", srcModal: CC4, descModal: "" },
       { src: c5, alt: "Splendor Top", title: "Splendor Top", desc: "Pillow Top com molas ensacadas que oferecem alinhamento perfeito e suporte extra para um descanso equilibrado.", srcModal: CC5, descModal: "" },
       { src: c6, alt: "Splendor", title: "Splendor", desc: "Espuma convencional e molas ensacadas com tecnologia Purotex®, para conforto firme e frescor natural prolongado.", srcModal: CC6, descModal: "" },
-      { src: c7, alt: "Royal Saúde Anatomic Power", title: "Royal Saúde Anatomic Power", desc: "Molas ensacadas e espuma de alta densidade que proporcionam firmeza, alinhamento corporal e noites sem desconforto.", srcModal: {CC7}, descModal: "" },
+      { src: c7, alt: "Royal Saúde Anatomic Power", title: "Royal Saúde Anatomic Power", desc: "Molas ensacadas e espuma de alta densidade que proporcionam firmeza, alinhamento corporal e noites sem desconforto.", srcModal: CC7, descModal: "" },
     ]
   },
   {
@@ -77,10 +100,10 @@ const categorias = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: ce1, alt: "Royal Saúde Plush", title: "Royal Saúde Plush", desc: "Espuma certificada D33, toque aveludado e conforto intermediário, com tecido malha soft e altura de 25 cm para um sono equilibrado.", srcModal: "", descModal: "" },
-      { src: ce2, alt: "Royal Saúde Ultra", title: "Royal Saúde Ultra", desc: "Espuma certificada com tecido malha bamboo e conforto firme, oferecendo altura de até 25 cm para suporte e frescor ideal.", srcModal: "", descModal: "" },
-      { src: ce3, alt: "Royal Saúde Plus Pillow Top", title: "Royal Saúde Plus Pillow Top", desc: "Modelo com Pillow Top, espumas certificadas e tecido Jacquard bamboo. Proporciona firmeza com altura de até 28 cm e dupla face.", srcModal: "", descModal: "" },
-      { src: ce4, alt: "Royal Saúde Plus", title: "Royal Saúde Plus", desc: "Espuma 100% certificada, conforto firme, dupla face e tecido Jacquard bamboo, com alturas variadas para máxima adaptação.", srcModal: "", descModal: "" },
+      { src: ce1, alt: "Royal Saúde Plush", title: "Royal Saúde Plush", desc: "Espuma certificada D33, toque aveludado e conforto intermediário, com tecido malha soft e altura de 25 cm para um sono equilibrado.", srcModal: RE1, descModal: "" },
+      { src: ce2, alt: "Royal Saúde Ultra", title: "Royal Saúde Ultra", desc: "Espuma certificada com tecido malha bamboo e conforto firme, oferecendo altura de até 25 cm para suporte e frescor ideal.", srcModal: RE2, descModal: "" },
+      { src: ce3, alt: "Royal Saúde Plus Pillow Top", title: "Royal Saúde Plus Pillow Top", desc: "Modelo com Pillow Top, espumas certificadas e tecido Jacquard bamboo. Proporciona firmeza com altura de até 28 cm e dupla face.", srcModal: RE3, descModal: "" },
+      { src: ce4, alt: "Royal Saúde Plus", title: "Royal Saúde Plus", desc: "Espuma 100% certificada, conforto firme, dupla face e tecido Jacquard bamboo, com alturas variadas para máxima adaptação.", srcModal: RE4, descModal: "" },
     ]
   },
   {
@@ -89,11 +112,11 @@ const categorias = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: b1, alt: "Basic Pillow Top", title: "Real", desc: "Pillow top com conforto extra e molas ensacadas, garantindo suporte e maciez no descanso diário.", srcModal: "", descModal: "" },
-      { src: b2, alt: "Basic Real Black", title: "Real Black", desc: "Versão elegante com pillow top e molas ensacadas, oferecendo maciez e sustentação.", srcModal: "", descModal: "" },
-      { src: b3, alt: "Basic Millenium", title: "Millenium", desc: "Molas superlastic e espuma flexível que alinham a coluna, proporcionando noites mais confortáveis.", srcModal: "", descModal: "" },
-      { src: b4, alt: "Basic Moush", title: "Moush", desc: "Espuma certificada com alta densidade, mais flexível e firme, ideal para conforto e alinhamento postural.", srcModal: "", descModal: "" },
-      { src: b5, alt: "Basic Diamante", title: "Diamante", desc: "Espuma de alta densidade com dupla face e tecido resistente, para sustentar a coluna com durabilidade.", srcModal: "", descModal: "" },
+      { src: b1, alt: "Basic Pillow Top", title: "Real", desc: "Pillow top com conforto extra e molas ensacadas, garantindo suporte e maciez no descanso diário.", srcModal: B1, descModal: "" },
+      { src: b2, alt: "Basic Real Black", title: "Real Black", desc: "Versão elegante com pillow top e molas ensacadas, oferecendo maciez e sustentação.", srcModal: B2, descModal: "" },
+      { src: b3, alt: "Basic Millenium", title: "Millenium", desc: "Molas superlastic e espuma flexível que alinham a coluna, proporcionando noites mais confortáveis.", srcModal: B3, descModal: "" },
+      { src: b4, alt: "Basic Moush", title: "Moush", desc: "Espuma certificada com alta densidade, mais flexível e firme, ideal para conforto e alinhamento postural.", srcModal: B4, descModal: "" },
+      { src: b5, alt: "Basic Diamante", title: "Diamante", desc: "Espuma de alta densidade com dupla face e tecido resistente, para sustentar a coluna com durabilidade.", srcModal: B5, descModal: "" },
     ]
   },
   {
@@ -102,10 +125,10 @@ const categorias = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: o1, alt: "Orthoclínico Ouro Plus Eurotop", title: "Orthoclínico Ouro Plus Eurotop", desc: "Colchão com estrutura de madeira certificada, conforto extrafirme e acabamento Eurotop. Tecido Jacquard bamboo e altura de 26 cm.", srcModal: "", descModal: "" },
-      { src: o2, alt: "Orthoclínico Ouro Azul", title: "Orthoclínico Ouro Azul", desc: "Modelo com estrutura de madeira, conforto extrafirme e tecido Jacquard bamboo. Altura de 24 cm, ideal para alinhamento postural.", srcModal: "", descModal: "" },
-      { src: o3, alt: "Orthoclínico Ouro", title: "Orthoclínico Ouro", desc: "Com madeira certificada, tecido Jacquard bamboo e conforto extrafirme, o modelo possui 24 cm de altura e acabamento tradicional.", srcModal: "", descModal: "" },
-      { src: o4, alt: "Lightpedic", title: "Lightpedic", desc: "Espumas compactadas de alta densidade, conforto extrafirme e tecido Jacquard toque de malha. Modelo double face com 25 cm de altura.", srcModal: "", descModal: "" },
+      { src: o1, alt: "Orthoclínico Ouro Plus Eurotop", title: "Orthoclínico Ouro Plus Eurotop", desc: "Colchão com estrutura de madeira certificada, conforto extrafirme e acabamento Eurotop. Tecido Jacquard bamboo e altura de 26 cm.", srcModal: O1, descModal: "" },
+      { src: o2, alt: "Orthoclínico Ouro Azul", title: "Orthoclínico Ouro Azul", desc: "Modelo com estrutura de madeira, conforto extrafirme e tecido Jacquard bamboo. Altura de 24 cm, ideal para alinhamento postural.", srcModal: O2, descModal: "" },
+      { src: o3, alt: "Orthoclínico Ouro", title: "Orthoclínico Ouro", desc: "Com madeira certificada, tecido Jacquard bamboo e conforto extrafirme, o modelo possui 24 cm de altura e acabamento tradicional.", srcModal: O3, descModal: "" },
+      { src: o4, alt: "Lightpedic", title: "Lightpedic", desc: "Espumas compactadas de alta densidade, conforto extrafirme e tecido Jacquard toque de malha. Modelo double face com 25 cm de altura.", srcModal: O4, descModal: "" },
     ]
   },
   {
@@ -114,8 +137,8 @@ const categorias = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: s1, alt: "Primor", title: "Primor", desc: "Conforto intermediário com molas ensacadas Comfort Core prata e camadas de espuma. Tecido plano e altura de 26 cm com excelente custo-benefício.", srcModal: "", descModal: "" },
-      { src: s2, alt: "Selene", title: "Selene", desc: "Molas Superlastic com espumas adaptáveis, tecido Jacquard bamboo e altura de 24 cm. Conforto intermediário com sustentação progressiva.", srcModal: "", descModal: "" },
+      { src: s1, alt: "Primor", title: "Primor", desc: "Conforto intermediário com molas ensacadas Comfort Core prata e camadas de espuma. Tecido plano e altura de 26 cm com excelente custo-benefício.", srcModal: S1, descModal: "" },
+      { src: s2, alt: "Selene", title: "Selene", desc: "Molas Superlastic com espumas adaptáveis, tecido Jacquard bamboo e altura de 24 cm. Conforto intermediário com sustentação progressiva.", srcModal: S2, descModal: "" },
     ]
   },
   {
@@ -124,8 +147,8 @@ const categorias = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: kids1, alt: "Royal Saúde Berço", title: "Royal Saúde Berço", desc: "Clássico colchão de berço com espuma ideal para o bebê. Dupla face e tecido delicado para conforto e segurança.", srcModal: "", descModal: "" },
-      { src: kids2, alt: "Junior Luxo", title: "Junior Luxo", desc: "Colchão de berço tradicional em espuma D18, dupla face com um lado liso. Conforto firme e durável para o bebê.", srcModal: "", descModal: "" },
+      { src: kids1, alt: "Royal Saúde Berço", title: "Royal Saúde Berço", desc: "Clássico colchão de berço com espuma ideal para o bebê. Dupla face e tecido delicado para conforto e segurança.", srcModal: K1, descModal: "" },
+      { src: kids2, alt: "Junior Luxo", title: "Junior Luxo", desc: "Colchão de berço tradicional em espuma D18, dupla face com um lado liso. Conforto firme e durável para o bebê.", srcModal: K2, descModal: "" },
     ]
   },
   {
@@ -134,8 +157,8 @@ const categorias = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: pets3, alt: "Orthocrin Pet", title: "Orthocrin Pet", desc: "Espuma firme com capa impermeável e estrutura em madeira de reflorestamento. Ideal para conforto e higiene dos pets.", srcModal: "", descModal: "" },
-      { src: pets1, alt: "Colchão Cama Pet Comfort", title: "Colchão Cama Pet Comfort", desc: "Espuma macia com capa lavável e tecido resistente. Conforto, praticidade e durabilidade para o descanso de cães e gatos em qualquer ambiente.", srcModal: "", descModal: "" },
+      { src: pets3, alt: "Orthocrin Pet", title: "Orthocrin Pet", desc: "Espuma firme com capa impermeável e estrutura em madeira de reflorestamento. Ideal para conforto e higiene dos pets.", srcModal: P1, descModal: "" },
+      { src: pets1, alt: "Colchão Cama Pet Comfort", title: "Colchão Cama Pet Comfort", desc: "Espuma macia com capa lavável e tecido resistente. Conforto, praticidade e durabilidade para o descanso de cães e gatos em qualquer ambiente.", srcModal: pets1, descModal: "" },
     ]
   }
 ];

@@ -33,7 +33,7 @@
     width: 55%;
     height: auto;
     border-radius: var(--border-radius);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.12);
 }
 
 .texto-modal {
@@ -52,6 +52,7 @@
     cursor: pointer;
     background: none;
     border: none;
+    margin-left: auto;
 }
 
 
