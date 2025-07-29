@@ -33,6 +33,7 @@
     width: 55%;
     height: auto;
     border-radius: var(--border-radius);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
 }
 
 .texto-modal {

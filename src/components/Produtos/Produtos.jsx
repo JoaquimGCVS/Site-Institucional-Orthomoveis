@@ -33,8 +33,8 @@ const Produtos = ({ titulo, descCategoria, backgroundColor, color, images }) => 
             {isModalAberto && produtoAtual!=null &&(
                 <ModalProduto 
                     nome={produtoAtual.title}
-                    desc={produtoAtual.desc}
-                    imagem={produtoAtual.src}
+                    desc={produtoAtual.descModal}
+                    imagem={produtoAtual.srcModal}
                     onClose={aoFecharModal}
                 />
             )}

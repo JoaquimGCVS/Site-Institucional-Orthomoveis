@@ -19,6 +19,8 @@ import CC51 from "../assets/carousel1/CC5.1.webp";
 import CC5 from "../assets/carousel1/CC5.webp";
 import CC61 from "../assets/carousel1/CC6.1.webp";
 import CC6 from "../assets/carousel1/CC6.webp";
+import CC7 from "../assets/carousel1/CC7.webp";
+import CC71 from "../assets/carousel1/CC7.1.webp";
 
 import DD11 from "../assets/carousel2/DD1.1.webp";
 import DD1 from "../assets/carousel2/DD1.webp";
@@ -43,6 +45,7 @@ import Faixa from "../components/Faixa/Faixa";
 import Seo from "../components/Seo/Seo";
 
 const slides1 = [
+  [CC7, CC71],
   [CC11, CC1],
   [CC2, CC21],
   [CC31, CC3],
