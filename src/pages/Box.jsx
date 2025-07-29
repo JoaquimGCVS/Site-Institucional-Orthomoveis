@@ -21,7 +21,7 @@ const imagensBox = [
         src: box2,
         alt: "Bibox Spring",
         title: "Bibox Spring",
-        desc: "Produto 2 em 1 com cama auxiliar de molas ensacadas. Prático e ideal para otimizar espaços."
+        desc: "Produto 2 em 1 com cama auxiliar de molas ensacadas, ideal para quem busca conforto e praticidade sem abrir mão da qualidade no descanso diário."
     },
     {
         src: box3,

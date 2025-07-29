@@ -27,3 +27,7 @@ h2 {
 body {
   padding-top: 6.2rem;
 }
+
+body.modal-aberto .header {
+    display: none !important;
+}

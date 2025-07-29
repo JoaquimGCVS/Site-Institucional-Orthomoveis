@@ -36,6 +36,10 @@
     height: 275.23px;
 }
 
+.produto img:hover {
+    scale: 1.03;
+}
+
 .produto p {
     font-size: var(--font-size-desc);
 }

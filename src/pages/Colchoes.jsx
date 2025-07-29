@@ -2,7 +2,6 @@ import Marquee from "../components/Marquee/Marquee";
 import Produtos from "../components/Produtos/Produtos";
 import Seo from "../components/Seo/Seo";
 
-// Imports das imagens (mantém igual ao seu original)
 import p1 from "../assets/colchoes/plus/p1.webp";
 import p2 from "../assets/colchoes/plus/p2.webp";
 import p3 from "../assets/colchoes/plus/p3.webp";
