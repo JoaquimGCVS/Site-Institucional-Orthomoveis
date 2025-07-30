@@ -103,7 +103,7 @@
     .modal {
         gap: 0.5rem;
         height: auto;
-        width: 75%;
+        width: 90%;
     }
     .imagem-e-texto {
         flex-direction: column;
