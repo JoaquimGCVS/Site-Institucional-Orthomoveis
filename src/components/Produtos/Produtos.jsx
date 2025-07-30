@@ -26,7 +26,7 @@ const Produtos = ({ titulo, descCategoria, backgroundColor, color, images }) => 
                     <div className="produto" key={idx} onClick={() => aoClicarNoProduto(img)} style={{cursor:"pointer"}}>
                         <img src={img.src} alt={img.alt || `produto${idx + 1}`} />
                         <h3 style={{ color }}>{img.title}</h3>
-                        <p style={{ color }}>{img.desc}</p>
+                        <p>{img.desc}</p>
                     </div>
                 ))}
             </div>

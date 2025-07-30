@@ -24,6 +24,10 @@ h2 {
     text-align: center;
 }
 
+p {
+  color: var(--cor-terciaria);
+}
+
 body {
   padding-top: 6.2rem;
 }

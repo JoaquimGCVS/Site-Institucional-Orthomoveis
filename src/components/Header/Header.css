@@ -33,6 +33,7 @@
 .secao-logo p {
     font-family: 'Dancing Script', cursive;
     font-size: var(--font-size-paragrafo);
+    color: var(--cor-primaria);
 }
 
 .faixa-1 img{
