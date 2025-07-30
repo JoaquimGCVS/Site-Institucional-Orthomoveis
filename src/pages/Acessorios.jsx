@@ -26,7 +26,9 @@ const categorias = [
         title: "Colchonete Fitness",
         desc: "Colchonete de 4 cm de altura. Revestido em napa, ideal para academias, ginástica e alongamento. Medida: 50x100 cm.",
         srcModal: colchonete11,
-        descModal: ""
+        desc1: "Colchonete profissional com 4cm de espessura desenvolvido especificamente para atividades físicas de alta intensidade.",
+        desc2: "Revestimento em napa sintética proporciona aderência superior e facilita limpeza após exercícios.",
+        desc3: "Dimensões compactas de 50x100cm tornam ideal para academias domésticas e transporte. Resistente ao desgaste do uso diário intenso."
       },
       {
         src: colchonete2,
@@ -34,7 +36,9 @@ const categorias = [
         title: "Colchonete Antistress",
         desc: "Colchonete massageador indicado para uso sobre o colchão ou superfícies planas. Melhora a circulação sanguínea e alivia pontos de pressão.",
         srcModal: colchonete2,
-        descModal: ""
+        desc1: "Tecnologia de espuma perfilada com textura massageadora que estimula pontos específicos do corpo durante o repouso.",
+        desc2: "Promove melhora significativa da circulação sanguínea e alívio de tensões musculares acumuladas.",
+        desc3: "Versatilidade de uso sobre colchões ou superfícies rígidas. Ideal para pessoas com problemas circulatórios ou dores nas costas."
       },
       {
         src: colchonete3,
@@ -42,7 +46,9 @@ const categorias = [
         title: "Colchonete Multiuso",
         desc: "Colchonete de 5 cm de altura. Ideal para campings e viagens, com revestimento 100% poliéster. Medida: 60x180 cm.",
         srcModal: colchonete3,
-        descModal: ""
+        desc1: "Espessura generosa de 5cm oferece conforto superior para pernoites em acampamentos e viagens prolongadas.",
+        desc2: "Revestimento 100% poliéster garante resistência à umidade e facilita limpeza em ambientes externos.",
+        desc3: "Dimensões amplas de 60x180cm proporcionam espaço adequado para adultos. Dobrável e leve para transporte em aventuras."
       }
     ]
   },
@@ -58,7 +64,9 @@ const categorias = [
         title: "Antirrefluxo Adulto",
         desc: "Inclinação ergonômica com toque da espuma perfilada. Proporciona alívio para quem sofre de refluxo.",
         srcModal: antirrefluxoAdulto,
-        descModal: ""
+        desc1: "Design ergonômico com inclinação graduada de 15° cientificamente calculada para reduzir episódios de refluxo gastroesofágico.",
+        desc2: "Espuma perfilada proporciona toque suave e adaptação aos contornos do corpo mantendo posicionamento correto.",
+        desc3: "Solução eficaz para adultos com problemas digestivos noturnos. Melhora qualidade do sono e reduz desconfortos."
       },
       {
         src: antirrefluxoBaby,
@@ -66,7 +74,9 @@ const categorias = [
         title: "Antirrefluxo Comfort Baby",
         desc: "Indicado para os primeiros meses de vida. Garante sono tranquilo para bebês e mamães.",
         srcModal: antirrefluxoBaby,
-        descModal: ""
+        desc1: "Desenvolvido especificamente para bebês de 0 a 6 meses com inclinação suave e segura para prevenção de refluxo.",
+        desc2: "Materiais hipoalergênicos certificados livres de substâncias nocivas garantem segurança total para recém-nascidos.",
+        desc3: "Proporciona noites mais tranquilas para toda família reduzindo cólicas e regurgitações. Recomendado por pediatras."
       }
     ]
   },
@@ -82,7 +92,9 @@ const categorias = [
         title: "Multirelax Basic",
         desc: "Ergonômico e confortável. Espuma perfilada com capa com zíper. Fronha com alto teor de algodão.",
         srcModal: multirelaxBasic,
-        descModal: ""
+        desc1: "Design triangular ergonômico que oferece suporte ideal para pernas, costas ou como encosto para leitura e TV.",
+        desc2: "Espuma perfilada de densidade controlada proporciona firmeza adequada sem comprometer o conforto.",
+        desc3: "Capa removível com zíper facilita higienização. Fronha em algodão de alta qualidade garante toque macio e respirabilidade."
       },
       {
         src: multirelaxVisco,
@@ -90,7 +102,9 @@ const categorias = [
         title: "Multirelax Visco",
         desc: "Toque especial da espuma viscoelástica. Capa com zíper e fronha Jacquard Bamboo. Ideal para relaxamento total.",
         srcModal: multirelaxVisco,
-        descModal: ""
+        desc1: "Espuma viscoelástica de última geração se molda perfeitamente ao corpo oferecendo suporte personalizado e alívio de pressão.",
+        desc2: "Tecnologia NASA que distribui peso uniformemente reduzindo pontos de tensão e melhorando circulação durante relaxamento.",
+        desc3: "Fronha Jacquard Bamboo com propriedades naturalmente antibacterianas e termoreguladoras. Luxo e funcionalidade em um só produto."
       }
     ]
   },
@@ -106,7 +120,9 @@ const categorias = [
         title: "Orthotrip",
         desc: "100% espuma viscoelástica com capa removível. Apoio anatômico para o pescoço durante viagens.",
         srcModal: T9,
-        descModal: ""
+        desc1: "Formato anatômico em U desenvolvido para apoiar perfeitamente a curvatura natural do pescoço durante viagens longas.",
+        desc2: "100% espuma viscoelástica NASA oferece suporte firme que se adapta aos movimentos sem perder formato original.",
+        desc3: "Capa removível e lavável facilita higienização. Compacta e leve para transporte em aviões, ônibus e carros."
       }
     ]
   },
@@ -122,7 +138,9 @@ const categorias = [
         title: "Protetor Flor de Algodão Impermeável",
         desc: "Protetor de colchão impermeável com tecido em flor de algodão. Proteção contra líquidos, ácaros e alérgenos, mantendo a higiene e vida útil do seu colchão.",
         srcModal: protetor,
-        descModal: ""
+        desc1: "Barreira impermeável 100% eficaz contra líquidos, suor e acidentes, protegendo integralmente seu investimento em colchão.",
+        desc2: "Tecido flor de algodão natural proporciona toque macio e respirabilidade sem comprometer propriedades protetivas.",
+        desc3: "Proteção antimicrobiana contra ácaros, fungos e bactérias. Elástico em todo perímetro garante fixação segura em qualquer altura de colchão."
       }
     ]
   }

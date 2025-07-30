@@ -2,7 +2,7 @@ import { useEffect } from "react";
 import "./ModalProduto.css";
 import { IoMdClose } from "react-icons/io";
 
-const ModalProduto = ({ nome, desc, imagem, onClose }) => {
+const ModalProduto = ({ nome, desc1, desc2, desc3, imagem, onClose }) => {
     useEffect(() => {
         document.body.style.overflow = "hidden";
         document.body.classList.add("modal-aberto");
@@ -18,7 +18,9 @@ const ModalProduto = ({ nome, desc, imagem, onClose }) => {
                     <img src={imagem} alt="" />
                     <div className="texto-modal">
                         <h2>{nome}</h2>
-                        <p>{desc}</p>
+                        <p>{desc1}</p>
+                        <p>{desc2}</p>
+                        <p>{desc3}</p>
                     </div>
                 </div>
                 <button className="modal-close" onClick={onClose}><IoMdClose /></button>

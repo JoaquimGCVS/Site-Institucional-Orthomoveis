@@ -14,7 +14,9 @@ const imagensPets = [
         title: "Orthocrin Pet",
         desc: "Espuma firme com capa impermeável e estrutura em madeira de reflorestamento. Ideal para conforto e higiene dos pets.",
         srcModal: P1,
-        descModal: ""
+        desc1: "Espuma de densidade especial desenvolvida para suportar o peso e movimentos dos pets com durabilidade.",
+        desc2: "Capa impermeável 100% lavável protege contra líquidos, pelos e odores indesejados.",
+        desc3: "Estrutura de madeira de reflorestamento certificada garante sustentabilidade e resistência. Base antiderrapante mantém o colchão fixo durante uso e evita acidentes domésticos."
     },
     {
         src: pets1,
@@ -22,7 +24,9 @@ const imagensPets = [
         title: "Colchão Cama Pet Comfort",
         desc: "Espuma macia com capa lavável e tecido resistente. Conforto, praticidade e durabilidade para o descanso de cães e gatos em qualquer ambiente.",
         srcModal: pets1,
-        descModal: ""
+        desc1: "Espuma macia que proporciona acolhimento ideal para articulações dos pets, especialmente importantes em animais idosos.",
+        desc2: "Capa completamente removível e lavável em máquina facilita manutenção da higiene.",
+        desc3: "Tecido resistente a arranhões e mordidas mantém integridade mesmo com uso intenso. Design versátil que se adapta a diferentes ambientes da casa mantendo conforto do pet."
     }
 ];
 

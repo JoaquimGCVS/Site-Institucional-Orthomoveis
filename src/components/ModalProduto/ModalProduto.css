@@ -16,10 +16,10 @@
     border-radius: 10px;
     color: var(--cor-primaria);
     display: flex;
-    width: 350px;
-    width: 80%;
+    width: 90%;
     height: auto;
     padding: 2rem;
+    padding-right: 1.5rem;
     align-items: flex-start;
     gap: 2rem;
 }
@@ -61,13 +61,49 @@
 
 
 
+@media (max-width: 1200px) {
 
+    .modal {
+        gap: 0.8rem;
+        padding: 1rem;
+        padding-right: 0.5rem;
+    }
 
-@media (max-width:700px) {
+    .imagem-e-texto {
+        gap: 0.8rem;
+    }
+
+    .texto-modal {
+        gap: 0.8rem;
+    }
+
+    .texto-modal h2 {
+        font-size: var(--font-size-paragrafo);
+    }
+
+    .texto-modal p {
+        font-size: var(--font-size-nav);
+    }
+}
+
+@media (max-width: 930px) {
+    .modal {
+        gap: 0.5rem;
+    }
+
+    .texto-modal {
+        gap: 0.5rem;
+    }
+    .texto-modal p {
+        font-size: var(--font-size-desc);
+    }
+}
+
+@media (max-width:740px) {
     .modal {
         gap: 0.5rem;
         height: auto;
-        width: 90%;
+        width: 75%;
     }
     .imagem-e-texto {
         flex-direction: column;
