@@ -4,11 +4,20 @@
     height: 100%;
     overflow: hidden;
     background-color: var(--cor-secundaria);
+    user-select: none; /* Previne seleção de texto durante o drag */
+    touch-action: pan-y; /* Permite scroll vertical mas controla o horizontal */
+    cursor: grab;
+    overscroll-behavior-x: none; 
+}
+
+.carousel:active {
+    cursor: grabbing;
 }
 
 .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    will-change: transform; /* Otimização para animações */
 }
 
 .slide {
@@ -21,6 +30,7 @@
 .slide img {
     width: 50%;
     height: auto;
+    pointer-events: none; /* Previne interferência das imagens no drag */
 }
 
 @media (max-width: 630px) {
