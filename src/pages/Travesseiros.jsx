@@ -30,7 +30,6 @@ import meu2 from "../assets/travesseiros/meu/2.webp";
 import meu3 from "../assets/travesseiros/meu/3.webp";
 import meu4 from "../assets/travesseiros/meu/4.webp";
 
-// Bloco de dados das linhas de travesseiros
 const linhas = [
   {
     titulo: "Linha Stillo",

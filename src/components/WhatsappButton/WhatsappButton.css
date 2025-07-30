@@ -12,4 +12,11 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    transition: opacity 0.3s ease;
+}
+
+/* Oculta o botão do WhatsApp quando um modal estiver aberto */
+body.modal-aberto .whatsapp-float {
+    opacity: 0;
+    visibility: hidden;
 }
