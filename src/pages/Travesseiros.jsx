@@ -38,23 +38,11 @@ const linhas = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: stillo1, alt: "Freshpillow", title: "Freshpillow", desc: "Bolhas de gel que oferecem conforto e sensação de frescor. Altura de 12 cm, para fronha 50x70." },
-      { src: stillo2, alt: "Stillo Látex Alto", title: "Stillo Látex Alto", desc: "Travesseiro com 15 cm de altura, indicado para quem prefere suporte elevado. Para fronha 50x70." },
-      { src: stillo3, alt: "Stillo Látex Médio", title: "Stillo Látex Médio", desc: "Travesseiro com 12 cm de altura, ideal para quem busca conforto intermediário. Para fronha 50x70." },
-      { src: stillo4, alt: "Stillo Látex Basic", title: "Stillo Látex Basic", desc: "Travesseiro básico de 10 cm de altura, com sustentação firme e confortável. Para fronha 50x70." },
-      { src: stillo5, alt: "Stillo Látex Kids", title: "Stillo Látex Kids", desc: "Travesseiro infantil com flocos de espuma HR. Ideal para crianças de até 2 anos. Medida: 28x35 cm, altura 10 cm." }
-    ]
-  },
-  {
-    titulo: "Linha Viscopillow",
-    descCategoria: "Travesseiros com espuma viscoelástica que proporcionam alívio de pressão e acomodam ombros e pescoço. Ideais para conforto anatômico, frescor e toque macio com fronha lavável.",
-    backgroundColor: "#FFFFFF",
-    color: "#80002D",
-    images: [
-      { src: visco1, alt: "Viscopillow Anatômico", title: "Viscopillow Anatômico", desc: "Apoio cervical com 15 cm de altura. Oferece sustentação anatômica ideal. Para fronha 50x70." },
-      { src: visco2, alt: "Viscopillow Alto", title: "Viscopillow Alto", desc: "Travesseiro de 15 cm de altura, com toque macio e suporte elevado. Para fronha 50x70." },
-      { src: visco3, alt: "Viscopillow Médio", title: "Viscopillow Médio", desc: "Travesseiro com 12 cm de altura. Suporte intermediário com conforto e frescor. Para fronha 50x70." },
-      { src: visco4, alt: "Viscopillow Basic", title: "Viscopillow Basic", desc: "Travesseiro de 10 cm de altura. Macio, com alívio de pressão e toque suave. Para fronha 50x70." }
+      { src: stillo1, alt: "Freshpillow", title: "Freshpillow", desc: "Bolhas de gel que oferecem conforto e sensação de frescor. Altura de 12 cm, para fronha 50x70.", srcModal: stillo1, descModal: "" },
+      { src: stillo2, alt: "Stillo Látex Alto", title: "Stillo Látex Alto", desc: "Travesseiro com 15 cm de altura, indicado para quem prefere suporte elevado. Para fronha 50x70.", srcModal: stillo2, descModal: "" },
+      { src: stillo3, alt: "Stillo Látex Médio", title: "Stillo Látex Médio", desc: "Travesseiro com 12 cm de altura, ideal para quem busca conforto intermediário. Para fronha 50x70.", srcModal: stillo3, descModal: "" },
+      { src: stillo4, alt: "Stillo Látex Basic", title: "Stillo Látex Basic", desc: "Travesseiro básico de 10 cm de altura, com sustentação firme e confortável. Para fronha 50x70.", srcModal: stillo4, descModal: "" },
+      { src: stillo5, alt: "Stillo Látex Kids", title: "Stillo Látex Kids", desc: "Travesseiro infantil com flocos de espuma HR. Ideal para crianças de até 2 anos. Medida: 28x35 cm, altura 10 cm.", srcModal: stillo5, descModal: "" }
     ]
   },
   {
@@ -63,9 +51,21 @@ const linhas = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: nasa1, alt: "Nasa Visco Soft Basic", title: "Nasa Visco Soft Basic", desc: "Travesseiro de 10 cm de altura. Firme e confortável, para quem prefere menor volume. Para fronha 50x70." },
-      { src: nasa2, alt: "Nasa Visco Soft Médio", title: "Nasa Visco Soft Médio", desc: "Travesseiro com 12 cm de altura. Proporciona suporte intermediário e alívio anatômico. Para fronha 50x70." },
-      { src: nasa3, alt: "Nasa Visco Soft Alto", title: "Nasa Visco Soft Alto", desc: "Travesseiro de 15 cm de altura. Sustentação máxima e conforto para quem dorme de lado. Para fronha 50x70." }
+      { src: nasa1, alt: "Nasa Visco Soft Basic", title: "Nasa Visco Soft Basic", desc: "Travesseiro de 10 cm de altura. Firme e confortável, para quem prefere menor volume. Para fronha 50x70.", srcModal: nasa1, descModal: "" },
+      { src: nasa2, alt: "Nasa Visco Soft Médio", title: "Nasa Visco Soft Médio", desc: "Travesseiro com 12 cm de altura. Proporciona suporte intermediário e alívio anatômico. Para fronha 50x70.", srcModal: nasa2, descModal: "" },
+      { src: nasa3, alt: "Nasa Visco Soft Alto", title: "Nasa Visco Soft Alto", desc: "Travesseiro de 15 cm de altura. Sustentação máxima e conforto para quem dorme de lado. Para fronha 50x70.", srcModal: nasa3, descModal: "" }
+    ]
+  },
+  {
+    titulo: "Linha Viscopillow",
+    descCategoria: "Travesseiros com espuma viscoelástica que proporcionam alívio de pressão e acomodam ombros e pescoço. Ideais para conforto anatômico, frescor e toque macio com fronha lavável.",
+    backgroundColor: "#FFFFFF",
+    color: "#80002D",
+    images: [
+      { src: visco1, alt: "Viscopillow Anatômico", title: "Viscopillow Anatômico", desc: "Apoio cervical com 15 cm de altura. Oferece sustentação anatômica ideal. Para fronha 50x70.", srcModal: visco1, descModal: "" },
+      { src: visco2, alt: "Viscopillow Alto", title: "Viscopillow Alto", desc: "Travesseiro de 15 cm de altura, com toque macio e suporte elevado. Para fronha 50x70.", srcModal: visco2, descModal: "" },
+      { src: visco3, alt: "Viscopillow Médio", title: "Viscopillow Médio", desc: "Travesseiro com 12 cm de altura. Suporte intermediário com conforto e frescor. Para fronha 50x70.", srcModal: visco3, descModal: "" },
+      { src: visco4, alt: "Viscopillow Basic", title: "Viscopillow Basic", desc: "Travesseiro de 10 cm de altura. Macio, com alívio de pressão e toque suave. Para fronha 50x70.", srcModal: visco4, descModal: "" }
     ]
   },
   {
@@ -74,9 +74,9 @@ const linhas = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: fiber1, alt: "Fiberpillow Special", title: "Fiberpillow Special", desc: "Travesseiro de 15 cm de altura. Sustentação firme e sensação de conforto extremo. Para fronha 50x70." },
-      { src: fiber2, alt: "Fiberpillow Classic", title: "Fiberpillow Classic", desc: "Travesseiro de 15 cm de altura. Conforto médio e toque suave. Para fronha 50x70." },
-      { src: fiber3, alt: "Fiberpillow Basic", title: "Fiberpillow Basic", desc: "Travesseiro de 10 cm de altura. Compacto e confortável. Para fronha 60x40." }
+      { src: fiber1, alt: "Fiberpillow Special", title: "Fiberpillow Special", desc: "Travesseiro de 15 cm de altura. Sustentação firme e sensação de conforto extremo. Para fronha 50x70.", srcModal: fiber1, descModal: "" },
+      { src: fiber2, alt: "Fiberpillow Classic", title: "Fiberpillow Classic", desc: "Travesseiro de 15 cm de altura. Conforto médio e toque suave. Para fronha 50x70.", srcModal: fiber2, descModal: "" },
+      { src: fiber3, alt: "Fiberpillow Basic", title: "Fiberpillow Basic", desc: "Travesseiro de 10 cm de altura. Compacto e confortável. Para fronha 60x40.", srcModal: fiber3, descModal: "" }
     ]
   },
   {
@@ -85,9 +85,9 @@ const linhas = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: fiberesp1, alt: "Fiberpillow King", title: "Fiberpillow King", desc: "Travesseiro de 15 cm de altura. Conforto firme com enchimento 100% fibra siliconada. Para fronha 50x90." },
-      { src: fiberesp2, alt: "Softpillow", title: "Softpillow", desc: "Travesseiro com sensação de conforto firme e tecido com alto teor de algodão. Para fronha 50x70." },
-      { src: fiberesp3, alt: "Travesseiro de Corpo", title: "Travesseiro de Corpo", desc: "Travesseiro de 40 cm de altura. Conforto firme com enchimento em flocos de espuma. Para fronha 130x40." }
+      { src: fiberesp1, alt: "Fiberpillow King", title: "Fiberpillow King", desc: "Travesseiro de 15 cm de altura. Conforto firme com enchimento 100% fibra siliconada. Para fronha 50x90.", srcModal: fiberesp1, descModal: "" },
+      { src: fiberesp2, alt: "Softpillow", title: "Softpillow", desc: "Travesseiro com sensação de conforto firme e tecido com alto teor de algodão. Para fronha 50x70.", srcModal: fiberesp2, descModal: "" },
+      { src: fiberesp3, alt: "Travesseiro de Corpo", title: "Travesseiro de Corpo", desc: "Travesseiro de 40 cm de altura. Conforto firme com enchimento em flocos de espuma. Para fronha 130x40.", srcModal: fiberesp3, descModal: "" }
     ]
   },
   {
@@ -96,10 +96,10 @@ const linhas = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: meu1, alt: "Meu Primeiro Orthocrin Látex", title: "Meu Primeiro Orthocrin Látex", desc: "Travesseiro de 3 cm de altura. Ideal para o primeiro ano de vida. Medida: 30x40 cm." },
-      { src: meu2, alt: "Meu Primeiro Orthocrin Visco", title: "Meu Primeiro Orthocrin Visco", desc: "Travesseiro de 4 cm de altura. Ideal para os primeiros 4 anos da criança. Medida: 35x55 cm." },
-      { src: meu3, alt: "Meu Primeiro Orthocrin Fibra", title: "Meu Primeiro Orthocrin Fibra", desc: "Travesseiro de 10 cm de altura. Tecido 200 fios. Ideal para crianças de 3 a 7 anos. Medida: 40x60 cm." },
-      { src: meu4, alt: "Meu Orthocrin Visco", title: "Meu Orthocrin Visco", desc: "Travesseiro de 7 cm de altura. Indicado para crianças de 7 a 12 anos. Medida: 48x68 cm." }
+      { src: meu1, alt: "Meu Primeiro Orthocrin Látex", title: "Meu Primeiro Orthocrin Látex", desc: "Travesseiro de 3 cm de altura. Ideal para o primeiro ano de vida. Medida: 30x40 cm.", srcModal: meu1, descModal: "" },
+      { src: meu2, alt: "Meu Primeiro Orthocrin Visco", title: "Meu Primeiro Orthocrin Visco", desc: "Travesseiro de 4 cm de altura. Ideal para os primeiros 4 anos da criança. Medida: 35x55 cm.", srcModal: meu2, descModal: "" },
+      { src: meu3, alt: "Meu Primeiro Orthocrin Fibra", title: "Meu Primeiro Orthocrin Fibra", desc: "Travesseiro de 10 cm de altura. Tecido 200 fios. Ideal para crianças de 3 a 7 anos. Medida: 40x60 cm.", srcModal: meu3, descModal: "" },
+      { src: meu4, alt: "Meu Orthocrin Visco", title: "Meu Orthocrin Visco", desc: "Travesseiro de 7 cm de altura. Indicado para crianças de 7 a 12 anos. Medida: 48x68 cm.", srcModal: meu4, descModal: "" }
     ]
   }
 ];

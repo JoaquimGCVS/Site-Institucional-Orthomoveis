@@ -10,7 +10,9 @@ import meu2 from "../assets/travesseiros/meu/2.webp";
 import meu3 from "../assets/travesseiros/meu/3.webp";
 import meu4 from "../assets/travesseiros/meu/4.webp";
 
-// Bloco de dados das categorias infantis
+import K1 from "../assets/modais/colchoes/kids/K1.webp";
+import K2 from "../assets/modais/colchoes/kids/K2.webp";
+
 const categorias = [
   {
     titulo: "Colchões Kids",
@@ -22,13 +24,17 @@ const categorias = [
         src: kids1,
         alt: "Royal Saúde Berço",
         title: "Royal Saúde Berço",
-        desc: "Clássico colchão de berço com espuma ideal para o bebê. Dupla face e tecido delicado para conforto e segurança."
+        desc: "Clássico colchão de berço com espuma ideal para o bebê. Dupla face e tecido delicado para conforto e segurança.",
+        srcModal: K1,
+        descModal: ""
       },
       {
         src: kids2,
         alt: "Junior Luxo",
         title: "Junior Luxo",
-        desc: "Colchão de berço tradicional em espuma D18, dupla face com um lado liso. Conforto firme e durável para o bebê."
+        desc: "Colchão de berço tradicional em espuma D18, dupla face com um lado liso. Conforto firme e durável para o bebê.",
+        srcModal: K2,
+        descModal: ""
       }
     ]
   },
@@ -42,31 +48,41 @@ const categorias = [
         src: meu1,
         alt: "Meu Primeiro Orthocrin Látex",
         title: "Meu Primeiro Orthocrin Látex",
-        desc: "Travesseiro de 3 cm de altura. Ideal para o primeiro ano de vida. Medida: 30x40 cm."
+        desc: "Travesseiro de 3 cm de altura. Ideal para o primeiro ano de vida. Medida: 30x40 cm.",
+        srcModal: meu1,
+        descModal: ""
       },
       {
         src: meu2,
         alt: "Meu Primeiro Orthocrin Visco",
         title: "Meu Primeiro Orthocrin Visco",
-        desc: "Travesseiro de 4 cm de altura. Ideal para os primeiros 4 anos da criança. Medida: 35x55 cm."
+        desc: "Travesseiro de 4 cm de altura. Ideal para os primeiros 4 anos da criança. Medida: 35x55 cm.",
+        srcModal: meu2,
+        descModal: ""
       },
       {
         src: meu3,
         alt: "Meu Primeiro Orthocrin Fibra",
         title: "Meu Primeiro Orthocrin Fibra",
-        desc: "Travesseiro de 10 cm de altura. Tecido 200 fios. Ideal para crianças de 3 a 7 anos. Medida: 40x60 cm."
+        desc: "Travesseiro de 10 cm de altura. Tecido 200 fios. Ideal para crianças de 3 a 7 anos. Medida: 40x60 cm.",
+        srcModal: meu3,
+        descModal: ""
       },
       {
         src: meu4,
         alt: "Meu Orthocrin Visco",
         title: "Meu Orthocrin Visco",
-        desc: "Travesseiro de 7 cm de altura. Indicado para crianças de 7 a 12 anos. Medida: 48x68 cm."
+        desc: "Travesseiro de 7 cm de altura. Indicado para crianças de 7 a 12 anos. Medida: 48x68 cm.",
+        srcModal: meu4,
+        descModal: ""
       },
       {
         src: stillo5,
         alt: "Stillo Látex Kids",
         title: "Stillo Látex Kids",
-        desc: "Travesseiro infantil com flocos de espuma HR. Ideal para crianças de até 2 anos. Medida: 28x35 cm, altura 10 cm."
+        desc: "Travesseiro infantil com flocos de espuma HR. Ideal para crianças de até 2 anos. Medida: 28x35 cm, altura 10 cm.",
+        srcModal: stillo5,
+        descModal: ""
       }
     ]
   }

@@ -11,8 +11,8 @@ import ortotrip from "../assets/acessorios/ortotrip/6.webp";
 import multirelaxBasic from "../assets/acessorios/multirelax/7.webp";
 import multirelaxVisco from "../assets/acessorios/multirelax/8.webp";
 import protetor from "../assets/acessorios/protetores/acessorio.webp";
+import T9 from "../assets/modais/acessorios/T9.webp";
 
-// Bloco de dados das categorias
 const categorias = [
   {
     titulo: "Colchonetes",
@@ -24,19 +24,25 @@ const categorias = [
         src: colchonete11,
         alt: "Colchonete Fitness",
         title: "Colchonete Fitness",
-        desc: "Colchonete de 4 cm de altura. Revestido em napa, ideal para academias, ginástica e alongamento. Medida: 50x100 cm."
+        desc: "Colchonete de 4 cm de altura. Revestido em napa, ideal para academias, ginástica e alongamento. Medida: 50x100 cm.",
+        srcModal: colchonete11,
+        descModal: ""
       },
       {
         src: colchonete2,
         alt: "Colchonete Antistress",
         title: "Colchonete Antistress",
-        desc: "Colchonete massageador indicado para uso sobre o colchão ou superfícies planas. Melhora a circulação sanguínea e alivia pontos de pressão."
+        desc: "Colchonete massageador indicado para uso sobre o colchão ou superfícies planas. Melhora a circulação sanguínea e alivia pontos de pressão.",
+        srcModal: colchonete2,
+        descModal: ""
       },
       {
         src: colchonete3,
         alt: "Colchonete Multiuso",
         title: "Colchonete Multiuso",
-        desc: "Colchonete de 5 cm de altura. Ideal para campings e viagens, com revestimento 100% poliéster. Medida: 60x180 cm."
+        desc: "Colchonete de 5 cm de altura. Ideal para campings e viagens, com revestimento 100% poliéster. Medida: 60x180 cm.",
+        srcModal: colchonete3,
+        descModal: ""
       }
     ]
   },
@@ -50,13 +56,17 @@ const categorias = [
         src: antirrefluxoAdulto,
         alt: "Antirrefluxo Adulto",
         title: "Antirrefluxo Adulto",
-        desc: "Inclinação ergonômica com toque da espuma perfilada. Proporciona alívio para quem sofre de refluxo."
+        desc: "Inclinação ergonômica com toque da espuma perfilada. Proporciona alívio para quem sofre de refluxo.",
+        srcModal: antirrefluxoAdulto,
+        descModal: ""
       },
       {
         src: antirrefluxoBaby,
         alt: "Antirrefluxo Comfort Baby",
         title: "Antirrefluxo Comfort Baby",
-        desc: "Indicado para os primeiros meses de vida. Garante sono tranquilo para bebês e mamães."
+        desc: "Indicado para os primeiros meses de vida. Garante sono tranquilo para bebês e mamães.",
+        srcModal: antirrefluxoBaby,
+        descModal: ""
       }
     ]
   },
@@ -70,13 +80,17 @@ const categorias = [
         src: multirelaxBasic,
         alt: "Multirelax Basic",
         title: "Multirelax Basic",
-        desc: "Ergonômico e confortável. Espuma perfilada com capa com zíper. Fronha com alto teor de algodão."
+        desc: "Ergonômico e confortável. Espuma perfilada com capa com zíper. Fronha com alto teor de algodão.",
+        srcModal: multirelaxBasic,
+        descModal: ""
       },
       {
         src: multirelaxVisco,
         alt: "Multirelax Visco",
         title: "Multirelax Visco",
-        desc: "Toque especial da espuma viscoelástica. Capa com zíper e fronha Jacquard Bamboo. Ideal para relaxamento total."
+        desc: "Toque especial da espuma viscoelástica. Capa com zíper e fronha Jacquard Bamboo. Ideal para relaxamento total.",
+        srcModal: multirelaxVisco,
+        descModal: ""
       }
     ]
   },
@@ -90,7 +104,9 @@ const categorias = [
         src: ortotrip,
         alt: "Orthotrip",
         title: "Orthotrip",
-        desc: "100% espuma viscoelástica com capa removível. Apoio anatômico para o pescoço durante viagens."
+        desc: "100% espuma viscoelástica com capa removível. Apoio anatômico para o pescoço durante viagens.",
+        srcModal: T9,
+        descModal: ""
       }
     ]
   },
@@ -104,7 +120,9 @@ const categorias = [
         src: protetor,
         alt: "Protetor Flor de Algodão Impermeável",
         title: "Protetor Flor de Algodão Impermeável",
-        desc: "Protetor de colchão impermeável com tecido em flor de algodão. Proteção contra líquidos, ácaros e alérgenos, mantendo a higiene e vida útil do seu colchão."
+        desc: "Protetor de colchão impermeável com tecido em flor de algodão. Proteção contra líquidos, ácaros e alérgenos, mantendo a higiene e vida útil do seu colchão.",
+        srcModal: protetor,
+        descModal: ""
       }
     ]
   }

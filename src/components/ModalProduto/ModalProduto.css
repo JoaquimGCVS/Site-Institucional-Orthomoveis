@@ -46,6 +46,10 @@
     text-align: start;
 }
 
+.texto-modal p {
+    font-size: var(--font-size-paragrafo);
+}
+
 .modal-close {
     font-size: var(--font-size-titulo);
     color: var(--cor-primaria);
