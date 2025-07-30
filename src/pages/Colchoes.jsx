@@ -65,6 +65,11 @@ import P1 from "../assets/modais/colchoes/pets/P1.webp";
 import S1 from "../assets/modais/colchoes/sllip/S1.webp";
 import S2 from "../assets/modais/colchoes/sllip/S2.webp";
 
+import E1 from "../assets/modais/colchoes/plus/E1.webp";
+import E2 from "../assets/modais/colchoes/plus/E2.webp";
+import E3 from "../assets/modais/colchoes/plus/E3.webp";
+import E4 from "../assets/modais/colchoes/plus/E4.webp";
+
 
 const categorias = [
   {
@@ -73,10 +78,10 @@ const categorias = [
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
-      { src: p1, alt: "Premium Visco", title: "Premium Visco", desc: "Fios de seda e espuma viscoelástica garantem noites de descanso profundo e de relaxamento absoluto.", srcModal: p1, desc1: "Colchão premium com fios de seda naturais que proporcionam toque luxuoso e regulação térmica.", desc2: "A espuma viscoelástica NASA se molda perfeitamente ao corpo, distribuindo o peso uniformemente e aliviando pontos de pressão.", desc3: "Ideal para quem busca máximo conforto e qualidade de sono. Tecnologia que reduz movimentos noturnos do parceiro." },
-      { src: p2, alt: "Privilége Gel", title: "Privilége Gel", desc: "Dupla camada de conforto com espuma hipersoft e toque macio, perfeita para noites de sono renovador.", srcModal: p2, desc1: "Sistema de dupla camada com espuma hipersoft que oferece acolhimento inicial seguido de suporte firme.", desc2: "Partículas de gel infundidas na espuma mantêm a temperatura corporal regulada durante toda a noite.", desc3: "Tecido belga de alta qualidade com tratamento antimicrobiano. Excelente para casais que preferem confortos diferentes." },
-      { src: p3, alt: "Eternitá Gel", title: "Eternitá Gel", desc: "Adapta-se ao corpo com frescor e elasticidade, oferecendo suporte ideal e conforto térmico constante.", srcModal: p3, desc1: "Espuma com tecnologia gel que se adapta instantaneamente aos contornos do corpo, proporcionando suporte personalizado.", desc2: "Sistema de ventilação aprimorado mantém o frescor natural durante o sono.", desc3: "Elasticidade excepcional que volta ao formato original rapidamente. Recomendado para pessoas que sentem calor durante a noite." },
-      { src: p4, alt: "Serenity Visco", title: "Serenity Visco", desc: "Viscose de bambu e espuma NASA abraçam o corpo, aliviando as pressões e melhorando a circulação.", srcModal: p4, desc1: "Tecido em viscose de bambu com propriedades naturalmente antibacterianas e hipoalergênicas.", desc2: "Espuma viscoelástica desenvolvida pela NASA oferece alívio terapêutico de pressão nas articulações.", desc3: "Melhora significativamente a circulação sanguínea durante o repouso. Sustentabilidade garantida com materiais eco-friendly de alta performance." },
+      { src: p1, alt: "Premium Visco", title: "Premium Visco", desc: "Fios de seda e espuma viscoelástica garantem noites de descanso profundo e de relaxamento absoluto.", srcModal: E1, desc1: "Colchão premium com fios de seda naturais que proporcionam toque luxuoso e regulação térmica.", desc2: "A espuma viscoelástica NASA se molda perfeitamente ao corpo, distribuindo o peso uniformemente e aliviando pontos de pressão.", desc3: "Ideal para quem busca máximo conforto e qualidade de sono. Tecnologia que reduz movimentos noturnos do parceiro." },
+      { src: p2, alt: "Privilége Gel", title: "Privilége Gel", desc: "Dupla camada de conforto com espuma hipersoft e toque macio, perfeita para noites de sono renovador.", srcModal: E2, desc1: "Sistema de dupla camada com espuma hipersoft que oferece acolhimento inicial seguido de suporte firme.", desc2: "Partículas de gel infundidas na espuma mantêm a temperatura corporal regulada durante toda a noite.", desc3: "Tecido belga de alta qualidade com tratamento antimicrobiano. Excelente para casais que preferem confortos diferentes." },
+      { src: p3, alt: "Eternitá Gel", title: "Eternitá Gel", desc: "Adapta-se ao corpo com frescor e elasticidade, oferecendo suporte ideal e conforto térmico constante.", srcModal: E3, desc1: "Espuma com tecnologia gel que se adapta instantaneamente aos contornos do corpo, proporcionando suporte personalizado.", desc2: "Sistema de ventilação aprimorado mantém o frescor natural durante o sono.", desc3: "Elasticidade excepcional que volta ao formato original rapidamente. Recomendado para pessoas que sentem calor durante a noite." },
+      { src: p4, alt: "Serenity Visco", title: "Serenity Visco", desc: "Viscose de bambu e espuma NASA abraçam o corpo, aliviando as pressões e melhorando a circulação.", srcModal: E4, desc1: "Tecido em viscose de bambu com propriedades naturalmente antibacterianas e hipoalergênicas.", desc2: "Espuma viscoelástica desenvolvida pela NASA oferece alívio terapêutico de pressão nas articulações.", desc3: "Melhora significativamente a circulação sanguínea durante o repouso. Sustentabilidade garantida com materiais eco-friendly de alta performance." },
     ]
   },
   {

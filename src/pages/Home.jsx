@@ -45,6 +45,7 @@ import Seo from "../components/Seo/Seo";
 
 import BB1 from "../assets/modais/box/BB1.webp";
 import RE3 from "../assets/modais/colchoes/cespuma/RE3.webp";
+import E2 from "../assets/modais/colchoes/plus/E2.webp";
 
 const slides1 = [
   [CC11, CC1],
@@ -71,7 +72,7 @@ const imagensMaisVendidos = [
     alt: "Privilége Gel",
     title: "Privilége Gel",
     desc: "Dupla camada de conforto com espuma hipersoft e toque macio, perfeita para noites de sono renovador e descanso profundo com frescor ideal.",
-    srcModal: p2,
+    srcModal: E2,
     desc1: "Sistema de dupla camada com espuma hipersoft que oferece acolhimento inicial seguido de suporte firme.",
     desc2: "Partículas de gel infundidas na espuma mantêm a temperatura corporal regulada durante toda a noite.",
     desc3: "Tecido belga de alta qualidade com tratamento antimicrobiano. Excelente para casais que preferem confortos diferentes."
