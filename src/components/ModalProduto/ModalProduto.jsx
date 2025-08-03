@@ -18,9 +18,9 @@ const ModalProduto = ({ nome, desc1, desc2, desc3, imagem, onClose }) => {
                     <img src={imagem} alt="" />
                     <div className="texto-modal">
                         <h2>{nome}</h2>
-                        <p>- {desc1}</p>
-                        <p>- {desc2}</p>
-                        <p>- {desc3}</p>
+                        <p>{desc1}</p>
+                        <p>{desc2}</p>
+                        <p>{desc3}</p>
                     </div>
                 </div>
                 <button className="modal-close" onClick={onClose}><IoMdClose /></button>
