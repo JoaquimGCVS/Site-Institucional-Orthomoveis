@@ -15,7 +15,7 @@ const ModalProduto = ({ nome, desc1, desc2, desc3, imagem, onClose }) => {
         <div className="modal-overlay" onClick={onClose}>
             <div className="modal">
                 <div className="imagem-e-texto">
-                    <img src={imagem} alt="" />
+                    <img src={imagem} alt={nome} loading="lazy"/>
                     <div className="texto-modal">
                         <h2>{nome}</h2>
                         <p>{desc1}</p>

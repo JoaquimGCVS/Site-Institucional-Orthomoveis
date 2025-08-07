@@ -24,7 +24,7 @@ const Produtos = ({ titulo, descCategoria, backgroundColor, color, images }) => 
             <div className="produtos">
                 {images.map((img, idx) => (
                     <div className="produto" key={idx} onClick={() => aoClicarNoProduto(img)} style={{cursor:"pointer"}}>
-                        <img src={img.src} alt={img.alt || `produto${idx + 1}`} />
+                        <img src={img.src} alt={img.alt || `produto${idx + 1}`} loading="lazy"/>
                         <h3 style={{ color }}>{img.title}</h3>
                         <p>{img.desc}</p>
                     </div>
