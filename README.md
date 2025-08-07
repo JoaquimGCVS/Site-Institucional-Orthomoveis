@@ -86,7 +86,13 @@ O site está publicado e disponível no domínio:
 
 **Joaquim Guilherme de Carvalho Vilela Silva**  
 Estudante de Engenharia de Software – PUC Minas  
-GitHub: [@JoaquimGCVS](https://github.com/JoaquimGCVS)  
-Site: [orthomoveiscolchoes.com.br](https://orthomoveiscolchoes.com.br)
+Full-Stack Developer  
+
+🔗 **Links importantes:**
+* GitHub: [@JoaquimGCVS](https://github.com/JoaquimGCVS)  
+* LinkedIn: [Joaquim Vilela](https://www.linkedin.com/in/joaquim-vilela/)  
+* Currículo: [Download PDF](public/Joaquim_Curriculo.pdf)
 
 ---
+
+⭐ **Se este projeto te inspirou ou ajudou de alguma forma, deixe uma estrela!**
