@@ -16,12 +16,13 @@
     border-radius: 10px;
     color: var(--cor-primaria);
     display: flex;
-    width: 90%;
-    height: auto;
+    width: 90vw;
     padding: 2rem;
     padding-right: 1.5rem;
     align-items: flex-start;
     gap: 2rem;
+    max-height: 90vh;
+    overflow-y: auto;
 }
 
 .imagem-e-texto {
