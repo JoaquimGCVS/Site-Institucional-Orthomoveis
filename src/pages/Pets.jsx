@@ -14,9 +14,9 @@ const imagensPets = [
         title: "Orthocrin Pet",
         desc: "Espuma firme com capa impermeável e estrutura em madeira de reflorestamento. Ideal para conforto e higiene dos pets.",
         srcModal: P1,
-        desc1: "Espuma de densidade especial desenvolvida para suportar o peso e movimentos dos pets com durabilidade.",
-        desc2: "Capa impermeável 100% lavável protege contra líquidos, pelos e odores indesejados.",
-        desc3: "Estrutura de madeira de reflorestamento certificada garante sustentabilidade e resistência. Base antiderrapante mantém o colchão fixo durante uso e evita acidentes domésticos."
+        desc1: "A Cama Box Pet Orthocrin é um colchão confortável, resistente e prático, desenvolvido especialmente para pets. Seu design adapta-se facilmente a qualquer ambiente, oferecendo aconchego e facilidade de limpeza.",
+        desc2: "Possui estofamento em espuma de alta durabilidade produzida pela própria Orthocrin, tecido resistente e antialérgico, e capa impermeável higiênica. A estrutura é feita com madeira reflorestada de eucalipto, com pés reguladores para estabilidade.",
+        desc3: "Disponível em dois tamanhos: grande (80x100 cm) e pequena (60x80 cm), com altura total de 22 cm incluindo 6 cm dos pés. Proporciona conforto, segurança, higiene e praticidade, com garantia de 12 meses."
     },
     {
         src: pets1,
@@ -24,9 +24,9 @@ const imagensPets = [
         title: "Colchão Cama Pet Comfort",
         desc: "Espuma macia com capa lavável e tecido resistente. Conforto, praticidade e durabilidade para o descanso de cães e gatos em qualquer ambiente.",
         srcModal: pets1,
-        desc1: "Espuma macia que proporciona acolhimento ideal para articulações dos pets, especialmente importantes em animais idosos.",
-        desc2: "Capa completamente removível e lavável em máquina facilita manutenção da higiene.",
-        desc3: "Tecido resistente a arranhões e mordidas mantém integridade mesmo com uso intenso. Design versátil que se adapta a diferentes ambientes da casa mantendo conforto do pet."
+        desc1: "Cama pet com design retangular e contorno acolchoado, aproveitando melhor o espaço. É leve, fácil de transportar e ideal para oferecer um local aconchegante em qualquer ambiente.",
+        desc2: "Fabricada em tecido durável e de fácil limpeza, com preenchimento em fibra siliconada, é macia, respirável e mantém a temperatura ideal em qualquer estação. O tecido cluster de microfibra possui textura suave, garantindo conforto extra.",
+        desc3: "Disponível em dois tamanhos: grande (80x65 cm) e pequena (55x45 cm). Ajuda a prevenir alergias, alivia o estresse do pet e é lavável para fácil manutenção."
     }
 ];
 

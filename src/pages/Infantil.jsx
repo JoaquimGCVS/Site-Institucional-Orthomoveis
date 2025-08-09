@@ -26,9 +26,9 @@ const categorias = [
         title: "Royal Saúde Berço",
         desc: "Clássico colchão de berço com espuma ideal para o bebê. Dupla face e tecido delicado para conforto e segurança.",
         srcModal: K1,
-        desc1: "Espuma especialmente desenvolvida para bebês com densidade D18 que oferece suporte adequado sem ser rígida demais.",
-        desc2: "Dupla face permite rotação periódica mantendo higiene e uniformidade do colchão.",
-        desc3: "Tecido 100% algodão hipoalergênico e antialérgico protege a pele sensível do bebê. Dimensões padrão brasileiras que se adaptam perfeitamente aos berços convencionais."
+        desc1: "Colchão infantil Orthocrin Baby, desenvolvido para garantir conforto e boas noites de sono para bebês. O design é pensado para oferecer segurança e tranquilidade aos pais.",
+        desc2: "Tecido Jacquard Bamboo, suave, ventilado e com propriedades antialérgicas e antiácaros. Estrutura em espuma D18 certificada, ideal para recém-nascidos e crianças até 3 anos, com garantia de qualidade Pró-Espuma aprovada pelo INER.",
+        desc3: "Altura do colchão é de 12 cm. Disponível nos tamanhos Berço Tradicional (60x130 cm), Berço Americano (70x130 cm) e Mini Cama (70x150 cm), com 3 meses de garantia."
       },
       {
         src: kids2,
@@ -36,9 +36,9 @@ const categorias = [
         title: "Junior Luxo",
         desc: "Colchão de berço tradicional em espuma D18, dupla face com um lado liso. Conforto firme e durável para o bebê.",
         srcModal: K2,
-        desc1: "Modelo tradicional com um lado texturizado para massagem suave e um lado liso para máximo conforto.",
-        desc2: "Espuma D18 certificada livre de substâncias nocivas garante segurança total para bebês.",
-        desc3: "Conforto firme recomendado por pediatras para desenvolvimento saudável da coluna infantil. Capa removível e lavável facilita higienização e manutenção da saúde do bebê."
+        desc1: "O colchão Junior Luxo Berço Orthocrin oferece conforto adaptável para bebês e crianças até 3 anos. Seu design moderno valoriza o ambiente, proporcionando noites de sono tranquilas para toda a família.",
+        desc2: "Fabricado com espuma D18 certificada Pró-Espuma, é resistente a deformações e proporciona sustentação uniforme. O tecido de algodão possui tratamento antiácaro, mantendo o colchão fresco, limpo e livre de alergênicos.",
+        desc3: "Altura do colchão é de 10 cm com dupla face para maior durabilidade. Disponível nos tamanhos 60x130 cm, 70x130 cm e 70x150 cm, suporta até 20 kg e tem garantia de 3 meses."
       }
     ]
   },
@@ -54,9 +54,9 @@ const categorias = [
         title: "Meu Primeiro Orthocrin Látex",
         desc: "Travesseiro de 3 cm de altura. Ideal para o primeiro ano de vida. Medida: 30x40 cm.",
         srcModal: meu1,
-        desc1: "Desenvolvido especificamente para bebês de 0 a 12 meses com látex natural hipoalergênico e livre de substâncias nocivas.",
-        desc2: "Altura mínima de 3cm proporciona suporte adequado sem riscos à respiração ou desenvolvimento cervical do bebê.",
-        desc3: "Dimensões reduzidas de 30x40cm adequadas ao tamanho do berço. Tecido antialérgico com fragrância natural de camomila para acalmar."
+        desc1: "Travesseiro de látex Orthocrin, indicado para os primeiros 4 meses de vida do bebê. Proporciona apoio ideal para dormir de lado, prevenindo refluxo e promovendo conforto.",
+        desc2: "Feito de látex asséptico, respirável e lavável, com tecido de malha 100% poliéster suave ao toque. Conta com aromaterapia natural de camomila para acalmar e ajudar no sono do bebê.",
+        desc3: "Medidas de 30x40x3 cm, ideal para ser usado junto ao Apoio Antirefluxo Confort Baby, ajudando a prevenir o refluxo gastresofágico nesta fase inicial."
       },
       {
         src: meu2,
@@ -64,9 +64,9 @@ const categorias = [
         title: "Meu Primeiro Orthocrin Visco",
         desc: "Travesseiro de 4 cm de altura. Ideal para os primeiros 4 anos da criança. Medida: 35x55 cm.",
         srcModal: meu2,
-        desc1: "Espuma viscoelástica especial para crianças de 1 a 4 anos com densidade controlada para segurança infantil.",
-        desc2: "Altura progressiva de 4cm acompanha desenvolvimento cervical natural da criança durante crescimento.",
-        desc3: "Dimensões 35x55cm crescem com a criança. Malha Belga Camomille com fragrância natural que promove relaxamento e sono tranquilo."
+        desc1: "Travesseiro universal em espuma viscoelástica, que se adapta suavemente aos contornos da criança, proporcionando aconchego e suporte ideal. Adequado tanto para bercinho quanto para a primeira cama, evita que a criança saia do travesseiro durante o sono.",
+        desc2: "Fabricado com espuma de poliuretano viscoelástica e tecido de malha 100% poliéster suave ao toque. Possui aromaterapia com essência de camomila, que ajuda a acalmar e preparar para o sono.",
+        desc3: "Medidas de 35x55x4 cm, indicado para crianças nos primeiros 4 anos, oferecendo sustentação confortável para a cabeça e pescoço em várias posições de sono."
       },
       {
         src: meu3,
@@ -74,9 +74,9 @@ const categorias = [
         title: "Meu Primeiro Orthocrin Fibra",
         desc: "Travesseiro de 10 cm de altura. Tecido 200 fios. Ideal para crianças de 3 a 7 anos. Medida: 40x60 cm.",
         srcModal: meu3,
-        desc1: "Fibra siliconada especial para crianças pré-escolares com propriedades hipoalergênicas e lavagem facilitada.",
-        desc2: "Tecido 200 fios de alta qualidade garante durabilidade e toque macio adequado à pele sensível infantil.",
-        desc3: "Altura de 10cm apropriada para fase de crescimento de 3 a 7 anos. Dimensões 40x60cm compatíveis com camas infantis."
+        desc1: "Travesseiro de fibra ideal para crianças de 3 a 7 anos, oferecendo conforto e segurança com tamanho adequado para a curvatura dos ombros. É maleável e não muito alto, atendendo ao movimento durante o sono.",
+        desc2: "Feito com fibra de poliéster siliconada, material antialérgico e adaptável. O tecido 100% algodão ajuda no controle da temperatura e na rápida evaporação da transpiração.",
+        desc3: "Medidas de 40x60x10 cm, indicado para crianças entre 3 e 7 anos, proporcionando conforto adequado para essa faixa etária."
       },
       {
         src: meu4,
@@ -84,9 +84,9 @@ const categorias = [
         title: "Meu Orthocrin Visco",
         desc: "Travesseiro de 7 cm de altura. Indicado para crianças de 7 a 12 anos. Medida: 48x68 cm.",
         srcModal: meu4,
-        desc1: "Espuma viscoelástica adaptada para pré-adolescentes de 7 a 12 anos com suporte cervical crescente.",
-        desc2: "Altura intermediária de 7cm acompanha necessidades de suporte da fase escolar sem excessos.",
-        desc3: "Dimensões 48x68cm se aproximam do tamanho adulto preparando transição. Tecnologia que cresce junto com a criança."
+        desc1: "Travesseiro universal de espuma viscoelástica que se adapta aos contornos da criança, oferecendo aconchego e suporte ideal para diferentes posições de sono. Adequado para uso desde o bercinho até a primeira cama, evitando que a criança saia do travesseiro.",
+        desc2: "Produzido com espuma de poliuretano viscoelástica e tecido de malha 100% poliéster, macio ao toque. Inclui aromaterapia com essência de camomila, que acalma e prepara para o sono.",
+        desc3: "Medidas de 35x55x4 cm, indicado para crianças nos primeiros 4 anos, garantindo conforto e suporte cervical adequado."
       },
       {
         src: stillo5,
@@ -94,9 +94,9 @@ const categorias = [
         title: "Stillo Látex Kids",
         desc: "Travesseiro infantil com flocos de espuma HR. Ideal para crianças de até 2 anos. Medida: 28x35 cm, altura 10 cm.",
         srcModal: stillo5,
-        desc1: "Desenvolvido especificamente para crianças de até 2 anos com flocos de espuma HR de alta qualidade e segurança.",
-        desc2: "Dimensões reduzidas de 28x35cm respeitam a anatomia infantil proporcionando suporte adequado sem excessos.",
-        desc3: "Altura de 10cm controlada para evitar problemas cervicais. Materiais certificados livres de substâncias nocivas."
+        desc1: "Travesseiro desenvolvido para crianças a partir de 1 ano, com suporte firme e confortável que garante noites tranquilas. Combina qualidade, frescor e excelente custo-benefício para o sono dos pequenos.",
+        desc2: "Enchimento com flocos de espuma de alta resiliência (HR), similar ao látex natural, e capa de algodão 200 fios, macia e respirável. Possui propriedades hipoalergênicas e tecnologia antimicrobiana Ultra-Fresh para proteção contra ácaros, bactérias e mofo.",
+        desc3: "Certificado Pró-Espuma pelo INER, garantindo segurança e qualidade. Mede 28x35x10 cm, ideal para oferecer suporte e conforto adequados para crianças pequenas."
       }
     ]
   }
