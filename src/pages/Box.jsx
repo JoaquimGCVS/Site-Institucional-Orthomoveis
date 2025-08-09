@@ -24,9 +24,9 @@ const imagensBox = [
         title: "Box Baú",
         desc: "Base com acabamento em couro ecológico e mecanismo a gás. Ideal para armazenar e suportar grande peso com segurança.",
         srcModal: BB1,
-        desc1: "Sistema de abertura com pistão a gás garante levantamento suave e seguro do estrado superior.",
-        desc2: "Acabamento em couro ecológico resistente a riscos e manchas facilita limpeza e manutenção diária.",
-        desc3: "Capacidade de armazenamento generosa otimiza espaço do quarto mantendo organização. Estrutura reforçada suporta até 150kg com segurança."
+        desc1: "Base resistente para colchão com amplo espaço de armazenamento, unindo organização e sofisticação. Seu design elegante oferece solução prática para guardar roupas de cama, travesseiros, cobertores e outros itens.",
+        desc2: "Possui mecanismo de abertura com mola a gás para praticidade e segurança, estrutura de madeira reflorestada de eucalipto e couro ecológico com costura dupla para durabilidade. É desenvolvido para suportar grandes cargas, garantindo estabilidade e conforto.",
+        desc3: "Tem altura total de 37 cm, profundidade interna de 24 cm e está disponível nos tamanhos solteiro, solteiro plus, casal, queen e king bipartido."
     },
     {
         src: box2,
@@ -34,9 +34,9 @@ const imagensBox = [
         title: "Bibox Spring",
         desc: "Produto 2 em 1 com cama auxiliar de molas ensacadas, ideal para quem busca conforto e praticidade sem abrir mão da qualidade no descanso diário.",
         srcModal: BB2,
-        desc1: "Sistema 2 em 1 inovador combina base principal com cama auxiliar retrátil equipada com molas ensacadas independentes.",
-        desc2: "Molas ensacadas na cama auxiliar proporcionam conforto equivalente à cama principal sem comprometer qualidade do sono.",
-        desc3: "Solução inteligente para quartos de hóspedes ou crianças que maximiza funcionalidade sem ocupar espaço permanente."
+        desc1: "A Base Box com Cama Auxiliar Bibox Orthocrin é um produto 2 em 1 com estrutura de molas ensacadas que garante estabilidade de movimentos. A parte inferior se transforma em um novo colchão, ideal para espaços pequenos ou visitas.",
+        desc2: "A estrutura superior é feita com madeira reflorestada de eucalipto, oferecendo resistência e sustentabilidade. A cama auxiliar possui molas ensacadas com tecnologia suíça, tampo em Malha Soft importada e espuma D26, suportando até 90 kg.",
+        desc3: "Está disponível nos tamanhos Solteiro, Solteiro King e Solteiro Plus (Viúva), cada um com medidas específicas. O box tem 32 cm de altura mais pés, e o colchão auxiliar possui certificação Selo Inmetro."
     },
     {
         src: box3,
@@ -44,9 +44,9 @@ const imagensBox = [
         title: "Bibox Orthocrin",
         desc: "Cama auxiliar com espuma D28 e estrutura em madeira reflorestada. Solução prática e confortável para o dia a dia.",
         srcModal: BB3,
-        desc1: "Cama auxiliar equipada com espuma de alta densidade D28 certificada que garante conforto firme e durabilidade.",
-        desc2: "Estrutura fabricada com 100% madeira de reflorestamento certificada FSC contribuindo para sustentabilidade ambiental.",
-        desc3: "Mecanismo de abertura simplificado permite uso rápido e prático. Ideal para quartos infantis e de visitas."
+        desc1: "Substitui as camas de madeira tradicionais de forma moderna e sofisticada, ajudando a otimizar o espaço. Necessita de colchão apenas na parte superior, adquirido separadamente.",
+        desc2: "Possui estrutura de madeira reflorestada com tratamento anticupim e tecido bordado resistente e macio. A cama auxiliar tem estrutura de madeira com camada de espuma D28 de 7 cm de altura.",
+        desc3: "O box mede 26 cm de altura mais 13 cm dos pés, totalizando 39 cm. Está disponível em tamanhos Solteiro, Solteiro King e Solteiro Plus, fazendo parte da linha Bibox da Orthocrin, que une conforto, praticidade e estética."
     },
     {
         src: box4,
@@ -54,9 +54,9 @@ const imagensBox = [
         title: "Bibox Eco",
         desc: "Produto 2 em 1 com espuma D28, estrutura resistente em madeira reflorestada e acabamento em couro ecológico.",
         srcModal: BB4,
-        desc1: "Combinação perfeita entre funcionalidade e sustentabilidade com madeira reflorestada certificada e couro ecológico.",
-        desc2: "Espuma D28 na cama auxiliar oferece suporte firme adequado para uso frequente sem deformações.",
-        desc3: "Acabamento em couro ecológico resistente facilita limpeza e garante durabilidade em ambientes com uso intenso."
+        desc1: "Substitui as camas de madeira tradicionais de forma moderna e sofisticada, ajudando a otimizar o espaço. Requer colchão apenas na parte superior, que deve ser adquirido separadamente.",
+        desc2: "Possui estrutura de madeira reflorestada com revestimento em courino. A cama auxiliar conta com estrutura de madeira e camada de espuma D28 de 7 cm de altura.",
+        desc3: "O box mede 26 cm de altura mais 13 cm dos pés, totalizando 39 cm. Está disponível nos tamanhos Solteiro, Solteiro King e Solteiro Plus, com medidas específicas para a cama auxiliar."
     },
     {
         src: box5,
@@ -66,7 +66,7 @@ const imagensBox = [
         srcModal: BB5,
         desc1: "Base fixa robusta construída inteiramente com madeira de reflorestamento certificada para máxima resistência estrutural.",
         desc2: "Acabamento premium em couro ecológico de alta qualidade resiste ao desgaste diário mantendo aparência original.",
-        desc3: "Design clean e elegante se adapta a qualquer decoração. Sustentabilidade sem comprometer qualidade ou durabilidade."
+        desc3: "A cama box tem 24 cm de altura mais 13 cm dos pés, totalizando 37 cm. Está disponível nos tamanhos Solteiro, Solteiro Plus, Casal, Queen e King, com medidas específicas para cada modelo."
     },
     {
         src: box6,
@@ -74,9 +74,9 @@ const imagensBox = [
         title: "Box Sommier Plus Decor",
         desc: "Base decorativa com estrutura em madeira reflorestada e tecido de decoração. Durável, segura e resistente.",
         srcModal: BB6,
-        desc1: "Base sommier decorativa que combina funcionalidade estrutural com elemento estético para valorização do ambiente.",
-        desc2: "Tecido decorativo de alta qualidade oferece variedade de cores e texturas para harmonizar com qualquer estilo.",
-        desc3: "Estrutura reforçada em madeira certificada garante estabilidade e segurança por muitos anos. União perfeita entre beleza e resistência."
+        desc1: "O box Orthocrin é produzido com matérias-primas nobres e substitui as camas de madeira de forma moderna e sofisticada. Está disponível nas variações tradicional, alta e baixa, sendo ideal para otimizar espaço.",
+        desc2: "Possui estrutura em madeira reflorestada com revestimento em tecido de decoração. Conta com faixa lisa, lateral estofada, pés de madeira e selo Pet Friendly, garantindo resistência às patinhas e unhas de cães e gatos.",
+        desc3: "A altura total é de 37 cm, sendo 24 cm da cama box mais 13 cm dos pés."
     }
 ];
 

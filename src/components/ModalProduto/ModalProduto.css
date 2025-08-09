@@ -40,7 +40,7 @@
 .texto-modal {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .texto-modal h2 {
@@ -62,7 +62,7 @@
 
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
 
     .modal {
         gap: 0.8rem;
@@ -82,30 +82,16 @@
         font-size: var(--font-size-paragrafo);
     }
 
+    .texto-modal h3 {
+        font-size: var(--font-size-nav);
+    }
+
     .texto-modal p {
         font-size: var(--font-size-nav);
     }
 }
 
-@media (max-width: 930px) {
-    .modal {
-        gap: 0.5rem;
-    }
-
-    .texto-modal {
-        gap: 0.5rem;
-    }
-    .texto-modal p {
-        font-size: var(--font-size-desc);
-    }
-}
-
-@media (max-width:740px) {
-    .modal {
-        gap: 0.5rem;
-        height: auto;
-        width: 90%;
-    }
+@media (max-width: 1200px) {
     .imagem-e-texto {
         flex-direction: column;
     }

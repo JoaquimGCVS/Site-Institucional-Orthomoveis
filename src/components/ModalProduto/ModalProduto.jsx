@@ -18,8 +18,11 @@ const ModalProduto = ({ nome, desc1, desc2, desc3, imagem, onClose }) => {
                     <img src={imagem} alt={nome} loading="lazy"/>
                     <div className="texto-modal">
                         <h2>{nome}</h2>
+                        <h3>Sobre</h3>
                         <p>{desc1}</p>
+                        <h3>Estrutura</h3>
                         <p>{desc2}</p>
+                        <h3>Medidas</h3>
                         <p>{desc3}</p>
                     </div>
                 </div>
