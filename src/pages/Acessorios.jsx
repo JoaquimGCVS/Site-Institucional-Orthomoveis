@@ -2,14 +2,15 @@ import Marquee from "../components/Marquee/Marquee";
 import Produtos from "../components/Produtos/Produtos";
 import Seo from "../components/Seo/Seo";
 
-import colchonete2 from "../assets/acessorios/colchonetes/2.webp";
-import colchonete3 from "../assets/acessorios/colchonetes/3.webp";
-import colchonete11 from "../assets/acessorios/colchonetes/1.1.webp";
-import antirrefluxoAdulto from "../assets/acessorios/antirrefluxo/4.webp";
-import antirrefluxoBaby from "../assets/acessorios/antirrefluxo/5.webp";
-import ortotrip from "../assets/acessorios/ortotrip/6.webp";
-import multirelaxBasic from "../assets/acessorios/multirelax/7.webp";
-import multirelaxVisco from "../assets/acessorios/multirelax/8.webp";
+
+import colchonete2 from "../assets/acessorios/colchonetes/colchoneteantistress.webp";
+import colchonete3 from "../assets/acessorios/colchonetes/multiuso.webp";
+import colchonete11 from "../assets/acessorios/colchonetes/colchoneteacademia.webp";
+import antirrefluxoAdulto from "../assets/acessorios/antirrefluxo/ApoioAntiRefluxoAdulto.webp";
+import antirrefluxoBaby from "../assets/acessorios/antirrefluxo/antirefluxo-comfort-baby.webp";
+import ortotrip from "../assets/acessorios/ortotrip/orthotrip1.webp";
+import multirelaxBasic from "../assets/acessorios/multirelax/foto-multirelax-basic.webp";
+import multirelaxVisco from "../assets/acessorios/multirelax/foto-multirelax-visco.webp";
 import protetor from "../assets/acessorios/protetores/acessorio.webp";
 import T9 from "../assets/modais/acessorios/T9.webp";
 

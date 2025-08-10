@@ -4,11 +4,12 @@ import Seo from "../components/Seo/Seo";
 
 import kids1 from "../assets/colchoes/kids/1.webp";
 import kids2 from "../assets/colchoes/kids/2.webp";
-import stillo5 from "../assets/travesseiros/stillo/5.webp";
-import meu1 from "../assets/travesseiros/meu/1.webp";
-import meu2 from "../assets/travesseiros/meu/2.webp";
-import meu3 from "../assets/travesseiros/meu/3.webp";
-import meu4 from "../assets/travesseiros/meu/4.webp";
+
+import stillo5 from "../assets/travesseiros/stillo/stillolatex-kids.webp";
+import meu1 from "../assets/travesseiros/meu/11-MEU_PRIMEIRO_ORTHOCRIN_LATEX_-_ATUALIZADO.webp";
+import meu2 from "../assets/travesseiros/meu/12-MEU_PRIMEIRO_ORTHOCRIN_VISCO-_ATUALIZADO.webp";
+import meu3 from "../assets/travesseiros/meu/12-MEU_PRIMEIRO_ORTHOCRIN_FIBRA.webp";
+import meu4 from "../assets/travesseiros/meu/08-MEU_ORTHOCRIN_VISCO.webp";
 
 import K1 from "../assets/modais/colchoes/kids/K1.webp";
 import K2 from "../assets/modais/colchoes/kids/K2.webp";

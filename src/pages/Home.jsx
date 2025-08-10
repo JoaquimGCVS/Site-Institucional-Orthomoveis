@@ -40,7 +40,7 @@ import DD6 from "../assets/carousel2/DD6.webp";
 import box1 from "../assets/box/1.webp";
 import p2 from "../assets/colchoes/plus/p2.webp";
 import ce3 from "../assets/colchoes/cespuma/3.webp";
-import visco2 from "../assets/travesseiros/viscopillow/1.webp";
+import stillo3 from "../assets/travesseiros/stillo/stillo_latex_medio.webp";
 import Seo from "../components/Seo/Seo";
 
 import BB1 from "../assets/modais/box/BB1.webp";
@@ -68,7 +68,7 @@ const slides2 = [
 
 const imagensMaisVendidos = [
   {
-    src: p2, alt: "Privilége Gel", title: "Privilége Gel", desc: "Dupla camada de conforto com espuma hipersoft e toque macio, perfeita para noites de sono renovador.", srcModal: E1, desc1: "O colchão Privillége Gel possui dupla camada de conforto que combina frescor, suporte e elasticidade, proporcionando um sono renovador. Sua malha de alta gramatura, feita no Brasil com tecnologia belga e fios nobres de viscose pura, oferece toque suave, resistência e qualidade.", desc2: "A estrutura conta com espuma hipersoft exclusiva, que relaxa a musculatura e garante conforto plush e maciez, ajudando no descanso profundo e reparador.", desc3: "Com altura de 36 cm, entrega suporte ideal e sensação de aconchego para noites tranquilas e revigorantes."
+    src: p2, alt: "Privilége Gel", title: "Privilége Gel", desc: "Dupla camada de conforto com espuma hipersoft e toque macio, perfeita para noites de sono renovador e descanso profundo com frescor ideal.", srcModal: E1, desc1: "O colchão Privillége Gel possui dupla camada de conforto que combina frescor, suporte e elasticidade, proporcionando um sono renovador. Sua malha de alta gramatura, feita no Brasil com tecnologia belga e fios nobres de viscose pura, oferece toque suave, resistência e qualidade.", desc2: "A estrutura conta com espuma hipersoft exclusiva, que relaxa a musculatura e garante conforto plush e maciez, ajudando no descanso profundo e reparador.", desc3: "Com altura de 36 cm, entrega suporte ideal e sensação de aconchego para noites tranquilas e revigorantes."
   },
   {
     src: box1,
@@ -84,7 +84,7 @@ const imagensMaisVendidos = [
     src: ce3, alt: "Royal Saúde Plus Pillow Top", title: "Royal Saúde Plus Pillow Top", desc: "Modelo com Pillow Top, espumas certificadas e tecido Jacquard bamboo. Proporciona firmeza com altura de até 28 cm e dupla face.", srcModal: RE3, desc1: "Conforto firme que oferece suporte ideal para a coluna e alinhamento postural, com camada extra de Pillow Top para maior maciez e bem-estar. Desenvolvido para garantir durabilidade e conforto térmico.", desc2: "Espuma certificada D33 de alta densidade, tecido Jacquard Bamboo que afasta umidade e proporciona toque macio, design dupla face para uso dos dois lados e acabamento Pillow Top. Certificações garantem qualidade e segurança.", desc3: "Altura de 24 cm, suporta até 100 kg por pessoa, disponível nos tamanhos 88x188 cm, 110x200 cm, 128x188 cm, 138x188 cm, 158x198 cm e 193x203 cm."
   },
   {
-    src: visco2, alt: "Viscopillow Alto", title: "Viscopillow Alto", desc: "Travesseiro de 15 cm de altura, com toque macio e suporte elevado. Para fronha 50x70.", srcModal: visco2, desc1: "O travesseiro oferece apoio correto à cabeça e pescoço, combinando ergonomia e conforto para quem prefere modelo alto e macio, garantindo descanso superior e suporte ajustado ao corpo.", desc2: "Sua estrutura conta com espuma viscoelástica de alta qualidade que alinha a coluna e alivia a pressão, tecido Malha Bamboo termorregulador e capa removível com zíper para frescor e praticidade.", desc3: "Além disso, possui tecnologia antimicrobiana Ultra-Fresh que protege contra ácaros, bactérias e mofo, mantendo o travesseiro limpo e saudável. Mede 48 cm de largura, 68 cm de comprimento e 15 cm de altura."
+    src: stillo3, alt: "Stillo Látex Médio", title: "Stillo Látex Médio", desc: "Travesseiro com 12 cm de altura, ideal para quem prefere travesseiros médios e firmes. Para fronha 50x70.", srcModal: stillo3, desc1: "Desenvolvido com espuma de alta resiliência (HR), oferecendo suporte firme e conforto semelhante ao látex natural, ideal para quem prefere travesseiros médios e firmes. Seu revestimento é suave, respirável e proporciona frescor e toque macio durante a noite.", desc2: "A estrutura conta com espuma HR com microfuros para ventilação eficiente, capa em algodão 200 fios, tratamento hipoalergênico antiácaro, antimofo e antialérgico, além da tecnologia antimicrobiana Ultra-Fresh que protege contra bactérias, mofo e ácaros. O travesseiro tem certificação Pró-Espuma pelo INER, assegurando qualidade e segurança.", desc3: "Suas medidas são 48 cm de largura, 68 cm de comprimento e 12 cm de altura, adequadas para proporcionar conforto e suporte durante o sono." 
   }
 ];
 

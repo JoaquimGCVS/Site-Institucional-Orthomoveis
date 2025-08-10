@@ -2,33 +2,34 @@ import Marquee from "../components/Marquee/Marquee";
 import Produtos from "../components/Produtos/Produtos";
 import Seo from "../components/Seo/Seo";
 
-import stillo1 from "../assets/travesseiros/stillo/1.webp";
-import stillo2 from "../assets/travesseiros/stillo/2.webp";
-import stillo3 from "../assets/travesseiros/stillo/3.webp";
-import stillo4 from "../assets/travesseiros/stillo/4.webp";
-import stillo5 from "../assets/travesseiros/stillo/5.webp";
 
-import visco1 from "../assets/travesseiros/viscopillow/1.webp";
-import visco2 from "../assets/travesseiros/viscopillow/2.webp";
-import visco3 from "../assets/travesseiros/viscopillow/3.webp";
-import visco4 from "../assets/travesseiros/viscopillow/4.webp";
+import stillo1 from "../assets/travesseiros/stillo/FreshPillow.webp";
+import stillo2 from "../assets/travesseiros/stillo/stillo_latex_alto.webp";
+import stillo3 from "../assets/travesseiros/stillo/stillo_latex_medio.webp";
+import stillo4 from "../assets/travesseiros/stillo/stillo_latex_baixo.webp";
+import stillo5 from "../assets/travesseiros/stillo/stillolatex-kids.webp";
 
-import nasa1 from "../assets/travesseiros/nasa/1.png";
-import nasa2 from "../assets/travesseiros/nasa/2.png";
-import nasa3 from "../assets/travesseiros/nasa/3.png";
+import visco1 from "../assets/travesseiros/viscopillow/travesseiroviscopillowanatomico1.webp";
+import visco2 from "../assets/travesseiros/viscopillow/VISCOPILLOW_ALTO_MG_5842.webp";
+import visco3 from "../assets/travesseiros/viscopillow/VISCOPILLOW_MEDIO_MG_5842_9b33f547-5035-4645-b44f-1d654eee56bf.webp";
+import visco4 from "../assets/travesseiros/viscopillow/VISCOPILLOW_BASIC_MG_5842.webp";
 
-import fiber1 from "../assets/travesseiros/fiberpillow/1.webp";
-import fiber2 from "../assets/travesseiros/fiberpillow/2.webp";
-import fiber3 from "../assets/travesseiros/fiberpillow/3.webp";
+import nasa1 from "../assets/travesseiros/nasa/nasa-viscobasic.webp";
+import nasa2 from "../assets/travesseiros/nasa/nasa-viscomedio.webp";
+import nasa3 from "../assets/travesseiros/nasa/nasa-viscoalto.webp";
 
-import fiberesp1 from "../assets/travesseiros/fiberpillowesp/1.webp";
-import fiberesp2 from "../assets/travesseiros/fiberpillowesp/2.webp";
-import fiberesp3 from "../assets/travesseiros/fiberpillowesp/3.webp";
+import fiber1 from "../assets/travesseiros/fiberpillow/fiberpillowspecial.webp";
+import fiber2 from "../assets/travesseiros/fiberpillow/FIBERPILLOW_CLASSIC.webp";
+import fiber3 from "../assets/travesseiros/fiberpillow/FIBERPILLOW_BASIC.webp";
 
-import meu1 from "../assets/travesseiros/meu/1.webp";
-import meu2 from "../assets/travesseiros/meu/2.webp";
-import meu3 from "../assets/travesseiros/meu/3.webp";
-import meu4 from "../assets/travesseiros/meu/4.webp";
+import fiberesp1 from "../assets/travesseiros/fiberpillowesp/TRAV_FIBRA_KING_MG_5861.webp";
+import fiberesp2 from "../assets/travesseiros/fiberpillowesp/softpillow_basic.webp";
+import fiberesp3 from "../assets/travesseiros/fiberpillowesp/travesseirodecorpo.webp";
+
+import meu1 from "../assets/travesseiros/meu/11-MEU_PRIMEIRO_ORTHOCRIN_LATEX_-_ATUALIZADO.webp";
+import meu2 from "../assets/travesseiros/meu/12-MEU_PRIMEIRO_ORTHOCRIN_VISCO-_ATUALIZADO.webp";
+import meu3 from "../assets/travesseiros/meu/12-MEU_PRIMEIRO_ORTHOCRIN_FIBRA.webp";
+import meu4 from "../assets/travesseiros/meu/08-MEU_ORTHOCRIN_VISCO.webp";
 
 const linhas = [
   {
