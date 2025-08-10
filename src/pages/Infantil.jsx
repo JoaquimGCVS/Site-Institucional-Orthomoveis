@@ -17,7 +17,7 @@ import K2 from "../assets/modais/colchoes/kids/K2.webp";
 const categorias = [
   {
     titulo: "Colchões Kids",
-    descCategoria: "Espumas seguras e certificadas para proporcionar conforto ideal ao bebê. Modelos com dupla face e tecidos delicados.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -45,7 +45,7 @@ const categorias = [
   },
   {
     titulo: "Travesseiros Kids",
-    descCategoria: "Acessórios exclusivos para crianças, desde o nascimento até a adolescência. Desenvolvidos com tecido antialérgico e Malha Belga Camomille, que possui fragrância natural para acalmar e relaxar. Respeitam a anatomia infantil e oferecem conforto seguro em todas as fases da infância.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [

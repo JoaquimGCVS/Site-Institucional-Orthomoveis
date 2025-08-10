@@ -31,10 +31,12 @@ import meu2 from "../assets/travesseiros/meu/12-MEU_PRIMEIRO_ORTHOCRIN_VISCO-_AT
 import meu3 from "../assets/travesseiros/meu/12-MEU_PRIMEIRO_ORTHOCRIN_FIBRA.webp";
 import meu4 from "../assets/travesseiros/meu/08-MEU_ORTHOCRIN_VISCO.webp";
 
+import top1 from "../assets/travesseiros/pillowtop/pillow-top-percal-sublime.webp";
+
 const linhas = [
   {
     titulo: "Linha Stillo",
-    descCategoria: "Travesseiros de alta qualidade para todos os perfis, com opções de altura, conforto e tecnologia para noites perfeitas.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -51,7 +53,7 @@ const linhas = [
   },
   {
     titulo: "Linha Nasa Visco Soft",
-    descCategoria: "Travesseiros ergonômicos com espuma viscoelástica de alta densidade (D24), que se molda ao formato da cabeça e pescoço.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -62,7 +64,7 @@ const linhas = [
   },
   {
     titulo: "Linha Viscopillow",
-    descCategoria: "Travesseiros com espuma viscoelástica que proporcionam alívio de pressão e acomodam ombros e pescoço. Ideais para conforto anatômico, frescor e toque macio com fronha lavável.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -74,7 +76,7 @@ const linhas = [
   },
   {
     titulo: "Linha Fiberpillow",
-    descCategoria: "Travesseiros com enchimento em fibra siliconada, ideais para quem busca conforto extremo. Possuem toque macio, são laváveis e evitam a sensação de umidade por meio do tecido Malha Dry.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -85,7 +87,7 @@ const linhas = [
   },
   {
     titulo: "Fiberpillow Especiais",
-    descCategoria: "Acessórios que auxiliam na ergonomia do sono. Confeccionados com tecido 200 fios ou algodão com alto teor, oferecem sensação de conforto firme e toque suave. Modelos laváveis com enchimento em fibra siliconada ou flocos de espuma.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -96,7 +98,7 @@ const linhas = [
   },
   {
     titulo: "Meu Primeiro Orthocrin",
-    descCategoria: "Acessórios exclusivos para crianças, desde o nascimento até a adolescência. Desenvolvidos com tecido antialérgico e Malha Belga Camomille, que possui fragrância natural para acalmar e relaxar. Respeitam a anatomia infantil e oferecem conforto seguro em todas as fases da infância.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -120,6 +122,15 @@ const linhas = [
         desc2: "Sua estrutura é fresca, hipoalergênica e amolda-se ao corpo, proporcionando suporte ideal para a cabeça. O tecido em malha Camomille libera aroma suave e calmante, indicado para crianças de 7 a 12 anos e adultos que preferem travesseiros baixos.",
         desc3: "As medidas são 40 cm de largura, 60 cm de comprimento e 7 cm de altura, adequadas para um sono confortável e tranquilo."
       }
+    ]
+  },
+  {
+    titulo: "Pillowtop",
+    descCategoria: "",
+    backgroundColor: "#FFFFFF",
+    color: "#80002D",
+    images: [
+  { src: top1, alt: "Pillow Top Percal Sublime", title: "Pillow Top Percal Sublime", desc: "Pillow top de 5 cm, dupla face, com percal 180 fios tipo hotelaria. Alças ajustáveis para colchões até 40 cm, mais conforto e frescor para suas noites.", srcModal: top1, desc1: "Pillow top com 5 cm de altura, desenvolvido para proporcionar maciez e suavidade inspiradas no conforto de hotéis. Possui revestimento superior em percal 180 fios que garante frescor e durabilidade.", desc2: "Parte inferior em microfibra peletizada com acabamento matelassado, podendo ser usado dos dois lados. Conta com alças ajustáveis para colchões de até 40 cm de altura.", desc3: "Composição: parte superior 61% algodão e 39% poliéster; parte inferior 100% poliéster." },
     ]
   }
 ];

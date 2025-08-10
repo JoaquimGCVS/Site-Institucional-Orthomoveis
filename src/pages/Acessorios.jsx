@@ -12,12 +12,13 @@ import ortotrip from "../assets/acessorios/ortotrip/orthotrip1.webp";
 import multirelaxBasic from "../assets/acessorios/multirelax/foto-multirelax-basic.webp";
 import multirelaxVisco from "../assets/acessorios/multirelax/foto-multirelax-visco.webp";
 import protetor from "../assets/acessorios/protetores/acessorio.webp";
+import protetor2 from "../assets/acessorios/protetores/protetor-de-colchao-o-silencioso.webp";
 import T9 from "../assets/modais/acessorios/T9.webp";
 
 const categorias = [
   {
     titulo: "Colchonetes",
-    descCategoria: "Acessórios versáteis para exercícios físicos, viagens ou conforto extra no descanso. Modelos desenvolvidos com materiais específicos como napa, poliéster ou espuma massageadora, oferecendo praticidade, durabilidade e bem-estar em diferentes usos.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -55,7 +56,7 @@ const categorias = [
   },
   {
     titulo: "Antirrefluxo",
-    descCategoria: "Produtos ergonômicos desenvolvidos para proporcionar alívio e conforto durante o sono, especialmente para quem sofre com refluxo. Indicações específicas para adultos e bebês, com materiais de toque suave e design anatômico.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -83,7 +84,7 @@ const categorias = [
   },
   {
     titulo: "Multirelax",
-    descCategoria: "Encosto triangular ergonômico que proporciona conforto para pernas e costas. Ideal para relaxamento, leitura e melhora da circulação. Disponível nas versões Basic (espuma perfilada) e Visco (espuma viscoelástica).",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -111,7 +112,7 @@ const categorias = [
   },
   {
     titulo: "Orthotrip",
-    descCategoria: "Almofada de pescoço. Seja qual for o motivo da sua viagem, usar Orthotrip é garantia de conforto. Produzida com espuma viscoelástica, que apoia perfeitamente o pescoço. Acompanha capa com zíper.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -129,7 +130,7 @@ const categorias = [
   },
   {
     titulo: "Protetores",
-    descCategoria: "Proteção essencial para seu colchão. Nossos protetores impermeáveis em flor de algodão oferecem barreira contra líquidos, ácaros e alérgenos, garantindo higiene, conforto e durabilidade para seu investimento em sono de qualidade.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -137,11 +138,21 @@ const categorias = [
         src: protetor,
         alt: "Protetor Flor de Algodão Impermeável",
         title: "Protetor Flor de Algodão Impermeável",
-        desc: "Protetor de colchão impermeável com tecido em flor de algodão. Proteção contra líquidos, ácaros e alérgenos, mantendo a higiene e vida útil do seu colchão.",
+  desc: "Impermeável, toque macio e sem ruído plástico. Protege contra líquidos e ácaros.",
         srcModal: protetor,
         desc1: "Feito em tecido matelassado com três camadas: malha dupla com face superior em algodão para maciez e inferior em poliéster para resistência, manta de fibra siliconada para conforto extra e revestimento impermeável que impede a passagem de líquidos.",
         desc2: "Possui slip com elastano que abraça toda a lateral. A malha jacquard exclusiva Flor de Algodão proporciona toque macio e agradável. Conta com nanotecnologia que protege contra fungos, ácaros e bactérias. Assim, une proteção, conforto e durabilidade em um único produto.",
         desc3: "Ótima fixação em colchões de até 40 cm de altura, disponível nos tamanhos solteiro, casal, queen e king."
+      },
+      {
+        src: protetor2,
+        alt: "Protetor de Colchão O Silencioso",
+        title: "Protetor de Colchão O Silencioso",
+  desc: "Impermeável, toque macio e proteção completa contra líquidos, ácaros e alérgenos. Mantém o colchão limpo e confortável por mais tempo.",
+        srcModal: protetor2,
+        desc1: "Protetor impermeável com revestimento em malha para toque suave e camada impermeabilizante resistente com sensação emborrachada. Desenvolvido para bloquear líquidos sem produzir ruído plástico, proporcionando mais conforto.",
+        desc2: "Composição em poliéster, elastano e clorofibra, laterais ajustáveis e acabamento pensado para manter o colchão protegido e conservado por mais tempo.",
+        desc3: "Revestimento superior 100% poliéster, laterais 96% poliéster e 4% elastano, forro 100% clorofibra."
       }
     ]
   }

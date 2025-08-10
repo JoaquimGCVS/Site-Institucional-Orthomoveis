@@ -6,6 +6,7 @@ import p1 from "../assets/colchoes/plus/p1.webp";
 import p2 from "../assets/colchoes/plus/p2.webp";
 import p3 from "../assets/colchoes/plus/p3.webp";
 import p4 from "../assets/colchoes/plus/p4.webp";
+
 import c1 from "../assets/colchoes/classica/1.webp";
 import c2 from "../assets/colchoes/classica/2.webp";
 import c3 from "../assets/colchoes/classica/3.webp";
@@ -13,21 +14,27 @@ import c4 from "../assets/colchoes/classica/4.webp";
 import c5 from "../assets/colchoes/classica/5.webp";
 import c6 from "../assets/colchoes/classica/6.webp";
 import c7 from "../assets/colchoes/classica/7.webp";
+
 import b1 from "../assets/colchoes/basic/1.webp";
 import b2 from "../assets/colchoes/basic/2.webp";
 import b3 from "../assets/colchoes/basic/3.webp";
 import b4 from "../assets/colchoes/basic/4.webp";
 import b5 from "../assets/colchoes/basic/5.webp";
+import prestige from "../assets/colchoes/basic/PRESTIGE_SOLTEIRO.webp";
+
 import ce1 from "../assets/colchoes/cespuma/1.webp";
 import ce2 from "../assets/colchoes/cespuma/2.webp";
 import ce3 from "../assets/colchoes/cespuma/3.webp";
 import ce4 from "../assets/colchoes/cespuma/4.webp";
+
 import o1 from "../assets/colchoes/ortopedica/1.webp";
 import o2 from "../assets/colchoes/ortopedica/2.webp";
 import o3 from "../assets/colchoes/ortopedica/3.webp";
 import o4 from "../assets/colchoes/ortopedica/4.webp";
+
 import s1 from "../assets/colchoes/sllip/1.webp";
 import s2 from "../assets/colchoes/sllip/2.webp";
+
 import pets3 from "../assets/colchoes/pets/3.webp";
 import pets1 from "../assets/colchoes/pets/1.webp";
 import kids1 from "../assets/colchoes/kids/1.webp";
@@ -74,7 +81,7 @@ import E4 from "../assets/modais/colchoes/plus/E4.webp";
 const categorias = [
   {
     titulo: "Categoria Clássica Plus",
-    descCategoria: "Conforto premium com tecnologia belga, espuma hipersoft e toque macio para um sono profundo e renovador.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -86,7 +93,7 @@ const categorias = [
   },
   {
     titulo: "Categoria Clássica",
-    descCategoria: "Conforto, tecnologia e design para noites tranquilas, com modelos que se adaptam ao corpo e garantem suporte ideal.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -101,7 +108,7 @@ const categorias = [
   },
   {
     titulo: "Categoria Sllip",
-    descCategoria: "Colchões com conforto equilibrado, molas especiais e espumas selecionadas para noites mais leves e relaxantes.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -111,7 +118,7 @@ const categorias = [
   },
   {
     titulo: "Categoria Clássica de Espuma",
-    descCategoria: "100% em espuma certificada, combinando suporte firme e conforto contínuo. Ideal para quem busca qualidade, durabilidade e um sono restaurador com ótimo custo-benefício.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -123,12 +130,13 @@ const categorias = [
   },
   {
     titulo: "Categoria Basic",
-    descCategoria: "Design essencial com conforto e praticidade para o dia a dia, unindo qualidade e suporte ideal ao corpo.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
       { src: b1, alt: "Basic Pillow Top", title: "Real", desc: "Pillow top com conforto extra e molas ensacadas, garantindo suporte e maciez no descanso diário.", srcModal: B1, desc1: "Conforto intermediário que equilibra firmeza e suavidade, com combinação de espumas convencionais D33 e D26 e pillow top para maciez extra e acolhimento luxuoso. Desenvolvido para oferecer suporte ergonômico e noites de sono revigorantes.", desc2: "Estrutura de molas ensacadas Comfort Core Prata com independência de movimento, bordas laterais em espuma D28 para estabilidade, malha soft volumosa para conforto térmico e design sofisticado. Certificações garantem qualidade e segurança.", desc3: "Altura de 30 cm, suporta até 120 kg por pessoa, disponível nos tamanhos 88x188 cm, 110x200 cm, 96x203 cm, 138x188 cm, 158x198 cm e 193x203 cm." },
       { src: b2, alt: "Basic Real Black", title: "Real Black", desc: "Versão elegante com pillow top e molas ensacadas, oferecendo maciez e sustentação.", srcModal: B2, desc1: "Conforto intermediário com equilíbrio entre firmeza e suavidade, combinando espumas convencionais D33 e D26 e pillow top para maciez extra e acolhimento luxuoso. Desenvolvido para suporte ergonômico e noites de sono confortáveis.", desc2: "Estrutura de molas ensacadas Comfort Core Prata com independência de movimento, bordas laterais em espuma D28 para estabilidade, malha soft volumosa que oferece conforto térmico e design moderno em preto com detalhes azuis. Certificações garantem qualidade e segurança.", desc3: "Altura de 30 cm, suporta até 120 kg por pessoa, disponível nos tamanhos 88x188 cm, 110x200 cm, 96x203 cm, 138x188 cm, 158x198 cm e 193x203 cm." },
+      { src: prestige, alt: "Prestige", title: "Prestige", desc: "Molas superlastic e espuma flexível que alinham a coluna, proporcionando noites mais confortáveis.", srcModal: prestige, desc1: "Conforto intermediário que equilibra firmeza e maciez, oferecendo suporte adequado sem abrir mão do aconchego. Tecnologia de espuma HR com partículas de gel garante frescor e temperatura regulada durante o sono.", desc2: "Estrutura com molas ensacadas para suporte ergonômico e independência de movimento, bordas laterais em espuma contra deformações e tecido malha soft de alta gramatura com toque suave e conforto térmico. Design one face e certificações de qualidade.", desc3: "Altura de 32 cm, suporta até 120 kg por pessoa, cor branca com faixa branca." },
       { src: b3, alt: "Basic Millenium", title: "Millenium", desc: "Molas superlastic e espuma flexível que alinham a coluna, proporcionando noites mais confortáveis.", srcModal: B3, desc1: "Conforto intermediário que equilibra firmeza e suavidade, com camada de espumas certificadas e molas Superlastic que oferecem suporte resiliente e adaptação ao corpo. Desenvolvido para durabilidade e sofisticação visual.", desc2: "Estrutura com molas Superlastic de alta resistência e flexibilidade, acabamento Eurotop elegante, malha de alta gramatura macia e resistente, e design moderno com faixa bronze. Certificações garantem qualidade e segurança.", desc3: "Altura de 28 cm, suporta até 120 kg por pessoa, disponível nos tamanhos 78x188 cm, 88x188 cm, 96x203 cm, 110x200 cm, 138x188 cm e 158x198 cm." },
       { src: b4, alt: "Basic Moush", title: "Moush", desc: "Espuma certificada com alta densidade, mais flexível e firme, ideal para conforto e alinhamento postural.", srcModal: B4, desc1: "Conforto firme com espuma certificada de alta densidade D33, oferecendo suporte ideal para a coluna e estabilidade corporal, ideal para quem busca praticidade e alinhamento postural. Produto enrolado a vácuo, facilitando transporte e uso imediato.", desc2: "Espuma flexível e resistente, tecido malha soft volumoso que proporciona toque macio e conforto térmico, design dupla face para maior durabilidade e resistência. Certificação Pró-Espuma garante qualidade superior e controle rigoroso.", desc3: "Altura de 18 cm, suporta até 100 kg por pessoa, com rápida expansão após desembalagem para uso imediato e comodidade no transporte." },
       { src: b5, alt: "Basic Diamante", title: "Diamante", desc: "Espuma de alta densidade com dupla face e tecido resistente, para sustentar a coluna com durabilidade.", srcModal: B5, desc1: "Conforto firme com espuma certificada D28 que proporciona estabilidade e suporte adequado para quem prefere colchão sólido, ideal para noites de sono tranquilas. Produto com dupla face que aumenta a durabilidade e garante proteção contra mofo e ácaros.", desc2: "Espuma resistente com capacidade para até 80 kg por pessoa, tecido de alto teor algodão com tratamento antiácaro, garantindo toque agradável, resistência e segurança hipoalergênica. Certificação Pró-Espuma assegura qualidade superior.", desc3: "Altura de 18 cm, cor bege, garantia de 12 meses contra deformação, perfeito custo-benefício para quem busca qualidade e conforto duradouro." },
@@ -136,7 +144,7 @@ const categorias = [
   },
   {
     titulo: "Categoria Ortopédica",
-    descCategoria: "Modelos com suporte firme, ideal para alinhamento da coluna, estrutura resistente e tecido de alta qualidade.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -148,7 +156,7 @@ const categorias = [
   },
   {
     titulo: "Categoria Kids",
-    descCategoria: "Espumas seguras e certificadas para proporcionar conforto ideal ao bebê. Modelos com dupla face e tecidos delicados.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [
@@ -176,7 +184,7 @@ const categorias = [
   },
   {
     titulo: "Categoria Pets",
-    descCategoria: "Conforto e praticidade para os pets. Estrutura em madeira, espumas firmes e capa higiênica garantem descanso seguro e resistente.",
+  descCategoria: "",
     backgroundColor: "#FFFFFF",
     color: "#80002D",
     images: [

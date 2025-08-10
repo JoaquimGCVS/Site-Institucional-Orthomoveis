@@ -37,7 +37,7 @@ const Pets = () => {
                 seoImage="/LogoLoja.webp"
                 socialImage="/logocomfundo2.webp" />
             <Marquee />
-            <Produtos titulo={"Categoria Pets"} descCategoria={"Conforto e praticidade para os pets. Estrutura em madeira, espumas firmes e capa higiênica garantem descanso seguro e resistente."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensPets} />
+            <Produtos titulo={"Categoria Pets"} descCategoria={""} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensPets} />
         </div>
     );
 };

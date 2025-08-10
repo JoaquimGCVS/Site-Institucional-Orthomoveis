@@ -89,7 +89,7 @@ const Box = () => {
             <Marquee />
             <Produtos
                 titulo="Linha Box"
-                descCategoria="Bases e camas auxiliares com estrutura reforçada, acabamento sofisticado e soluções inteligentes para otimizar seu espaço."
+                descCategoria=""
                 backgroundColor="#FFFFFF"
                 color="#80002D"
                 images={imagensBox}
