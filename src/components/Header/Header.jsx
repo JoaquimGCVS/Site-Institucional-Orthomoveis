@@ -62,7 +62,7 @@ const Header = () => {
                     </li>
                     <li>
                         <MdOutlinePhoneAndroid size={17}/>
-                        (31) 3332-7066 / (31) 3334-2021
+                        (31) 98883-0778
                     </li>
                     </div>
                     <li>
