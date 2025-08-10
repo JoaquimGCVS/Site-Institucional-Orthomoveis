@@ -254,7 +254,7 @@
     }
 }
 
-@media (max-width: 530px) {
+@media (max-width: 431px) {
     .faixa-1 ul {
         display: flex;
         flex-direction: column;
