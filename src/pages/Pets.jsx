@@ -14,9 +14,9 @@ const imagensPets = [
         title: "Orthocrin Pet",
         desc: "Espuma firme com capa impermeável e estrutura em madeira de reflorestamento. Ideal para conforto e higiene dos pets.",
         srcModal: P1,
-        desc1: "A Cama Box Pet Orthocrin é um colchão confortável, resistente e prático, desenvolvido especialmente para pets. Seu design adapta-se facilmente a qualquer ambiente, oferecendo aconchego e facilidade de limpeza.",
+        desc1: "Colchão confortável, resistente e prático, desenvolvido especialmente para pets. Seu design adapta-se facilmente a qualquer ambiente, oferecendo aconchego e facilidade de limpeza.",
         desc2: "Possui estofamento em espuma de alta durabilidade produzida pela própria Orthocrin, tecido resistente e antialérgico, e capa impermeável higiênica. A estrutura é feita com madeira reflorestada de eucalipto, com pés reguladores para estabilidade.",
-        desc3: "Disponível em dois tamanhos: grande (80x100 cm) e pequena (60x80 cm), com altura total de 22 cm incluindo 6 cm dos pés. Proporciona conforto, segurança, higiene e praticidade, com garantia de 12 meses."
+        desc3: "Disponível em dois tamanhos: grande (80x100 cm) e pequena (60x80 cm), com altura total de 22 cm incluindo 6 cm dos pés."
     },
     {
         src: pets1,
@@ -33,11 +33,11 @@ const imagensPets = [
 const Pets = () => {
     return (
         <div>
-            <Seo title="Pets | Orthomóveis Colchões Orthocrin" 
+            <Seo title="Pets | Orthomóveis Colchões Orthocrin"
                 seoImage="/LogoLoja.webp"
-                socialImage="/logocomfundo2.webp"/>
-            <Marquee/>
-            <Produtos titulo={"Categoria Pets"} descCategoria={"Conforto e praticidade para os pets. Estrutura em madeira, espumas firmes e capa higiênica garantem descanso seguro e resistente."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensPets}/>
+                socialImage="/logocomfundo2.webp" />
+            <Marquee />
+            <Produtos titulo={"Categoria Pets"} descCategoria={"Conforto e praticidade para os pets. Estrutura em madeira, espumas firmes e capa higiênica garantem descanso seguro e resistente."} backgroundColor={"#FFFFFF"} color={"#80002D"} images={imagensPets} />
         </div>
     );
 };

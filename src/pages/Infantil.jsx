@@ -26,9 +26,9 @@ const categorias = [
         title: "Royal Saúde Berço",
         desc: "Clássico colchão de berço com espuma ideal para o bebê. Dupla face e tecido delicado para conforto e segurança.",
         srcModal: K1,
-        desc1: "Colchão infantil Orthocrin Baby, desenvolvido para garantir conforto e boas noites de sono para bebês. O design é pensado para oferecer segurança e tranquilidade aos pais.",
+        desc1: "Desenvolvido para garantir conforto e boas noites de sono para bebês. O design é pensado para oferecer segurança e tranquilidade aos pais.",
         desc2: "Tecido Jacquard Bamboo, suave, ventilado e com propriedades antialérgicas e antiácaros. Estrutura em espuma D18 certificada, ideal para recém-nascidos e crianças até 3 anos, com garantia de qualidade Pró-Espuma aprovada pelo INER.",
-        desc3: "Altura do colchão é de 12 cm. Disponível nos tamanhos Berço Tradicional (60x130 cm), Berço Americano (70x130 cm) e Mini Cama (70x150 cm), com 3 meses de garantia."
+        desc3: "Altura do colchão é de 12 cm. Disponível nos tamanhos Berço Tradicional (60x130 cm), Berço Americano (70x130 cm) e Mini Cama (70x150 cm)."
       },
       {
         src: kids2,
@@ -36,9 +36,9 @@ const categorias = [
         title: "Junior Luxo",
         desc: "Colchão de berço tradicional em espuma D18, dupla face com um lado liso. Conforto firme e durável para o bebê.",
         srcModal: K2,
-        desc1: "O colchão Junior Luxo Berço Orthocrin oferece conforto adaptável para bebês e crianças até 3 anos. Seu design moderno valoriza o ambiente, proporcionando noites de sono tranquilas para toda a família.",
+        desc1: "Conforto adaptável para bebês e crianças até 3 anos. Seu design moderno valoriza o ambiente, proporcionando noites de sono tranquilas para toda a família.",
         desc2: "Fabricado com espuma D18 certificada Pró-Espuma, é resistente a deformações e proporciona sustentação uniforme. O tecido de algodão possui tratamento antiácaro, mantendo o colchão fresco, limpo e livre de alergênicos.",
-        desc3: "Altura do colchão é de 10 cm com dupla face para maior durabilidade. Disponível nos tamanhos 60x130 cm, 70x130 cm e 70x150 cm, suporta até 20 kg e tem garantia de 3 meses."
+        desc3: "Altura do colchão é de 10 cm com dupla face para maior durabilidade. Disponível nos tamanhos 60x130 cm, 70x130 cm e 70x150 cm, suporta até 20 kg."
       }
     ]
   },
@@ -105,10 +105,10 @@ const categorias = [
 const Infantil = () => {
   return (
     <div>
-      <Seo title="Infantil | Orthomóveis Colchões Orthocrin" 
+      <Seo title="Infantil | Orthomóveis Colchões Orthocrin"
         seoImage="/LogoLoja.webp"
-        socialImage="/logocomfundo2.webp"/>
-      <Marquee/>
+        socialImage="/logocomfundo2.webp" />
+      <Marquee />
       {categorias.map((cat) => (
         <Produtos
           key={cat.titulo}

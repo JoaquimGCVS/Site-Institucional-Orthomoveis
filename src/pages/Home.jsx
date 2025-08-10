@@ -68,14 +68,7 @@ const slides2 = [
 
 const imagensMaisVendidos = [
   {
-    src: p2,
-    alt: "Privilége Gel",
-    title: "Privilége Gel",
-    desc: "Dupla camada de conforto com espuma hipersoft e toque macio, perfeita para noites de sono renovador e descanso profundo com frescor ideal.",
-    srcModal: E1,
-    desc1: "Sistema de dupla camada com espuma hipersoft que oferece acolhimento inicial seguido de suporte firme.",
-    desc2: "Partículas de gel infundidas na espuma mantêm a temperatura corporal regulada durante toda a noite.",
-    desc3: "Tecido belga de alta qualidade com tratamento antimicrobiano. Excelente para casais que preferem confortos diferentes."
+    src: p2, alt: "Privilége Gel", title: "Privilége Gel", desc: "Dupla camada de conforto com espuma hipersoft e toque macio, perfeita para noites de sono renovador.", srcModal: E1, desc1: "O colchão Privillége Gel possui dupla camada de conforto que combina frescor, suporte e elasticidade, proporcionando um sono renovador. Sua malha de alta gramatura, feita no Brasil com tecnologia belga e fios nobres de viscose pura, oferece toque suave, resistência e qualidade.", desc2: "A estrutura conta com espuma hipersoft exclusiva, que relaxa a musculatura e garante conforto plush e maciez, ajudando no descanso profundo e reparador.", desc3: "Com altura de 36 cm, entrega suporte ideal e sensação de aconchego para noites tranquilas e revigorantes."
   },
   {
     src: box1,
@@ -83,29 +76,15 @@ const imagensMaisVendidos = [
     title: "Box Baú",
     desc: "Base com acabamento em couro ecológico e mecanismo a gás. Ideal para armazenar e suportar grande peso com segurança.",
     srcModal: BB1,
-    desc1: "Sistema de abertura com pistão a gás garante levantamento suave e seguro do estrado superior.",
-    desc2: "Acabamento em couro ecológico resistente a riscos e manchas facilita limpeza e manutenção diária.",
-    desc3: "Capacidade de armazenamento generosa otimiza espaço do quarto mantendo organização. Estrutura reforçada suporta até 150kg com segurança."
+    desc1: "Base resistente para colchão com amplo espaço de armazenamento, unindo organização e sofisticação. Seu design elegante oferece solução prática para guardar roupas de cama, travesseiros, cobertores e outros itens.",
+    desc2: "Possui mecanismo de abertura com mola a gás para praticidade e segurança, estrutura de madeira reflorestada de eucalipto e couro ecológico com costura dupla para durabilidade. É desenvolvido para suportar grandes cargas, garantindo estabilidade e conforto.",
+    desc3: "Tem altura total de 37 cm, profundidade interna de 24 cm e está disponível nos tamanhos solteiro, solteiro plus, casal, queen e king bipartido."
   },
   {
-    src: ce3,
-    alt: "Royal Saúde Plus Pillow Top",
-    title: "Royal Saúde Plus Pillow Top",
-    desc: "Modelo com Pillow Top, espumas certificadas e tecido Jacquard bamboo. Proporciona firmeza com altura de até 28 cm e dupla face.",
-    srcModal: RE3,
-    desc1: "Pillow Top integrado de 3cm adiciona camada extra de conforto sem comprometer firmeza da base.",
-    desc2: "Dupla face permite rotação periódica para maior durabilidade e uniformidade do uso.",
-    desc3: "Tecido Jacquard bamboo de padrão europeu com trama especial que facilita circulação de ar. Altura de 28cm proporciona presença imponente e facilita entrada/saída da cama."
+    src: ce3, alt: "Royal Saúde Plus Pillow Top", title: "Royal Saúde Plus Pillow Top", desc: "Modelo com Pillow Top, espumas certificadas e tecido Jacquard bamboo. Proporciona firmeza com altura de até 28 cm e dupla face.", srcModal: RE3, desc1: "Conforto firme que oferece suporte ideal para a coluna e alinhamento postural, com camada extra de Pillow Top para maior maciez e bem-estar. Desenvolvido para garantir durabilidade e conforto térmico.", desc2: "Espuma certificada D33 de alta densidade, tecido Jacquard Bamboo que afasta umidade e proporciona toque macio, design dupla face para uso dos dois lados e acabamento Pillow Top. Certificações garantem qualidade e segurança.", desc3: "Altura de 24 cm, suporta até 100 kg por pessoa, disponível nos tamanhos 88x188 cm, 110x200 cm, 128x188 cm, 138x188 cm, 158x198 cm e 193x203 cm."
   },
   {
-    src: visco2,
-    alt: "Viscopillow Alto",
-    title: "Viscopillow Alto",
-    desc: "Travesseiro de 15 cm de altura, com toque macio e suporte elevado, ideal para alinhamento postural e conforto contínuo. Para fronha 50x70.",
-    srcModal: visco2,
-    desc1: "Espuma viscoelástica com tratamento especial que combina toque macio superficial com suporte firme interno.",
-    desc2: "Altura generosa de 15cm proporciona sustentação elevada adequada para diferentes perfis corporais.",
-    desc3: "Fronha lavável inclusa facilita manutenção da higiene. Alívio de pressão progressivo que se adapta gradualmente ao peso."
+    src: visco2, alt: "Viscopillow Alto", title: "Viscopillow Alto", desc: "Travesseiro de 15 cm de altura, com toque macio e suporte elevado. Para fronha 50x70.", srcModal: visco2, desc1: "O travesseiro oferece apoio correto à cabeça e pescoço, combinando ergonomia e conforto para quem prefere modelo alto e macio, garantindo descanso superior e suporte ajustado ao corpo.", desc2: "Sua estrutura conta com espuma viscoelástica de alta qualidade que alinha a coluna e alivia a pressão, tecido Malha Bamboo termorregulador e capa removível com zíper para frescor e praticidade.", desc3: "Além disso, possui tecnologia antimicrobiana Ultra-Fresh que protege contra ácaros, bactérias e mofo, mantendo o travesseiro limpo e saudável. Mede 48 cm de largura, 68 cm de comprimento e 15 cm de altura."
   }
 ];
 

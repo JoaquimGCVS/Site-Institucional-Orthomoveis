@@ -28,7 +28,7 @@ const categorias = [
         srcModal: colchonete11,
         desc1: "Indicado para diversos tipos de treino, como academia, yoga e exercícios em casa. É fabricado com matéria-prima de alta qualidade, revestido em napa impermeável, resistente e fácil de limpar.",
         desc2: "O produto possui certificação Pró Espuma, que assegura qualidade superior e durabilidade. A prática de atividades físicas com o colchonete auxilia na manutenção de uma vida saudável, promovendo a liberação de endorfina e a sensação de bem-estar",
-        desc3: "Entre seus benefícios, destaca-se o uso multiuso para ginástica, yoga e outros treinos, além de contar com um design clássico que combina com qualquer ambiente. Suas especificações incluem densidade D28, cor preta, altura de 4 cm e medidas de 50x100 cm, com garantia de 12 meses."
+        desc3: "Suas especificações incluem densidade D28, cor preta, altura de 4 cm e medidas de 50x100 cm."
       },
       {
         src: colchonete2,
@@ -38,7 +38,7 @@ const categorias = [
         srcModal: colchonete2,
         desc1: "Auxilia no alívio da pressão, melhora a circulação sanguínea e proporciona maior conforto. É indicado especialmente para pessoas acamadas com mobilidade reduzida devido a doenças, acidentes ou recuperação.",
         desc2: "Produzido com espuma certificada D23, seu formato é ideal para prevenir e aliviar dores em quem permanece na cama por longos períodos. Possui tecnologia de espuma perfurada com efeito massageador e é fácil de transportar.",
-        desc3: "As especificações incluem densidade D23, cor bege, altura de 5 cm e garantia de 12 meses. Está disponível nos tamanhos solteiro (88x188x5 cm) e casal (138x188x5 cm)."
+        desc3: "As especificações incluem densidade D23, cor bege e altura de 5 cm. Está disponível nos tamanhos solteiro (88x188x5 cm) e casal (138x188x5 cm)."
       },
       {
         src: colchonete3,
@@ -48,7 +48,7 @@ const categorias = [
         srcModal: colchonete3,
         desc1: "Indicado para treinos na academia, yoga, camping e viagens. É produzido com espuma certificada D20 e tecido multiflex preto, passando por rigorosos testes de qualidade.",
         desc2: "Conta com embalagem em forma de sacola, tornando o transporte prático e fácil. Entre os benefícios, destaca-se o uso multiuso, a qualidade dos materiais e o design clássico adaptável a qualquer ambiente.",
-        desc3: "Possui densidade D20, cor preta, altura de 5 cm e medidas de 60x180 cm, com garantia de 12 meses. A prática de exercícios com o colchonete contribui para uma vida mais saudável, auxiliando na liberação de endorfina e na sensação de bem-estar."
+        desc3: "Possui densidade D20, cor preta, altura de 5 cm e medidas de 60x180 cm. "
       }
     ]
   },
@@ -149,10 +149,10 @@ const categorias = [
 const Acessorios = () => {
   return (
     <div>
-      <Seo title="Acessórios | Orthomóveis Colchões Orthocrin" 
+      <Seo title="Acessórios | Orthomóveis Colchões Orthocrin"
         seoImage="/LogoLoja.webp"
-        socialImage="/logocomfundo2.webp"/>
-      <Marquee/>
+        socialImage="/logocomfundo2.webp" />
+      <Marquee />
       {categorias.map((cat) => (
         <Produtos
           key={cat.titulo}

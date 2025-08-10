@@ -83,10 +83,10 @@ const imagensBox = [
 const Box = () => {
     return (
         <div>
-            <Seo title="Box | Orthomóveis Colchões Orthocrin" 
+            <Seo title="Box | Orthomóveis Colchões Orthocrin"
                 seoImage="/LogoLoja.webp"
-                socialImage="/logocomfundo2.webp"/>
-            <Marquee/>
+                socialImage="/logocomfundo2.webp" />
+            <Marquee />
             <Produtos
                 titulo="Linha Box"
                 descCategoria="Bases e camas auxiliares com estrutura reforçada, acabamento sofisticado e soluções inteligentes para otimizar seu espaço."

@@ -92,6 +92,9 @@
 }
 
 @media (max-width: 1200px) {
+    .modal {
+        max-height: 70vh;
+    }
     .imagem-e-texto {
         flex-direction: column;
     }
